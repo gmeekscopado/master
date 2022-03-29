@@ -159,6 +159,13 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Campaign_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Phone Number</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
         <fullName>ActualCost</fullName>
     </fields>
     <fields>
