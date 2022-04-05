@@ -130,6 +130,15 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Email_Authorization__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Authorization</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>DefaultAuthFormTextId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -167,4 +176,12 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <compactLayouts>
+        <fullName>Compact_Authorization_Layout</fullName>
+        <fields>EffectiveFromDate</fields>
+        <fields>EffectiveToDate</fields>
+        <fields>Email_Authorization__c</fields>
+        <fields>Name</fields>
+        <label>Compact Authorization Layout</label>
+    </compactLayouts>
 </CustomObject>
