@@ -130,6 +130,15 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Middle_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Middle Name</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CustomerStatusType</fullName>
     </fields>
     <fields>
