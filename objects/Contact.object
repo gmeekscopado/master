@@ -327,6 +327,15 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>Blackcard_Member__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is the client an existing blackcard member?</description>
+        <externalId>false</externalId>
+        <label>Blackcard Member</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Name_of_Customer__c</fullName>
         <externalId>false</externalId>
         <label>Name of Customer</label>
