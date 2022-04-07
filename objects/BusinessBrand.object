@@ -129,6 +129,11 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>OrgId</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>OrgId</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Business_Rating__c</fullName>
         <description>BBB Business Rating Scale</description>
@@ -218,9 +223,4 @@
         <fullName>ParentId</fullName>
         <type>Lookup</type>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>OrgId</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>OrgId</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
 </CustomObject>
