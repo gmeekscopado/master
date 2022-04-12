@@ -6,4 +6,14 @@
         <errorConditionFormula>LEN( Name )  &gt;= 3</errorConditionFormula>
         <errorMessage>Account Name must contain at least 3 characters.</errorMessage>
     </validationRules>
+    <fields>
+        <fullName>Account_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Number</label>
+        <length>255</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
 </CustomObject>
