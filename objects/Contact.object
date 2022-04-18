@@ -353,7 +353,7 @@
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Pager__c</fullName>
-        <description>Pager description change #1</description>
+        <description>Pager description change #2</description>
         <externalId>false</externalId>
         <label>Pager</label>
         <required>false</required>
