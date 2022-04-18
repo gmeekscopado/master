@@ -352,6 +352,15 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
+        <fullName>Pager__c</fullName>
+        <description>Pager description change #1</description>
+        <externalId>false</externalId>
+        <label>Pager</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
         <fullName>Name_of_Customer__c</fullName>
         <externalId>false</externalId>
         <label>Name of Customer</label>
