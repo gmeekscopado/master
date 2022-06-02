@@ -258,7 +258,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>VIP__c</fullName>
-        <description>This is description change #23.</description>
+        <description>This is description change #26.</description>
         <externalId>false</externalId>
         <label>VIP</label>
         <length>255</length>
