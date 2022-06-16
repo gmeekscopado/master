@@ -352,6 +352,14 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
+        <fullName>First_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>First Contact</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Pager__c</fullName>
         <description>Pager description change #2</description>
         <externalId>false</externalId>
