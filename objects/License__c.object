@@ -162,4 +162,11 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <validationRules>
+        <fullName>License_Holder</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT( ISBLANK( OwnerId  ) )</errorConditionFormula>
+        <errorDisplayField>OwnerId</errorDisplayField>
+        <errorMessage>No license holder detected. Please enter a license holder.</errorMessage>
+    </validationRules>
 </CustomObject>
