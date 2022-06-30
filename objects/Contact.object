@@ -353,6 +353,7 @@
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>First_Contact__c</fullName>
+        <description>Use this field to document the date of first contact.</description>
         <externalId>false</externalId>
         <label>First Contact</label>
         <required>false</required>
