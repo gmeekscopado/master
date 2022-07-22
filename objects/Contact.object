@@ -353,7 +353,7 @@
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Pager__c</fullName>
-        <description>Pager description change #2</description>
+        <description>Obsolete contact method, only use if necessary.</description>
         <externalId>false</externalId>
         <label>Pager</label>
         <required>false</required>
