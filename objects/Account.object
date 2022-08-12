@@ -275,7 +275,7 @@
     </fields>
     <fields>
         <fullName>Routing_Number__c</fullName>
-        <description>Used for finding the correct account.</description>
+        <description>Bank routing number used for finding the correct account.</description>
         <externalId>false</externalId>
         <label>Account Priority</label>
         <required>false</required>
