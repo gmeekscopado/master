@@ -362,7 +362,7 @@
     </fields>
     <fields>
         <fullName>Pager__c</fullName>
-        <description>Obsolete contact method, only use when necessary.</description>
+        <description>Obsolete contact method, only use if necessary.</description>
         <externalId>false</externalId>
         <label>Pager</label>
         <required>false</required>
