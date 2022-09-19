@@ -364,10 +364,12 @@
     </fields>
     <fields>
         <fullName>Pager__c</fullName>
-        <description>Obsolete contact method, only use if necessary.</description>
+        <complianceGroup>PII</complianceGroup>
+        <description>Obsolete contact method, do not use.</description>
         <externalId>false</externalId>
         <label>Pager</label>
         <required>false</required>
+        <securityClassification>Restricted</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Phone</type>
     </fields>
