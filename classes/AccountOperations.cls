@@ -7,24 +7,24 @@ public class AccountOperations {
         }
     }
        //New methods introduced by Developer 1 working on the US-001
-    public static Account setDefaultBillingAddress(Account a){//DEV 2
-        a.billingstreet = 'Lincoln, 135'; 
+    public static Account setDefaultBillingAddress(Account a){//DEV 1
+        a.billingstreet = 'Spyglass, 135'; 
         a.billingstate = 'Texas'; 
-        a.billingpostalcode ='12345'; 
+        a.billingpostalcode ='76063'; 
         return a;
     }
-    public static Account setDefaultShippingAddress(Account a){//DEV 2
-        a.shippingstreet = 'Lincoln, 135'; 
+    public static Account setDefaultShippingAddress(Account a){//DEV 1
+        a.shippingstreet = 'Spyglass, 135'; 
         a.shippingstate = 'Texas';
-        a.shippingpostalcode ='12345';
+        a.shippingpostalcode ='76063';
         return a;
     }
-    public static Account setDefaultPhone(Account a) {//DEV 2 
-        a.Phone='688456789'; //DEV2
+    public static Account setDefaultPhone(Account a) {//DEV 1 
+        a.Phone='688456789'; //DEV1
         return a;
     }
-    public static Account setDefaultURL(Account a) { //DEV 2
-        a.website = 'www.copa.do'; //Dev2
+    public static Account setDefaultURL(Account a) { //DEV 1
+        a.website = 'www.copa.do'; //Dev1
         return a;
     }
 }
