@@ -353,11 +353,12 @@
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>First_Contact__c</fullName>
-        <description>Use this field to document the date of first contact.</description>
+        <complianceGroup>PII</complianceGroup>
+        <description>Document the date of first contact.</description>
         <externalId>false</externalId>
         <inlineHelpText>If you&apos;re unsure when first contact was, review your call logs!</inlineHelpText>
         <label>First Contact</label>
-        <required>false</required>
+        <required>true</required>
         <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Date</type>
