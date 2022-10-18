@@ -229,6 +229,18 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Marketing_Address__c</fullName>
+        <description>Use this address for sending marketing material.</description>
+        <externalId>false</externalId>
+        <label>Marketing Address</label>
+        <length>255</length>
+        <required>false</required>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Picklist_Test__c</fullName>
         <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
