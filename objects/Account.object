@@ -230,7 +230,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Marketing_Address__c</fullName>
-        <description>Use this address for sending marketing material.</description>
+        <description>Verified address for sending marketing material.</description>
         <externalId>false</externalId>
         <label>Marketing Address</label>
         <length>255</length>

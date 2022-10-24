@@ -352,6 +352,18 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
+        <fullName>Customer_Background__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <description>Information on customer specific background information.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field can be used for strategic targeting.</inlineHelpText>
+        <label>Customer Background</label>
+        <required>false</required>
+        <securityClassification>Confidential</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>First_Contact__c</fullName>
         <complianceGroup>PII</complianceGroup>
         <description>Document the date of first contact.</description>
