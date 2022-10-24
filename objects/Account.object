@@ -229,6 +229,18 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Marketing_Address__c</fullName>
+        <description>Verified address for sending marketing material.</description>
+        <externalId>false</externalId>
+        <label>Marketing Address</label>
+        <length>255</length>
+        <required>false</required>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Routing_Number__c</fullName>
         <description>Used for finding the correct account.</description>
         <externalId>false</externalId>
