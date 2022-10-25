@@ -356,7 +356,7 @@
         <businessStatus>Active</businessStatus>
         <description>Information on customer specific background information.</description>
         <externalId>false</externalId>
-        <inlineHelpText>This field can be used for strategic targeting.</inlineHelpText>
+        <inlineHelpText>This field can be used for strategic marketing.</inlineHelpText>
         <label>Customer Background</label>
         <required>false</required>
         <securityClassification>Confidential</securityClassification>
