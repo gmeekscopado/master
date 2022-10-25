@@ -146,6 +146,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Brand_Tier__c</fullName>
+        <businessStatus>Active</businessStatus>
         <externalId>false</externalId>
         <inlineHelpText>Tier 1 is very important, Tier 2 is average, Tier 3 is unrecognizable.</inlineHelpText>
         <label>Brand Tier</label>

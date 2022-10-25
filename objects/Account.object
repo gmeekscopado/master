@@ -19,6 +19,7 @@
     </fields>
     <fields>
         <fullName>Marketing_Address__c</fullName>
+        <businessStatus>Active</businessStatus>
         <description>Verified address for sending marketing material.</description>
         <externalId>false</externalId>
         <label>Marketing Address</label>
