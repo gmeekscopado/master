@@ -165,6 +165,45 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Email_Service__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Service</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AOL</fullName>
+                    <default>false</default>
+                    <label>AOL</label>
+                </value>
+                <value>
+                    <fullName>Gmail</fullName>
+                    <default>false</default>
+                    <label>Gmail</label>
+                </value>
+                <value>
+                    <fullName>Hotmail</fullName>
+                    <default>false</default>
+                    <label>Hotmail</label>
+                </value>
+                <value>
+                    <fullName>Yahoo</fullName>
+                    <default>false</default>
+                    <label>Yahoo</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Credit_Card__c</fullName>
         <externalId>false</externalId>
         <label>Credit Card</label>
