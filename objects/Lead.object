@@ -356,7 +356,7 @@
     <fields>
         <fullName>VIP__c</fullName>
         <complianceGroup>GDPR</complianceGroup>
-        <description>This is description change #86.</description>
+        <description>This is description change #87.</description>
         <externalId>false</externalId>
         <label>VIP</label>
         <length>255</length>
