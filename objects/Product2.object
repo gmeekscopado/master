@@ -170,6 +170,7 @@
     </fields>
     <fields>
         <fullName>StockKeepingUnit</fullName>
+        <securityClassification>Internal</securityClassification>
         <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>
