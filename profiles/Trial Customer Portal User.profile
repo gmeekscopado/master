@@ -116,6 +116,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Account_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AnnualRevenue</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1367,6 +1372,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Email__c.Credit_Card__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Email__c.Email_Service__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

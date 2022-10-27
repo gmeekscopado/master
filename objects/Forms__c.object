@@ -156,6 +156,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Form_Category__c</fullName>
+        <businessStatus>Hidden</businessStatus>
         <externalId>false</externalId>
         <label>Form Category</label>
         <required>false</required>

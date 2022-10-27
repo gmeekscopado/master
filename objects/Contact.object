@@ -352,7 +352,7 @@
         <businessStatus>Active</businessStatus>
         <description>Information on customer specific background information.</description>
         <externalId>false</externalId>
-        <inlineHelpText>This field can be used for strategic marketing.</inlineHelpText>
+        <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
         <label>Customer Background</label>
         <required>false</required>
         <securityClassification>Confidential</securityClassification>
@@ -381,6 +381,7 @@
     </fields>
     <fields>
         <fullName>First_Contact__c</fullName>
+        <businessStatus>Active</businessStatus>
         <complianceGroup>PII</complianceGroup>
         <description>Use to document the date of first contact.</description>
         <externalId>false</externalId>
@@ -451,9 +452,9 @@
     <fields>
         <fullName>Pager__c</fullName>
         <businessStatus>Hidden</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>Obsolete contact method, use only if necessary.</description>
+        <description>Use to contact clients via pager.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Obsolete contact method, use only if necessary.</inlineHelpText>
         <label>Pager</label>
         <required>false</required>
         <securityClassification>Restricted</securityClassification>

@@ -12,5 +12,29 @@
         <label><!-- Credit Card --></label>
         <name>Credit_Card__c</name>
     </fields>
+    <fields>
+        <label><!-- Email Service --></label>
+        <name>Email_Service__c</name>
+        <picklistValues>
+            <masterLabel>AOL</masterLabel>
+            <translation><!-- AOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gmail</masterLabel>
+            <translation><!-- Gmail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotmail</masterLabel>
+            <translation><!-- Hotmail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yahoo</masterLabel>
+            <translation><!-- Yahoo --></translation>
+        </picklistValues>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

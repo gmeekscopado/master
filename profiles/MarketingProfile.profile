@@ -68,7 +68,7 @@
     <applicationVisibilities>
         <application>standard__Service</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__ServiceConsole</application>
@@ -109,6 +109,11 @@
         <editable>true</editable>
         <field>Account.AccountSource</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Account_Number__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1363,6 +1368,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Email__c.Credit_Card__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Email__c.Email_Service__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
