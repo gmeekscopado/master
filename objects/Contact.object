@@ -354,9 +354,10 @@
     <fields>
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Active</businessStatus>
+        <complianceGroup>CCPA</complianceGroup>
         <description>Information on customer specific background information.</description>
         <externalId>false</externalId>
-        <inlineHelpText>This field can be used for strategic marketing.</inlineHelpText>
+        <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
         <label>Customer Background</label>
         <required>false</required>
         <securityClassification>Confidential</securityClassification>
@@ -378,9 +379,9 @@
     <fields>
         <fullName>Pager__c</fullName>
         <businessStatus>Hidden</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>Obsolete contact method, use only if necessary.</description>
+        <description>Use to contact clients via pager.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Obsolete contact method, do not use.</inlineHelpText>
         <label>Pager</label>
         <required>false</required>
         <securityClassification>Restricted</securityClassification>
