@@ -133,11 +133,12 @@
     </fields>
     <fields>
         <fullName>Account_Number__c</fullName>
-        <description>This is Account Number custom field change #3.</description>
+        <description>This is Account Number custom field change #5.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
-        <required>true</required>
+        <required>false</required>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
