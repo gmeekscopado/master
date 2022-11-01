@@ -244,6 +244,7 @@
         <label>Account Number</label>
         <length>255</length>
         <required>false</required>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -290,11 +291,6 @@
                     <default>false</default>
                     <label>6</label>
                 </value>
-                <value>
-                    <fullName>7</fullName>
-                    <default>false</default>
-                    <label>7</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -331,6 +327,7 @@
         <businessStatus>Active</businessStatus>
         <description>Verified address for sending marketing material.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Use this field if customer don&apos;t now want to receive marketing material at normal mailing address.</inlineHelpText>
         <label>Marketing Address</label>
         <length>255</length>
         <required>false</required>
@@ -472,6 +469,16 @@
     <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>test__c</fullName>
+        <externalId>false</externalId>
+        <label>test</label>
+        <length>123</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
