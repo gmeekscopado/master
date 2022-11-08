@@ -20,11 +20,11 @@ public class AccountOperations {
         return a;
     }
     public static Account setDefaultPhone(Account a) {//DEV 1 
-        a.Phone='688456789'; //DEV1
+        a.Phone='1234567890'; //DEV1
         return a;
     }
     public static Account setDefaultURL(Account a) { //DEV 1
-        a.website = 'www.copa.do'; //Dev1
+        a.website = 'www.copa.do.au'; //Dev1
         return a;
     }
 }
