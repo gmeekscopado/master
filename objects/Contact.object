@@ -367,9 +367,9 @@
     <fields>
         <fullName>Pager__c</fullName>
         <businessStatus>Hidden</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>Obsolete contact method, use only if necessary.</description>
+        <description>Use to contact clients via pager.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Obsolete contact method, use only if necessary.</inlineHelpText>
         <label>Pager</label>
         <required>false</required>
         <securityClassification>Restricted</securityClassification>
