@@ -22,6 +22,7 @@
         <businessStatus>Active</businessStatus>
         <description>Verified address for sending marketing material.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Use this field if customer don&apos;t now want to receive marketing material at normal mailing address.</inlineHelpText>
         <label>Marketing Address</label>
         <length>255</length>
         <required>false</required>
