@@ -355,7 +355,7 @@
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>CCPA</complianceGroup>
-        <description>Information on customer specific background information.</description>
+        <description>Customer specific background information.</description>
         <externalId>false</externalId>
         <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
         <label>Customer Background</label>
