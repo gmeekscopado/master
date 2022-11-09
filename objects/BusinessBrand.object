@@ -129,90 +129,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <searchLayouts>
-        <customTabListAdditionalFields>OrgId</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>OrgId</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
-    <fields>
-        <fullName>Business_Rating__c</fullName>
-        <description>BBB Business Rating Scale</description>
-        <externalId>false</externalId>
-        <label>BBB Business Rating</label>
-        <required>false</required>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>A+</fullName>
-                    <default>true</default>
-                    <label>A+</label>
-                </value>
-                <value>
-                    <fullName>A</fullName>
-                    <default>false</default>
-                    <label>A</label>
-                </value>
-                <value>
-                    <fullName>A-</fullName>
-                    <default>false</default>
-                    <label>A-</label>
-                </value>
-                <value>
-                    <fullName>B+</fullName>
-                    <default>false</default>
-                    <label>B+</label>
-                </value>
-                <value>
-                    <fullName>B</fullName>
-                    <default>false</default>
-                    <label>B</label>
-                </value>
-                <value>
-                    <fullName>B-</fullName>
-                    <default>false</default>
-                    <label>B-</label>
-                </value>
-                <value>
-                    <fullName>C+</fullName>
-                    <default>false</default>
-                    <label>C+</label>
-                </value>
-                <value>
-                    <fullName>C</fullName>
-                    <default>false</default>
-                    <label>C</label>
-                </value>
-                <value>
-                    <fullName>C-</fullName>
-                    <default>false</default>
-                    <label>C-</label>
-                </value>
-                <value>
-                    <fullName>D+</fullName>
-                    <default>false</default>
-                    <label>D+</label>
-                </value>
-                <value>
-                    <fullName>D</fullName>
-                    <default>false</default>
-                    <label>D</label>
-                </value>
-                <value>
-                    <fullName>D-</fullName>
-                    <default>false</default>
-                    <label>D-</label>
-                </value>
-                <value>
-                    <fullName>F</fullName>
-                    <default>false</default>
-                    <label>F</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
     <fields>
         <fullName>Name</fullName>
     </fields>
@@ -223,4 +139,9 @@
         <fullName>ParentId</fullName>
         <type>Lookup</type>
     </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>OrgId</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>OrgId</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

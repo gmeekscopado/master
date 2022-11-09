@@ -229,88 +229,6 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Marketing_Address__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <description>Verified address for sending marketing material.</description>
-        <externalId>false</externalId>
-        <label>Marketing Address</label>
-        <length>255</length>
-        <required>false</required>
-        <securityClassification>Internal</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Routing_Number__c</fullName>
-        <description>Used for finding the correct account.</description>
-        <externalId>false</externalId>
-        <label>Account Priority</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Low</fullName>
-                    <default>true</default>
-                    <label>Low</label>
-                </value>
-                <value>
-                    <fullName>Medium</fullName>
-                    <default>false</default>
-                    <label>Medium</label>
-                </value>
-                <value>
-                    <fullName>High</fullName>
-                    <default>false</default>
-                    <label>High</label>
-                </value>
-                <value>
-                    <fullName>Urgent</fullName>
-                    <default>false</default>
-                    <label>Urgent</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Account_Number__c</fullName>
-        <description>This is Account Number custom field change #5.</description>
-        <externalId>false</externalId>
-        <label>Account Number</label>
-        <length>255</length>
-        <required>false</required>
-        <securityClassification>Confidential</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Test_1__c</fullName>
-        <description>This is a test field.</description>
-        <externalId>false</externalId>
-        <label>Test 1</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Test_2__c</fullName>
-        <description>Making another change.</description>
-        <externalId>false</externalId>
-        <label>Test 2</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -318,6 +236,17 @@
         <fullName>AccountSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Account_Number__c</fullName>
+        <description>This is Account Number custom field change #1.</description>
+        <externalId>false</externalId>
+        <label>Account Number</label>
+        <length>255</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>AnnualRevenue</fullName>
@@ -339,6 +268,9 @@
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>IsCustomerPortal</fullName>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
@@ -393,6 +325,28 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Test_1__c</fullName>
+        <description>This is a test field.</description>
+        <externalId>false</externalId>
+        <label>Test 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Test_2__c</fullName>
+        <description>Making another change.</description>
+        <externalId>false</externalId>
+        <label>Test 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -426,7 +380,13 @@
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Account_Name_3_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN( Name )  &gt;= 3</errorConditionFormula>
+        <errorMessage>Account Name must contain at least 3 characters.</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>AltavistaNews</fullName>
         <availability>online</availability>
@@ -541,10 +501,4 @@
         <showsStatus>true</showsStatus>
         <url>http://maps.yahoo.com/py/maps.py?cn={!Account_BillingCountry}&amp;csz={!Account_BillingCity}+{!Account_BillingState}+{!Account_BillingPostalCode}+&amp;addr={!Account_BillingAddress}</url>
     </webLinks>
-    <validationRules>
-        <fullName>Account_Name_3_Characters</fullName>
-        <active>true</active>
-        <errorConditionFormula>LEN( Name )  &gt;= 3</errorConditionFormula>
-        <errorMessage>Account Name must contain at least 3 characters.</errorMessage>
-    </validationRules>
 </CustomObject>
