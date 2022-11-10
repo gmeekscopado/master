@@ -166,6 +166,7 @@
     <visibility>Public</visibility>
     <fields>
         <fullName>Email_Service__c</fullName>
+        <businessStatus>Active</businessStatus>
         <externalId>false</externalId>
         <label>Email Service</label>
         <required>false</required>
