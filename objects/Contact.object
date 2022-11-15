@@ -355,12 +355,12 @@
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>CCPA</complianceGroup>
-        <description>Information on customer specific background information.</description>
+        <description>Customer specific background information.</description>
         <externalId>false</externalId>
         <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
         <label>Customer Background</label>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>TextArea</type>
     </fields>
