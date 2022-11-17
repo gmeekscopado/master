@@ -168,8 +168,10 @@
         <fullName>Email_Service__c</fullName>
         <businessStatus>Active</businessStatus>
         <externalId>false</externalId>
+        <inlineHelpText>Picklist to denote which email provider the customer is using.</inlineHelpText>
         <label>Email Service</label>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
