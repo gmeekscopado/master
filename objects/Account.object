@@ -8,6 +8,7 @@
     </validationRules>
     <fields>
         <fullName>Account_Picklist__c</fullName>
+        <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Account Picklist</label>
@@ -85,6 +86,7 @@
         <fullName>Routing_Number__c</fullName>
         <description>Bank routing number used for finding the correct account.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Confidential information, do not share.</inlineHelpText>
         <label>Account Priority</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
