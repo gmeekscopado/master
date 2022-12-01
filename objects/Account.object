@@ -229,6 +229,16 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>test__c</fullName>
+        <externalId>false</externalId>
+        <label>test</label>
+        <length>123</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Account_Picklist__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
@@ -284,7 +294,7 @@
         <businessStatus>Active</businessStatus>
         <description>Verified address for sending marketing material.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Use this field if customer don&apos;t now want to receive marketing material at normal mailing address.</inlineHelpText>
+        <inlineHelpText>Use this field if customer does not want to receive marketing material at normal mailing address.</inlineHelpText>
         <label>Marketing Address</label>
         <length>255</length>
         <required>false</required>
