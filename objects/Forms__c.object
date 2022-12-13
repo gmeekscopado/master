@@ -172,7 +172,7 @@
     </validationRules>
     <fields>
         <fullName>Form_Category__c</fullName>
-        <businessStatus>Hidden</businessStatus>
+        <businessStatus>DeprecateCandidate</businessStatus>
         <externalId>false</externalId>
         <label>Form Category</label>
         <required>false</required>
