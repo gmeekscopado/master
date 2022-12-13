@@ -369,7 +369,7 @@
         <complianceGroup>CCPA</complianceGroup>
         <description>Customer specific background information.</description>
         <externalId>false</externalId>
-        <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
+        <inlineHelpText>This field can be used for strategic marketing communication--Fill in as needed.</inlineHelpText>
         <label>Customer Background</label>
         <required>false</required>
         <securityClassification>Internal</securityClassification>
