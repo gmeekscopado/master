@@ -170,4 +170,39 @@
         <errorDisplayField>OwnerId</errorDisplayField>
         <errorMessage>Please list the creator of this form.</errorMessage>
     </validationRules>
+    <fields>
+        <fullName>Form_Category__c</fullName>
+        <businessStatus>Hidden</businessStatus>
+        <externalId>false</externalId>
+        <label>Form Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Survey</fullName>
+                    <default>false</default>
+                    <label>Survey</label>
+                </value>
+                <value>
+                    <fullName>Contract</fullName>
+                    <default>false</default>
+                    <label>Contract</label>
+                </value>
+                <value>
+                    <fullName>Release</fullName>
+                    <default>false</default>
+                    <label>Release</label>
+                </value>
+                <value>
+                    <fullName>Application</fullName>
+                    <default>false</default>
+                    <label>Application</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
 </CustomObject>
