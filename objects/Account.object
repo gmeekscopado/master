@@ -245,6 +245,7 @@
         <externalId>false</externalId>
         <label>Account Picklist</label>
         <required>true</required>
+        <securityClassification>Public</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
