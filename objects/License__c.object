@@ -171,13 +171,15 @@
     </validationRules>
     <fields>
         <fullName>License_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
         <description>License number as assigned by state agency.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Optional field, use as necessary.</inlineHelpText>
         <label>License Number</label>
         <length>20</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
 </CustomObject>
