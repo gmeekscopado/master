@@ -307,9 +307,10 @@
     </fields>
     <fields>
         <fullName>Routing_Number__c</fullName>
+        <complianceGroup>PII</complianceGroup>
         <description>Bank routing number used for finding the correct account.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Confidential information, do not share.</inlineHelpText>
+        <inlineHelpText>Confidential information.</inlineHelpText>
         <label>Account Priority</label>
         <required>false</required>
         <securityClassification>Internal</securityClassification>
@@ -346,12 +347,12 @@
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>PII</complianceGroup>
-        <description>This is Account Number custom field change #10.</description>
+        <description>This is Account Number custom field change #11.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Restricted</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
