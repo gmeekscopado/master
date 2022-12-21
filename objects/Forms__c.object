@@ -150,13 +150,13 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Form_Category__c</fullName>
-        <businessStatus>Hidden</businessStatus>
+        <businessStatus>DeprecateCandidate</businessStatus>
         <externalId>false</externalId>
         <label>Form Category</label>
         <required>false</required>

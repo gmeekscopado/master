@@ -239,22 +239,26 @@
     </fields>
     <fields>
         <fullName>Account_Number__c</fullName>
-        <description>This is Account Number custom field change #5.</description>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
+        <description>This is Account Number custom field change #13.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Restricted</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>Account_Picklist__c</fullName>
+        <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Account Picklist</label>
         <required>true</required>
+        <securityClassification>Public</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
@@ -291,6 +295,11 @@
                     <default>false</default>
                     <label>6</label>
                 </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -325,13 +334,14 @@
     <fields>
         <fullName>Marketing_Address__c</fullName>
         <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
         <description>Verified address for sending marketing material.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Use this field if customer don&apos;t now want to receive marketing material at normal mailing address.</inlineHelpText>
+        <inlineHelpText>Use this field if customer does not want to receive marketing material at normal mailing address.</inlineHelpText>
         <label>Marketing Address</label>
         <length>255</length>
         <required>false</required>
-        <securityClassification>Internal</securityClassification>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -370,10 +380,13 @@
     </fields>
     <fields>
         <fullName>Routing_Number__c</fullName>
+        <complianceGroup>PII</complianceGroup>
         <description>Bank routing number used for finding the correct account.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Confidential information, do not disclose.</inlineHelpText>
         <label>Account Priority</label>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>

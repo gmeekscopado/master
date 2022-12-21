@@ -13,6 +13,7 @@
         <name>Credit_Card__c</name>
     </fields>
     <fields>
+        <help><!-- Picklist to denote which email provider the customer is using. --></help>
         <label><!-- Email Service --></label>
         <name>Email_Service__c</name>
         <picklistValues>

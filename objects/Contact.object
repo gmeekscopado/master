@@ -350,13 +350,12 @@
     <fields>
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Active</businessStatus>
-        <complianceGroup>CCPA</complianceGroup>
-        <description>Information on customer specific background information.</description>
+        <description>Customer specific background information.</description>
         <externalId>false</externalId>
         <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
         <label>Customer Background</label>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>TextArea</type>
     </fields>
@@ -383,13 +382,13 @@
     <fields>
         <fullName>First_Contact__c</fullName>
         <businessStatus>Active</businessStatus>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <description>Use to document the date of first contact.</description>
         <externalId>false</externalId>
         <inlineHelpText>If you&apos;re unsure when first contact was, review your call logs!</inlineHelpText>
         <label>First Contact</label>
         <required>true</required>
-        <securityClassification>Internal</securityClassification>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Date</type>
     </fields>
@@ -453,12 +452,13 @@
     <fields>
         <fullName>Pager__c</fullName>
         <businessStatus>Hidden</businessStatus>
-        <description>Use to contact clients via pager.</description>
+        <complianceGroup>PII</complianceGroup>
+        <description>Client pager number.</description>
         <externalId>false</externalId>
         <inlineHelpText>Obsolete contact method, do not use.</inlineHelpText>
         <label>Pager</label>
         <required>false</required>
-        <securityClassification>Restricted</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Phone</type>
     </fields>

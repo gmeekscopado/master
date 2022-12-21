@@ -158,8 +158,9 @@
     <fields>
         <fullName>Brand_Tier__c</fullName>
         <businessStatus>Active</businessStatus>
+        <description>Assign a tier for Brand recognition.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Tier 1 is very important, Tier 2 is average, Tier 3 is unrecognizable.</inlineHelpText>
+        <inlineHelpText>Tier 1 is industry leader, Tier 2 is established, Tier 3 is startup.</inlineHelpText>
         <label>Brand Tier</label>
         <required>false</required>
         <securityClassification>Internal</securityClassification>

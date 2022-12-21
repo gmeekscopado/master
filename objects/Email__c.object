@@ -157,23 +157,28 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Credit_Card__c</fullName>
+        <businessStatus>Hidden</businessStatus>
         <complianceGroup>PII</complianceGroup>
         <description>Credit Card information</description>
         <externalId>false</externalId>
         <label>Credit Card</label>
         <length>16</length>
-        <maskChar>X</maskChar>
+        <maskChar>asterisk</maskChar>
         <maskType>creditCard</maskType>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Restricted</securityClassification>
         <trackTrending>false</trackTrending>
         <type>EncryptedText</type>
     </fields>
     <fields>
         <fullName>Email_Service__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <description>Enter preferred email service.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Picklist to denote which email provider the customer is using.</inlineHelpText>
         <label>Email Service</label>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>

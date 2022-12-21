@@ -9,6 +9,7 @@
         <value>Licenses</value>
     </caseValues>
     <fields>
+        <help><!-- Optional field, use as necessary. --></help>
         <label><!-- License Number --></label>
         <name>License_Number__c</name>
     </fields>
