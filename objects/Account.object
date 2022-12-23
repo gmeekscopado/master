@@ -230,6 +230,8 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountNumber</fullName>
+        <businessStatus>Active</businessStatus>
+        <description>This is a unique account number.</description>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
