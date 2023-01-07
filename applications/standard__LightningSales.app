@@ -25,4 +25,5 @@
     <tabs>standard-Forecasting3</tabs>
     <tabs>standard-EmailTemplate</tabs>
     <uiType>Lightning</uiType>
+    <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>
