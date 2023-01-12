@@ -156,7 +156,8 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Form_Category__c</fullName>
-        <businessStatus>DeprecateCandidate</businessStatus>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Form Category</label>
         <required>false</required>

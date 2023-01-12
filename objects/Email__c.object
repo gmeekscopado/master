@@ -157,7 +157,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Credit_Card__c</fullName>
-        <businessStatus>Hidden</businessStatus>
+        <businessStatus>Active</businessStatus>
         <complianceGroup>PII</complianceGroup>
         <description>Credit Card information</description>
         <externalId>false</externalId>

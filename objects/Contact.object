@@ -388,7 +388,7 @@
         <inlineHelpText>If you&apos;re unsure when first contact was, review your call logs!</inlineHelpText>
         <label>First Contact</label>
         <required>true</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Date</type>
     </fields>
