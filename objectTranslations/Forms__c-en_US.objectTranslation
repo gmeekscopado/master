@@ -9,6 +9,7 @@
         <value>Forms</value>
     </caseValues>
     <fields>
+        <help><!-- Use this for internal data management. --></help>
         <label><!-- Form Category --></label>
         <name>Form_Category__c</name>
         <picklistValues>

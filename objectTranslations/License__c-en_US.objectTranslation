@@ -9,7 +9,7 @@
         <value>Licenses</value>
     </caseValues>
     <fields>
-        <help><!-- Optional field, use as necessary. --></help>
+        <help><!-- This field contains license information that can be confirmed on a state database. --></help>
         <label><!-- License Number --></label>
         <name>License_Number__c</name>
     </fields>
