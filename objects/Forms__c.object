@@ -175,8 +175,10 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
+        <inlineHelpText>Use this for internal data management.</inlineHelpText>
         <label>Form Category</label>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
