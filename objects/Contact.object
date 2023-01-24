@@ -367,12 +367,13 @@
     <fields>
         <fullName>First_Contact__c</fullName>
         <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
         <description>Use to document the date of first contact.</description>
         <externalId>false</externalId>
-        <inlineHelpText>If you&apos;re unsure when first contact was, review your call logs!</inlineHelpText>
+        <inlineHelpText>When did you first talk with this customer?</inlineHelpText>
         <label>First Contact</label>
         <required>true</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Date</type>
     </fields>
