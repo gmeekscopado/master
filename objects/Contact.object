@@ -357,7 +357,7 @@
         <complianceGroup>GDPR</complianceGroup>
         <description>Use to document the date of first contact.</description>
         <externalId>false</externalId>
-        <inlineHelpText>When did you first talk with this customer?</inlineHelpText>
+        <inlineHelpText>When did you first talk with this customer? Make sure to check your notes!</inlineHelpText>
         <label>First Contact</label>
         <required>true</required>
         <securityClassification>Internal</securityClassification>
