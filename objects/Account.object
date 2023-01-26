@@ -386,7 +386,7 @@
         <description>Bank routing number used for finding the correct account.</description>
         <externalId>false</externalId>
         <inlineHelpText>Double check to ensure correct banking information is used.</inlineHelpText>
-        <label>Account Priority</label>
+        <label>Routing Number</label>
         <required>false</required>
         <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
