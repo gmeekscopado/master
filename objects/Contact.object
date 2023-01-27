@@ -367,12 +367,13 @@
     <fields>
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Active</businessStatus>
-        <description>Customer specific background information.</description>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Customer background information.</description>
         <externalId>false</externalId>
         <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
         <label>Customer Background</label>
         <required>false</required>
-        <securityClassification>Internal</securityClassification>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>TextArea</type>
     </fields>
