@@ -327,6 +327,19 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>First_Contact__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Use to document the date of first contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When did you first talk with this customer?</inlineHelpText>
+        <label>First Contact</label>
+        <required>true</required>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
