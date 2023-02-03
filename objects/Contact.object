@@ -351,7 +351,7 @@
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>Customer background information.</description>
+        <description>Customer background information. Keep updated to help maintaining relationships.</description>
         <externalId>false</externalId>
         <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
         <label>Customer Background</label>

@@ -382,7 +382,8 @@
     </fields>
     <fields>
         <fullName>Routing_Number__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII;GDPR</complianceGroup>
         <description>Bank routing number used for finding the correct account.</description>
         <externalId>false</externalId>
         <inlineHelpText>Double check to ensure correct banking information is used.</inlineHelpText>
