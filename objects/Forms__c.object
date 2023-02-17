@@ -189,6 +189,11 @@
                     <default>false</default>
                     <label>Application</label>
                 </value>
+                <value>
+                    <fullName>Billing</fullName>
+                    <default>false</default>
+                    <label>Billing</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

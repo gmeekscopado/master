@@ -17,6 +17,10 @@
             <translation><!-- Application --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Contract</masterLabel>
             <translation><!-- Contract --></translation>
         </picklistValues>
