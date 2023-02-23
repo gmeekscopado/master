@@ -354,8 +354,8 @@
     <fields>
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Active</businessStatus>
-        <complianceGroup>CCPA</complianceGroup>
-        <description>Customer specific background information.</description>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Customer background information. Keep updated to help maintaining healthy customer relationships.</description>
         <externalId>false</externalId>
         <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
         <label>Customer Background</label>
