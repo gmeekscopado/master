@@ -367,7 +367,7 @@
         <fullName>VIP__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>This is description change #108.</description>
+        <description>This is description change #110.</description>
         <externalId>false</externalId>
         <label>VIP</label>
         <length>255</length>

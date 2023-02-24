@@ -384,7 +384,7 @@
         <fullName>First_Contact__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>Use for documenting the date of first contact.</description>
+        <description>Use for documenting the date of first contact for GDPR.</description>
         <externalId>false</externalId>
         <inlineHelpText>When did you first talk with this customer? Make sure to check your notes!</inlineHelpText>
         <label>First Contact</label>
