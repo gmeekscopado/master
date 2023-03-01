@@ -257,19 +257,6 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>VIP__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>This is description change #109.</description>
-        <externalId>false</externalId>
-        <label>VIP</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Address</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -300,6 +287,11 @@
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>GenderIdentity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
@@ -337,7 +329,7 @@
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
+        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NumberOfEmployees</fullName>
@@ -345,12 +337,17 @@
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Pronouns</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Rating</fullName>
@@ -359,12 +356,25 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>VIP__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>This is description change #110.</description>
+        <externalId>false</externalId>
+        <label>VIP</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Website</fullName>

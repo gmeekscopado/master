@@ -129,28 +129,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <searchLayouts>
-        <customTabListAdditionalFields>RevisionNumber</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EffectiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EffectiveToDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>RevisionNumber</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EffectiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EffectiveToDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>Private</sharingModel>
-    <fields>
-        <fullName>Email_Authorization__c</fullName>
-        <externalId>false</externalId>
-        <label>Email Authorization</label>
-        <required>true</required>
-        <trackHistory>false</trackHistory>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
     <fields>
         <fullName>DefaultAuthFormTextId</fullName>
         <trackHistory>false</trackHistory>
@@ -176,12 +154,17 @@
         <fullName>RevisionNumber</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <compactLayouts>
-        <fullName>Compact_Authorization_Layout</fullName>
-        <fields>EffectiveFromDate</fields>
-        <fields>EffectiveToDate</fields>
-        <fields>Email_Authorization__c</fields>
-        <fields>Name</fields>
-        <label>Compact Authorization Layout</label>
-    </compactLayouts>
+    <searchLayouts>
+        <customTabListAdditionalFields>RevisionNumber</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveFromDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveToDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>RevisionNumber</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveFromDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveToDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
