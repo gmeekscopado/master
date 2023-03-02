@@ -114,9 +114,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
-        <content>TrialCustomerPortalHomePage</content>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Visualforce</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
@@ -145,65 +143,34 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>This is an object for House. This is a sample change #275.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Email_Service__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <description>Enter preferred email service.</description>
+        <fullName>Sample_Change__c</fullName>
+        <description>This is a sample field change - 20</description>
         <externalId>false</externalId>
-        <inlineHelpText>Picklist to denote which email provider the customer is using.</inlineHelpText>
-        <label>Email Service</label>
+        <label>Sample Change</label>
+        <precision>18</precision>
         <required>false</required>
-        <securityClassification>Internal</securityClassification>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>AOL</fullName>
-                    <default>false</default>
-                    <label>AOL</label>
-                </value>
-                <value>
-                    <fullName>Gmail</fullName>
-                    <default>false</default>
-                    <label>Gmail</label>
-                </value>
-                <value>
-                    <fullName>Hotmail</fullName>
-                    <default>false</default>
-                    <label>Hotmail</label>
-                </value>
-                <value>
-                    <fullName>Yahoo</fullName>
-                    <default>false</default>
-                    <label>Yahoo</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>Percent</type>
     </fields>
-    <label>Email</label>
+    <label>House</label>
     <nameField>
-        <label>Email Name</label>
+        <label>House Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Emails</pluralLabel>
+    <pluralLabel>Houses</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
