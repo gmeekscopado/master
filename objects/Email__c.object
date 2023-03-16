@@ -163,7 +163,7 @@
         <externalId>false</externalId>
         <label>Credit Card</label>
         <length>16</length>
-        <maskChar>X</maskChar>
+        <maskChar>asterisk</maskChar>
         <maskType>creditCard</maskType>
         <required>false</required>
         <securityClassification>Restricted</securityClassification>
