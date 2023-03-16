@@ -158,8 +158,9 @@
         <fullName>Form_Category__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
+        <description>Input the appropriate form used.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Use this for internal data management.</inlineHelpText>
+        <inlineHelpText>Please use this field for internal data management.</inlineHelpText>
         <label>Form Category</label>
         <required>false</required>
         <securityClassification>Internal</securityClassification>
