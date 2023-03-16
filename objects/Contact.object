@@ -353,11 +353,10 @@
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Customer_Background__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
+        <businessStatus>Hidden</businessStatus>
         <description>Customer background information. Keep updated to help maintaining healthy customer relationships.</description>
         <externalId>false</externalId>
-        <inlineHelpText>This field can be used for strategic marketing communication.</inlineHelpText>
+        <inlineHelpText>Used for strategic marketing communication to prospects and existing customers.</inlineHelpText>
         <label>Customer Background</label>
         <required>false</required>
         <securityClassification>Internal</securityClassification>
