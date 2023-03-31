@@ -9,7 +9,7 @@
         <value>Licenses</value>
     </caseValues>
     <fields>
-        <help><!-- This field contains vendor/business license information. Ensure that license follows this format: ABC1234. --></help>
+        <help><!-- This field contains vendor/business license information. Ensure that license follows this format to avoid error: ABC1234. --></help>
         <label><!-- License Number --></label>
         <name>License_Number__c</name>
     </fields>
