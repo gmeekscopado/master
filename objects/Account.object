@@ -341,21 +341,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Marketing_Address__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>Verified address for sending marketing material.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Use this field if customer does not want to receive marketing material at normal mailing address.</inlineHelpText>
-        <label>Marketing Address</label>
-        <length>255</length>
-        <required>false</required>
-        <securityClassification>Confidential</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Routing_Number__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>PII;GDPR</complianceGroup>
