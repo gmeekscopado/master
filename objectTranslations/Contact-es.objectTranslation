@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>miembro de la tarjeta TEST</label>
+        <name>Blackcard_Member__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Phone Number --></label>
+        <name>Client_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for strategic marketing communication to prospects and existing customers. --></help>
+        <label><!-- Customer Background --></label>
+        <name>Customer_Background__c</name>
+    </fields>
+    <fields>
+        <help><!-- When did you first talk with this customer? Make sure to check your notes! --></help>
+        <label>primer contacto TEST 2</label>
+        <name>First_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of Customer --></label>
+        <name>Name_of_Customer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Obsolete contact method, do not use. --></help>
+        <label><!-- Pager --></label>
+        <name>Pager__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>

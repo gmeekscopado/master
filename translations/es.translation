@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customTabs>
+        <label><!-- Getting Started --></label>
+        <name>Getting_Started</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>S_3504bf5c_f435_4ee5_ba6c_de514264e99f</name>
+            </choices>
+            <choices>
+                <name>S_4e9e86e9_892a_4d04_99b6_c96453e59f1f</name>
+            </choices>
+            <choices>
+                <name>S_6e81027a_6a48_432f_b541_aae18bbe2837</name>
+            </choices>
+            <choices>
+                <name>S_8ae1c4c4_00a2_4ebd_bc2e_1d57d930d99c</name>
+            </choices>
+            <choices>
+                <name>S_ce98ff9b_5585_4447_a3c3_9ac3b92c3f8e</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>q_5a0036d7_fa90_41b8_a729_286613d38a78</name>
+                </fields>
+                <fields>
+                    <name>q_f4ac8cdb_2992_4f5a_8792_a020e708519a</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>customer_satisfaction</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>q_8b5504e6_ea97_4ab6_bfc0_b29cb4e0ca01</name>
+                </fields>
+                <fields>
+                    <name>q_94aeb25c_cecb_43d3_b646_11dedc7a9474</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>net_promoter_score</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>
