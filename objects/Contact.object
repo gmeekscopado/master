@@ -391,6 +391,7 @@
     </fields>
     <fields>
         <fullName>Name_of_Customer__c</fullName>
+        <description>Enter name of customer here.</description>
         <externalId>false</externalId>
         <label>Name of Customer</label>
         <length>36</length>
