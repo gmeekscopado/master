@@ -348,6 +348,7 @@
         <defaultValue>false</defaultValue>
         <description>Is the client an existing blackcard member?</description>
         <externalId>false</externalId>
+        <inlineHelpText>Use this field to designate member status.</inlineHelpText>
         <label>Blackcard Member</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
@@ -359,6 +360,7 @@
     <fields>
         <fullName>Client_Phone_Number__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>Follow format: xxx-xxx-xxxx</inlineHelpText>
         <label>Client Phone Number</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -460,6 +462,7 @@
     </fields>
     <fields>
         <fullName>Name_of_Customer__c</fullName>
+        <description>Enter name of customer here.</description>
         <externalId>false</externalId>
         <label>Name of Customer</label>
         <length>36</length>
