@@ -344,8 +344,27 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Blackcard_Member__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is the client an existing blackcard member?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to designate member status.</inlineHelpText>
+        <label>Blackcard Member</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>CanAllowPortalSelfReg</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Client_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Follow format: xxx-xxx-xxxx</inlineHelpText>
+        <label>Client Phone Number</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
     </fields>
     <fields>
         <fullName>Customer_Background__c</fullName>
@@ -512,6 +531,7 @@
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Client_Phone_Number__c</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Pager__c</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
