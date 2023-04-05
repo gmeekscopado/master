@@ -352,6 +352,17 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
+        <fullName>Blackcard_Member__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <defaultValue>false</defaultValue>
+        <description>Is the client an existing blackcard member? If so, document here.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to designate member status.</inlineHelpText>
+        <label>Blackcard Member</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <description>Customer background information. Keep updated to help maintaining healthy customer relationships.</description>
