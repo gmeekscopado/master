@@ -68,14 +68,6 @@
             <masterLabel>6</masterLabel>
             <translation><!-- 6 --></translation>
         </picklistValues>
-        <picklistValues>
-            <masterLabel>7</masterLabel>
-            <translation><!-- 7 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>8</masterLabel>
-            <translation><!-- 8 --></translation>
-        </picklistValues>
     </fields>
     <fields>
         <label>informe de prueba</label>

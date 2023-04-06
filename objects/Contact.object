@@ -345,8 +345,9 @@
     </fields>
     <fields>
         <fullName>Blackcard_Member__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
         <defaultValue>false</defaultValue>
-        <description>Is the client an existing blackcard member?</description>
+        <description>Is the client an existing blackcard member? If so, document here.</description>
         <externalId>false</externalId>
         <inlineHelpText>Use this field to designate member status.</inlineHelpText>
         <label>Blackcard Member</label>
@@ -359,6 +360,8 @@
     </fields>
     <fields>
         <fullName>Client_Phone_Number__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Document client phone number here</description>
         <externalId>false</externalId>
         <inlineHelpText>Follow format: xxx-xxx-xxxx</inlineHelpText>
         <label>Client Phone Number</label>
