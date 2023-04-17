@@ -6,6 +6,17 @@
     </customTabs>
     <flowDefinitions>
         <flows>
+            <screens>
+                <fields>
+                    <name>Test_Date</name>
+                </fields>
+                <name>Test_Label</name>
+            </screens>
+        </flows>
+        <fullName>Copado_Test</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
             <choices>
                 <name>S_3504bf5c_f435_4ee5_ba6c_de514264e99f</name>
             </choices>
