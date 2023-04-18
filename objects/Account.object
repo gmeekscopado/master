@@ -418,11 +418,13 @@
                 <value>
                     <fullName>7</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>7</label>
                 </value>
                 <value>
                     <fullName>8</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>8</label>
                 </value>
             </valueSetDefinition>
