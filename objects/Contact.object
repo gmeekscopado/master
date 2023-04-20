@@ -417,7 +417,7 @@
         <complianceGroup>GDPR</complianceGroup>
         <description>Document client phone number here</description>
         <externalId>false</externalId>
-        <inlineHelpText>Follow format: xxx-xxx-xxxx</inlineHelpText>
+        <inlineHelpText>Please include country and area code.</inlineHelpText>
         <label>Client Phone Number</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
