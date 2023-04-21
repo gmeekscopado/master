@@ -1787,11 +1787,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>License__c.License_Number__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Location.CloseDate</field>
         <readable>false</readable>
     </fieldPermissions>
