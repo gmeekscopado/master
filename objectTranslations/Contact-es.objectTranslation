@@ -6,7 +6,7 @@
         <name>Blackcard_Member__c</name>
     </fields>
     <fields>
-        <help><!-- Please include country and area code. --></help>
+        <help><!-- Follow format: xxx-xxx-xxxx --></help>
         <label><!-- Client Phone Number --></label>
         <name>Client_Phone_Number__c</name>
     </fields>
