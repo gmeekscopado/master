@@ -414,10 +414,8 @@
     </fields>
     <fields>
         <fullName>Client_Phone_Number__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>Document client phone number here</description>
         <externalId>false</externalId>
-        <inlineHelpText>Please include country and area code.</inlineHelpText>
+        <inlineHelpText>Follow format: xxx-xxx-xxxx</inlineHelpText>
         <label>Client Phone Number</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
