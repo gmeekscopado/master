@@ -229,6 +229,16 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Custom_Field_for_Standard_Report__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Field for Standard Report</label>
+        <length>59</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Picklist_Test__c</fullName>
         <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
