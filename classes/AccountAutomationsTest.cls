@@ -17,9 +17,9 @@ private class AccountAutomationsTest {
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultBillingAddress(acc);
-        System.assertEquals('Basauri, 6', acc.BillingStreet, 'Default BillingStreet is Basauri, 6');
-        System.assertEquals('Madrid', acc.BillingState, 'Default BillingState is Madrid');
-        System.assertEquals('28023', acc.BillingPostalCode, 'Default BillingPostalCode is 28023');
+        System.assertEquals('Greenville Ave, 123', acc.BillingStreet, 'Default BillingStreet is Greenville Ave, 123');
+        System.assertEquals('Texas', acc.BillingState, 'Default BillingState is Texas');
+        System.assertEquals('75206', acc.BillingPostalCode, 'Default BillingPostalCode is 75206');
     }
 
     @isTest static void testDefaultShippingAddress(){
@@ -35,7 +35,7 @@ private class AccountAutomationsTest {
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultPhone(acc);
-        System.assertEquals('688456789', acc.Phone, 'Default phone number is 688456789');
+        System.assertEquals('2145551234', acc.Phone, 'Default phone number is 2145551234');
     }
 
     @isTest static void testDefaultURL(){
