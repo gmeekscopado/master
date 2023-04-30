@@ -8,14 +8,14 @@ public class AccountOperations {
     }
        //New methods introduced by Developer 1 working on the US-001
     public static Account setDefaultBillingAddress(Account a){//DEV 2
-        a.billingstreet = 'Atlanta, 135'; 
-        a.billingstate = 'Georgia'; 
+        a.billingstreet = 'Denver, 135'; 
+        a.billingstate = 'Colorado'; 
         a.billingpostalcode ='13579'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){//DEV 2
-        a.shippingstreet = 'Atlanta, 135'; 
-        a.shippingstate = 'Georgia';
+        a.shippingstreet = 'Denver, 135'; 
+        a.shippingstate = 'Colorado';
         a.shippingpostalcode ='13579';
         return a;
     }
