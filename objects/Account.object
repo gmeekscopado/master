@@ -229,16 +229,6 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Report_Test__c</fullName>
-        <externalId>false</externalId>
-        <label>Report Test</label>
-        <length>56</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -438,13 +428,11 @@
                 <value>
                     <fullName>7</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>7</label>
                 </value>
                 <value>
                     <fullName>8</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>8</label>
                 </value>
             </valueSetDefinition>
@@ -454,6 +442,16 @@
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Report_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Report Test</label>
+        <length>56</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Routing_Number__c</fullName>

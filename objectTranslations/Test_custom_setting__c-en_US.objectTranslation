@@ -12,5 +12,9 @@
         <label><!-- Test email --></label>
         <name>Test_email__c</name>
     </fields>
+    <fields>
+        <label><!-- Test text --></label>
+        <name>Test_text__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
