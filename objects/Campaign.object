@@ -229,6 +229,15 @@
         <fullName>Name</fullName>
     </fields>
     <fields>
+        <fullName>Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>NumberOfContacts</fullName>
     </fields>
     <fields>

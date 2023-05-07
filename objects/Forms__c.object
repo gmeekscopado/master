@@ -154,6 +154,50 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Form_Category__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Input the appropriate form used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please use this field for internal data management.</inlineHelpText>
+        <label>Form Category</label>
+        <required>false</required>
+        <securityClassification>Internal</securityClassification>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Survey</fullName>
+                    <default>false</default>
+                    <label>Survey</label>
+                </value>
+                <value>
+                    <fullName>Contract</fullName>
+                    <default>false</default>
+                    <label>Contract</label>
+                </value>
+                <value>
+                    <fullName>Release</fullName>
+                    <default>false</default>
+                    <label>Release</label>
+                </value>
+                <value>
+                    <fullName>Application</fullName>
+                    <default>false</default>
+                    <label>Application</label>
+                </value>
+                <value>
+                    <fullName>Billing</fullName>
+                    <default>false</default>
+                    <label>Billing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <label>Form</label>
     <nameField>
         <label>Forms Name</label>
@@ -162,7 +206,6 @@
     <pluralLabel>Forms</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <validationRules>
         <fullName>Form_Must_Have_Creator</fullName>
         <active>true</active>
@@ -170,4 +213,5 @@
         <errorDisplayField>OwnerId</errorDisplayField>
         <errorMessage>Please list the creator of this form.</errorMessage>
     </validationRules>
+    <visibility>Public</visibility>
 </CustomObject>

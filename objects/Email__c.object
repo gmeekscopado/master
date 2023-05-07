@@ -156,6 +156,21 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Credit_Card__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
+        <description>This field contains credit card information that can be used for future payment.</description>
+        <externalId>false</externalId>
+        <label>Credit Card</label>
+        <length>16</length>
+        <maskChar>X</maskChar>
+        <maskType>creditCard</maskType>
+        <required>false</required>
+        <securityClassification>Restricted</securityClassification>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
         <fullName>Email_Service__c</fullName>
         <businessStatus>Active</businessStatus>
         <description>Enter preferred email service.</description>

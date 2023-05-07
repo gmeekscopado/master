@@ -153,22 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>License_Number__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <caseSensitive>false</caseSensitive>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>License number as assigned by state agency.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>This field contains vendor/business license information.</inlineHelpText>
-        <label>License Number</label>
-        <length>20</length>
-        <required>false</required>
-        <securityClassification>Public</securityClassification>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>true</unique>
-    </fields>
     <label>License</label>
     <nameField>
         <label>License Name</label>
@@ -177,5 +161,12 @@
     <pluralLabel>Licenses</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>License_Holder</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT( ISBLANK( OwnerId  ) )</errorConditionFormula>
+        <errorDisplayField>OwnerId</errorDisplayField>
+        <errorMessage>No license holder detected. Please enter a license holder.</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
