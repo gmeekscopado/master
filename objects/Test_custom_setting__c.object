@@ -2,6 +2,8 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <customSettingsType>Hierarchy</customSettingsType>
     <enableFeeds>false</enableFeeds>
+    <label>Test</label>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Test_email__c</fullName>
         <externalId>false</externalId>
@@ -21,6 +23,4 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Test</label>
-    <visibility>Public</visibility>
 </CustomObject>
