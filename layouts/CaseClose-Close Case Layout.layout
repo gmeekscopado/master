@@ -20,7 +20,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Case_Test_Field__c</field>
+                <field>Case_Creation_Date__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

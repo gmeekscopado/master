@@ -31,13 +31,21 @@
             <masterLabel>6</masterLabel>
             <translation><!-- 6 --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Custom Field for Standard Report --></label>
         <name>Custom_Field_for_Standard_Report__c</name>
     </fields>
     <fields>
-        <help><!-- Use this field if customer does not want to receive marketing material at normal mailing address. --></help>
+        <help><!-- Use this address when mailing address is PO box. --></help>
         <label><!-- Marketing Address --></label>
         <name>Marketing_Address__c</name>
     </fields>

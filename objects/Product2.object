@@ -164,6 +164,15 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Product_Number__c</fullName>
+        <description>Auto-number field for creating new products.</description>
+        <displayFormat>A-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Product Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>QuantityUnitOfMeasure</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>

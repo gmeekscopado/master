@@ -158,6 +158,7 @@
     <fields>
         <fullName>Brand_Tier__c</fullName>
         <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
         <description>Assign a tier for Brand recognition.</description>
         <externalId>false</externalId>
         <inlineHelpText>Tier 1 is industry leader, Tier 2 is established, Tier 3 is startup.</inlineHelpText>

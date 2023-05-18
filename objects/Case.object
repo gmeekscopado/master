@@ -221,11 +221,12 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Case_Test_Field__c</fullName>
-        <description>Test description</description>
+        <fullName>Case_Creation_Date__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Insert the date the case was created.</description>
         <externalId>false</externalId>
         <inlineHelpText>Please enter information here if required.</inlineHelpText>
-        <label>Case Test Field</label>
+        <label>Case Creation Date</label>
         <length>50</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
