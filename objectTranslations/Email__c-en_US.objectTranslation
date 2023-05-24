@@ -33,6 +33,10 @@
             <translation><!-- Other --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Proton</masterLabel>
+            <translation><!-- Proton --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Yahoo</masterLabel>
             <translation><!-- Yahoo --></translation>
         </picklistValues>

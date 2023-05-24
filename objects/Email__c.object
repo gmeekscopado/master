@@ -210,6 +210,11 @@
                     <default>false</default>
                     <label>Other</label>
                 </value>
+                <value>
+                    <fullName>Proton</fullName>
+                    <default>false</default>
+                    <label>Proton</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
