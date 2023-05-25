@@ -459,40 +459,16 @@
         <fullName>Routing_Number__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>PII;GDPR</complianceGroup>
-        <description>Bank routing number used for finding the correct account.</description>
+        <description>The bank routing number is used for ensuring the correct bank is referenced.</description>
         <externalId>false</externalId>
         <inlineHelpText>Double check to ensure correct banking information is used.</inlineHelpText>
         <label>Routing Number</label>
-        <required>false</required>
-        <securityClassification>Internal</securityClassification>
+        <length>10</length>
+        <required>true</required>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Low</fullName>
-                    <default>true</default>
-                    <label>Low</label>
-                </value>
-                <value>
-                    <fullName>Medium</fullName>
-                    <default>false</default>
-                    <label>Medium</label>
-                </value>
-                <value>
-                    <fullName>High</fullName>
-                    <default>false</default>
-                    <label>High</label>
-                </value>
-                <value>
-                    <fullName>Urgent</fullName>
-                    <default>false</default>
-                    <label>Urgent</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
