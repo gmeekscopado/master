@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <help><!-- Use this field to designate member status. --></help>
+        <help><!-- Black card status is an elite status that can designate the level of attention a customer will warrant. --></help>
         <label>miembro de la tarjeta TEST</label>
         <name>Blackcard_Member__c</name>
     </fields>
     <fields>
-        <help><!-- Follow format: xxx-xxx-xxxx --></help>
+        <help><!-- Follow format: (xxx) xxx-xxxx --></help>
         <label><!-- Client Phone Number --></label>
         <name>Client_Phone_Number__c</name>
     </fields>

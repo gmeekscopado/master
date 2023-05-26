@@ -168,6 +168,7 @@
         <description>Auto-number field for creating new products.</description>
         <displayFormat>A-{0000}</displayFormat>
         <externalId>false</externalId>
+        <inlineHelpText>This field will create a unique product number for internal use.</inlineHelpText>
         <label>Product Number</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
