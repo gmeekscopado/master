@@ -345,16 +345,18 @@
     <fields>
         <fullName>Marketing_Address__c</fullName>
         <businessStatus>Active</businessStatus>
+        <caseSensitive>false</caseSensitive>
+        <complianceGroup>PII</complianceGroup>
         <description>Verified address for sending marketing material.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Use this field if customer don&apos;t now want to receive marketing material at normal mailing address.</inlineHelpText>
+        <inlineHelpText>Use this address when mailing address is PO box.</inlineHelpText>
         <label>Marketing Address</label>
         <length>255</length>
         <required>false</required>
         <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
     <fields>
         <fullName>Name</fullName>
