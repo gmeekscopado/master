@@ -463,7 +463,7 @@
         <complianceGroup>PII;GDPR</complianceGroup>
         <description>The bank routing number is used for ensuring the correct bank is referenced.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Double check to ensure correct banking information is used.</inlineHelpText>
+        <inlineHelpText>Double check to ensure correct banking information is filled in.</inlineHelpText>
         <label>Routing Number</label>
         <length>10</length>
         <required>true</required>
