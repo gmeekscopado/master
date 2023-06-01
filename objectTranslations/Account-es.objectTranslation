@@ -82,7 +82,7 @@
         <name>Report_Test__c</name>
     </fields>
     <fields>
-        <help><!-- Double check to ensure correct banking information is used. --></help>
+        <help><!-- Double check to ensure correct banking information is filled in. --></help>
         <label>número de ruta</label>
         <name>Routing_Number__c</name>
     </fields>
