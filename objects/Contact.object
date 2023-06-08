@@ -364,7 +364,7 @@
         <complianceGroup>GDPR</complianceGroup>
         <description>Insert preferred client phone number here (mobile or landline).</description>
         <externalId>false</externalId>
-        <inlineHelpText>Follow format: (xxx) xxx-xxxx</inlineHelpText>
+        <inlineHelpText>Follow format: xxx-xxx-xxxx</inlineHelpText>
         <label>Client Phone Number</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
