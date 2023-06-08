@@ -131,6 +131,7 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Product_Number__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
         <description>Auto-number field for creating new products.</description>
         <displayFormat>A-{0000}</displayFormat>
         <externalId>false</externalId>
