@@ -7,19 +7,19 @@ public class AccountAutomations {
         }
     }
     public static Account setDefaultBillingAddress(Account a){
-        a.billingstreet = 'Oak Ridge Pl, 123'; 
+        a.billingstreet = 'Mallard Ct, 123'; 
         a.billingstate = 'Texas'; 
-        a.billingpostalcode ='75052'; 
+        a.billingpostalcode ='76063'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = 'Oak Ridge Pl, 123'; 
+        a.shippingstreet = 'Mallard Ct, 123'; 
         a.shippingstate = 'Texas';
-        a.shippingpostalcode ='75052';
+        a.shippingpostalcode ='76063';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='688456789';
+        a.Phone='2145551234';
         return a;
     }
     public static Account setDefaultURL(Account a) {
