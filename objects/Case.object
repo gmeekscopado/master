@@ -229,6 +229,7 @@
         <label>Case Creation Date</label>
         <length>50</length>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
