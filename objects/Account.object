@@ -240,8 +240,8 @@
     <fields>
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>This is Account Number custom field change #15.</description>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>This is Account Number custom field change #18.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
