@@ -222,14 +222,13 @@
     </fields>
     <fields>
         <fullName>Case_Creation_Date__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
         <description>Insert the date the case was created.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Please enter information here if required.</inlineHelpText>
+        <inlineHelpText>Enter information here if required.</inlineHelpText>
         <label>Case Creation Date</label>
         <length>50</length>
         <required>false</required>
-        <securityClassification>Internal</securityClassification>
+        <securityClassification>Public</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
