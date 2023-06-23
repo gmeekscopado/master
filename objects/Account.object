@@ -337,6 +337,18 @@
                     <default>false</default>
                     <label>6</label>
                 </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>8</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -344,7 +356,7 @@
         <fullName>Routing_Number__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>PII;GDPR</complianceGroup>
-        <description>The bank routing number is used for ensuring the correct bank is referenced.</description>
+        <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
         <externalId>false</externalId>
         <inlineHelpText>Double check to ensure correct banking information is filled in.</inlineHelpText>
         <label>Routing Number</label>
