@@ -368,13 +368,13 @@
     <fields>
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>This is Account Number custom field change #14.</description>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>This is Account Number custom field change #19.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
         <required>false</required>
-        <securityClassification>Restricted</securityClassification>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
