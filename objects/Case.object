@@ -224,7 +224,6 @@
         <fullName>Case_Creation_Date__c</fullName>
         <description>Insert the date the case was created.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Enter information here if required.</inlineHelpText>
         <label>Case Creation Date</label>
         <length>50</length>
         <required>false</required>

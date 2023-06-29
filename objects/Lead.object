@@ -367,7 +367,7 @@
         <fullName>VIP__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>PII</complianceGroup>
-        <description>This is description change #122.</description>
+        <description>This is description change #123.</description>
         <externalId>false</externalId>
         <label>VIP</label>
         <length>255</length>
