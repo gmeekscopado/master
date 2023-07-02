@@ -197,7 +197,7 @@
         <complianceGroup>GDPR</complianceGroup>
         <description>Assign a tier for Brand recognition based on company reputation.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Tier 1 is industry leader, Tier 2 is established, Tier 3 is startup.</inlineHelpText>
+        <inlineHelpText>Tier 1 is industry leader, Tier 2 is established, Tier 3 is startup. Contact supervisor if unclear.</inlineHelpText>
         <label>Brand Tier</label>
         <required>false</required>
         <securityClassification>Confidential</securityClassification>

@@ -240,13 +240,13 @@
     <fields>
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>This is Account Number custom field change #15.</description>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>This is Account Number custom field change #19.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
         <required>false</required>
-        <securityClassification>Restricted</securityClassification>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -351,7 +351,7 @@
         <businessStatus>Active</businessStatus>
         <caseSensitive>false</caseSensitive>
         <complianceGroup>PII</complianceGroup>
-        <description>Verified address for sending marketing material.</description>
+        <description>Address for sending marketing material.</description>
         <externalId>false</externalId>
         <inlineHelpText>Use this address when mailing address is PO box.</inlineHelpText>
         <label>Marketing Address</label>
@@ -465,7 +465,7 @@
         <fullName>Routing_Number__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>PII;GDPR</complianceGroup>
-        <description>The bank routing number is used for ensuring the correct bank is referenced.</description>
+        <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
         <externalId>false</externalId>
         <inlineHelpText>Double check to ensure correct banking information is filled in.</inlineHelpText>
         <label>Routing Number</label>

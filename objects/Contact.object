@@ -349,7 +349,7 @@
         <defaultValue>false</defaultValue>
         <description>Check this box if member has black card status.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Black card status is an elite status that can designate the level of attention a customer will warrant.</inlineHelpText>
+        <inlineHelpText>Black card status is an elite status that can designate the level of attention a customer will warrant. This is a separate line item.</inlineHelpText>
         <label>Blackcard Member</label>
         <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
@@ -364,7 +364,7 @@
         <complianceGroup>GDPR</complianceGroup>
         <description>Insert preferred client phone number here (mobile or landline).</description>
         <externalId>false</externalId>
-        <inlineHelpText>Follow format: (xxx) xxx-xxxx</inlineHelpText>
+        <inlineHelpText>Use the following format: x + (xxx) xxx-xxxx</inlineHelpText>
         <label>Client Phone Number</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
