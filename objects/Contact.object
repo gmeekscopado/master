@@ -352,18 +352,6 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
-        <fullName>Blackcard_Member__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
-        <defaultValue>false</defaultValue>
-        <description>Check this box if member has black card status.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Black card status is an elite status that can designate the level of attention a customer will warrant. This is a separate line item.</inlineHelpText>
-        <label>Blackcard Member</label>
-        <securityClassification>Internal</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>First_Contact__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
@@ -417,7 +405,7 @@
         <complianceGroup>GDPR</complianceGroup>
         <description>Insert preferred client phone number here (mobile or landline).</description>
         <externalId>false</externalId>
-        <inlineHelpText>Follow format: xxx-xxx-xxxx</inlineHelpText>
+        <inlineHelpText>Use the following format: x + (xxx) xxx-xxxx</inlineHelpText>
         <label>Client Phone Number</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
