@@ -16,10 +16,6 @@
     </fields>
     <fields>
         <label><!-- Project Manger --></label>
-        <lookupFilter>
-            <errorMessage><!-- There are no active users that match your search criteria. --></errorMessage>
-            <informationalMessage><!-- Please select an active user as the Project Manager for this project. --></informationalMessage>
-        </lookupFilter>
         <name>Project_Manager__c</name>
         <relationshipLabel><!-- Projects --></relationshipLabel>
     </fields>

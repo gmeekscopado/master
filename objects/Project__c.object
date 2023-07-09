@@ -170,11 +170,13 @@
     </fields>
     <fields>
         <fullName>Project_Manager__c</fullName>
+        <businessStatus>Active</businessStatus>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Project Manger</label>
         <lookupFilter>
-            <active>true</active>
+            <active>false</active>
+            <booleanFilter>1</booleanFilter>
             <errorMessage>There are no active users that match your search criteria.</errorMessage>
             <filterItems>
                 <field>User.IsActive</field>
