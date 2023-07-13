@@ -131,12 +131,12 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Product_Number__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
         <description>Auto-number field for creating new products.</description>
         <displayFormat>A-{0000}</displayFormat>
         <externalId>false</externalId>
-        <inlineHelpText>This field will create a unique product number for internal use.</inlineHelpText>
+        <inlineHelpText>This number should auto-populate. If there is an error, contact your administrator.</inlineHelpText>
         <label>Product Number</label>
+        <securityClassification>Internal</securityClassification>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </fields>
