@@ -15,7 +15,7 @@ public class AccountAutomations {
     public static Account setDefaultShippingAddress(Account a){
         a.shippingstreet = 'Fairhaven, 123'; 
         a.shippingstate = 'Texas';
-        a.shippingpostalcode ='76063';
+        a.shippingpostalcode ='75052';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
@@ -23,7 +23,7 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.copado.com'; 
+        a.website = 'www.copa.do'; 
         return a;
     }
 }
