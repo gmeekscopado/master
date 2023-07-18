@@ -352,6 +352,17 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
+        <fullName>Blackcard_Member__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
+        <label>Blackcard Member</label>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>First_Contact__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
