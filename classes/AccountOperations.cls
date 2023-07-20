@@ -7,16 +7,16 @@ public class AccountOperations {
         }
     }
        //New methods introduced by Developer 1 working on the US-001
-    public static Account setDefaultBillingAddress(Account a){//INT
-        a.billingstreet = 'Savannah, 135'; 
-        a.billingstate = 'GA'; 
+    public static Account setDefaultBillingAddress(Account a){//DEV 1
+        a.billingstreet = 'Denver, 135'; 
+        a.billingstate = 'Colorado'; 
         a.billingpostalcode ='98765'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){//INT
         a.shippingstreet = 'Savannah, 135'; 
         a.shippingstate = 'GA';
-        a.shippingpostalcode ='98765';
+        a.shippingpostalcode ='12335';
         return a;
     }
     public static Account setDefaultPhone(Account a) {//DEV 1 
