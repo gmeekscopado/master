@@ -354,10 +354,10 @@
     </fields>
     <fields>
         <fullName>Routing_Number__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>PII;GDPR</complianceGroup>
+        <businessStatus>Hidden</businessStatus>
+        <complianceGroup>PII</complianceGroup>
         <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <inlineHelpText>Double check to ensure correct banking information is filled in.</inlineHelpText>
         <label>Routing Number</label>
         <length>10</length>
@@ -371,7 +371,7 @@
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>This is Account Number custom field change #19.</description>
+        <description>This is Account Number custom field change #20.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
