@@ -400,9 +400,9 @@
     <fields>
         <fullName>Routing_Number__c</fullName>
         <businessStatus>Hidden</businessStatus>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
-        <externalId>true</externalId>
+        <externalId>false</externalId>
         <inlineHelpText>Double check to ensure correct banking information is filled in.</inlineHelpText>
         <label>Routing Number</label>
         <length>10</length>
