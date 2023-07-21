@@ -13,10 +13,10 @@ public class AccountOperations {
         a.billingpostalcode ='98765'; 
         return a;
     }
-    public static Account setDefaultShippingAddress(Account a){//INT
-        a.shippingstreet = 'Savannah, 135'; 
-        a.shippingstate = 'GA';
-        a.shippingpostalcode ='12335';
+    public static Account setDefaultShippingAddress(Account a){//DEV 1
+        a.shippingstreet = 'Denver, 135'; 
+        a.shippingstate = 'Colorado';
+        a.shippingpostalcode ='98765';
         return a;
     }
     public static Account setDefaultPhone(Account a) {//DEV 1 
