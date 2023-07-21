@@ -85,11 +85,11 @@
         <visibility>ALL</visibility>
     </categoryGroupVisibilities>
     <classAccesses>
-        <apexClass>AccountAutomations</apexClass>
+        <apexClass>AccountAutomationsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AccountAutomationsTest</apexClass>
+        <apexClass>AccountOperations</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
