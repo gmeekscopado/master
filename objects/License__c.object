@@ -163,7 +163,7 @@
         <inlineHelpText>This field contains vendor/business license information.</inlineHelpText>
         <label>License Number</label>
         <length>20</length>
-        <required>false</required>
+        <required>true</required>
         <securityClassification>Public</securityClassification>
         <trackTrending>false</trackTrending>
         <type>Text</type>
