@@ -353,12 +353,13 @@
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Blackcard_Member__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
+        <complianceGroup>PII</complianceGroup>
         <defaultValue>false</defaultValue>
+        <description>This field is used for customers who have obtained Blackcard status.</description>
         <externalId>false</externalId>
         <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
         <label>Blackcard Member</label>
-        <securityClassification>Internal</securityClassification>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
