@@ -80,10 +80,6 @@
         <visibility>ALL</visibility>
     </categoryGroupVisibilities>
     <classAccesses>
-        <apexClass>AccountAutomations</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AccountAutomationsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
