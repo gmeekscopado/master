@@ -364,20 +364,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>VIP__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>This is description change #130.</description>
-        <externalId>false</externalId>
-        <label>VIP</label>
-        <length>255</length>
-        <required>false</required>
-        <securityClassification>Public</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
