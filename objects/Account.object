@@ -362,6 +362,7 @@
         <complianceGroup>PII;GDPR</complianceGroup>
         <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Use to identify the correct bank.</inlineHelpText>
         <label>Routing Number</label>
         <length>10</length>
         <required>true</required>
