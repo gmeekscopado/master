@@ -1786,11 +1786,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Lead.VIP__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Website</field>
         <readable>true</readable>
@@ -2129,11 +2124,6 @@
         <editable>true</editable>
         <field>Product2.ProductCode</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Product2.Product_Number__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
