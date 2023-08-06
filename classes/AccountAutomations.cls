@@ -2,20 +2,20 @@ public class AccountAutomations {
     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
         Else {
-            a.Description = 'Default description';
+            a.Description = 'Description field info';
             return a;
         }
     }
     public static Account setDefaultBillingAddress(Account a){
-        a.billingstreet = 'Fairhaven, 789'; 
-        a.billingstate = 'Colorado'; 
-        a.billingpostalcode ='98765'; 
+        a.billingstreet = 'Ocean Avenue, 123'; 
+        a.billingstate = 'California'; 
+        a.billingpostalcode ='84932'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = 'Fairhaven, 789'; 
-        a.shippingstate = 'Colorado';
-        a.shippingpostalcode ='98765';
+        a.shippingstreet = 'Ocean Avenue, 123'; 
+        a.shippingstate = 'California';
+        a.shippingpostalcode ='84932';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
@@ -23,7 +23,7 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.copado.net'; 
+        a.website = 'www.copado.com'; 
         return a;
     }
 }
