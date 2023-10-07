@@ -74,10 +74,14 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>OrchestrationDeveloperName</fullName>
+        <fullName>Label</fullName>
     </fields>
     <fields>
-        <fullName>OwnerId</fullName>
+        <fullName>OrchestrationInstanceId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StageInstanceId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
