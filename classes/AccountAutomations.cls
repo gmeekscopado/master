@@ -7,23 +7,23 @@ public class AccountAutomations {
         }
     }
     public static Account setDefaultBillingAddress(Account a){
-        a.billingstreet = 'Ocean Avenue, 123'; 
-        a.billingstate = 'California'; 
-        a.billingpostalcode ='84932'; 
+        a.billingstreet = 'Concord, 455'; 
+        a.billingstate = 'Alaska'; 
+        a.billingpostalcode ='12312'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = 'Ocean Avenue, 123'; 
-        a.shippingstate = 'California';
-        a.shippingpostalcode ='84932';
+        a.shippingstreet = 'Concord, 455'; 
+        a.shippingstate = 'Alaska';
+        a.shippingpostalcode ='12312';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='2813308004';
+        a.Phone='0987654321';
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.copado.com'; 
+        a.website = 'www.copa.do'; 
         return a;
     }
 }
