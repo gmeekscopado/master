@@ -345,14 +345,14 @@
     </fields>
     <fields>
         <fullName>Blackcard_Member__c</fullName>
-        <businessStatus>DeprecateCandidate</businessStatus>
-        <complianceGroup>PII;GDPR</complianceGroup>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
         <defaultValue>false</defaultValue>
-        <description>This field is used for customers who have obtained Blackcard status. High priority customer.</description>
+        <description>This field is used for customers who have obtained Blackcard status.</description>
         <externalId>false</externalId>
         <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
         <label>Blackcard Member</label>
-        <securityClassification>Restricted</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
