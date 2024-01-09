@@ -154,27 +154,11 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Form</label>
-    <nameField>
-        <label>Forms Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Forms</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    <validationRules>
-        <fullName>Form_Must_Have_Creator</fullName>
-        <active>true</active>
-        <errorConditionFormula>CONTAINS( CreatedBy.FirstName, CreatedBy.LastName  )</errorConditionFormula>
-        <errorDisplayField>OwnerId</errorDisplayField>
-        <errorMessage>Please list the creator of this form.</errorMessage>
-    </validationRules>
     <fields>
         <fullName>Form_Category__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>Input the appropriate form used in this field.</description>
+        <description>Input the appropriate form used.</description>
         <externalId>false</externalId>
         <inlineHelpText>Please use this field for internal data management.</inlineHelpText>
         <label>Form Category</label>
@@ -214,4 +198,20 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <label>Form</label>
+    <nameField>
+        <label>Forms Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Forms</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Form_Must_Have_Creator</fullName>
+        <active>true</active>
+        <errorConditionFormula>CONTAINS( CreatedBy.FirstName, CreatedBy.LastName  )</errorConditionFormula>
+        <errorDisplayField>OwnerId</errorDisplayField>
+        <errorMessage>Please list the creator of this form.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
 </CustomObject>

@@ -326,107 +326,9 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <searchLayouts>
-        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Pager__c</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
-    <fields>
-        <fullName>Blackcard_Member__c</fullName>
-        <complianceGroup>PII</complianceGroup>
-        <defaultValue>false</defaultValue>
-        <description>This field is used for customers who have obtained Blackcard status.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
-        <label>Blackcard Member</label>
-        <securityClassification>Confidential</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>First_Contact__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>Use for documenting the date of first contact.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>When did you first talk with this customer? Make sure to check your notes!</inlineHelpText>
-        <label>First Contact</label>
-        <required>true</required>
-        <securityClassification>Internal</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Customer_Background__c</fullName>
-        <businessStatus>Hidden</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>Customer background information.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Used for strategic marketing communication to prospects and existing customers.</inlineHelpText>
-        <label>Customer Background</label>
-        <required>false</required>
-        <securityClassification>Internal</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>TextArea</type>
-    </fields>
-    <fields>
-        <fullName>Pager__c</fullName>
-        <businessStatus>Hidden</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>Client pager number.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Obsolete contact method, do not use.</inlineHelpText>
-        <label>Pager</label>
-        <required>false</required>
-        <securityClassification>Internal</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Phone</type>
-    </fields>
-    <fields>
-        <fullName>Name_of_Customer__c</fullName>
-        <description>Enter name of customer here.</description>
-        <externalId>false</externalId>
-        <label>Name of Customer</label>
-        <length>36</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Client_Phone_Number__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>Insert preferred client phone number here (mobile or landline).</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Use the following format: x + (xxx) xxx-xxxx</inlineHelpText>
-        <label>Client Phone Number</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Phone</type>
-    </fields>
     <fields>
         <fullName>AccountId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -440,6 +342,47 @@
     <fields>
         <fullName>Birthdate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Blackcard_Member__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
+        <defaultValue>false</defaultValue>
+        <description>This field is used for customers who have obtained Blackcard status.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
+        <label>Blackcard Member</label>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CanAllowPortalSelfReg</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Client_Phone_Number__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Insert preferred client phone number here (mobile or landline).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use the following format: x + (xxx) xxx-xxxx</inlineHelpText>
+        <label>Client Phone Number</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Background__c</fullName>
+        <businessStatus>Hidden</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Customer background information.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used for strategic marketing communication to prospects and existing customers.</inlineHelpText>
+        <label>Customer Background</label>
+        <required>false</required>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Department</fullName>
@@ -460,6 +403,24 @@
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>First_Contact__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Use to document the date of first contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When did you first talk with this customer?</inlineHelpText>
+        <label>First Contact</label>
+        <required>true</required>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>GenderIdentity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
@@ -503,7 +464,18 @@
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Name_of_Customer__c</fullName>
+        <description>Enter name of customer here.</description>
+        <externalId>false</externalId>
+        <label>Name of Customer</label>
+        <length>36</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>OtherAddress</fullName>
@@ -515,12 +487,30 @@
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pager__c</fullName>
+        <businessStatus>Hidden</businessStatus>
+        <complianceGroup>PII</complianceGroup>
+        <description>Client pager number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Obsolete contact method, do not use.</inlineHelpText>
+        <label>Pager</label>
+        <required>false</required>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
     </fields>
     <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Pronouns</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>ReportsToId</fullName>
@@ -531,6 +521,32 @@
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Client_Phone_Number__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Pager__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <webLinks>
         <fullName>GoogleMaps</fullName>
         <availability>online</availability>

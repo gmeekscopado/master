@@ -158,30 +158,6 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
-    <searchLayouts>
-        <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Campaign_Phone_Number__c</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PARENT_NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.START_DATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.END_DATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CAMPAIGN.NUM_RESPONSES</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>FullAccess</sharingModel>
-    <fields>
-        <fullName>Campaign_Phone_Number__c</fullName>
-        <externalId>false</externalId>
-        <label>Campaign Phone Number</label>
-        <required>false</required>
-        <type>Phone</type>
-    </fields>
     <fields>
         <fullName>ActualCost</fullName>
     </fields>
@@ -253,6 +229,15 @@
         <fullName>Name</fullName>
     </fields>
     <fields>
+        <fullName>Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>NumberOfContacts</fullName>
     </fields>
     <fields>
@@ -292,6 +277,22 @@
         <fullName>Type</fullName>
         <type>Picklist</type>
     </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PARENT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.START_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.END_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NUM_RESPONSES</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>FullAccess</sharingModel>
     <webLinks>
         <fullName>ViewAllCampaignMembers</fullName>
         <availability>online</availability>
