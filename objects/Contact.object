@@ -348,7 +348,7 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>PII</complianceGroup>
         <defaultValue>false</defaultValue>
-        <description>This field is used for customers who have obtained Blackcard status.</description>
+        <description>This field is used for customers who have obtained Blackcard status. Treat with care!</description>
         <externalId>false</externalId>
         <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
         <label>Blackcard Member</label>
