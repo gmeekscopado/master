@@ -364,11 +364,12 @@
     </fields>
     <fields>
         <fullName>Blackcard_Member__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
         <defaultValue>false</defaultValue>
-        <description>Check this box if member has black card status.</description>
+        <description>This field is used for customers who have obtained Blackcard status.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Black card status is an elite status that can designate the level of attention a customer will warrant. This is a separate line item.</inlineHelpText>
+        <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
         <label>Blackcard Member</label>
         <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
