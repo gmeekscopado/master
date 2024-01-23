@@ -7,9 +7,9 @@ public class AccountAutomations {
         }
     }
     public static Account setDefaultBillingAddress(Account a){
-        a.billingstreet = 'Ocean Avenue, 123'; 
-        a.billingstate = 'California'; 
-        a.billingpostalcode ='84932'; 
+        a.billingstreet = 'Fairview, 888'; 
+        a.billingstate = 'Arizona'; 
+        a.billingpostalcode ='12345'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
