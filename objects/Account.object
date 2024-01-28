@@ -253,7 +253,7 @@
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>This is Account Number custom field change #22.</description>
+        <description>This is Account Number custom field change #20.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
