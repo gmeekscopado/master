@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Horrible test.</description>
+        <name>Test</name>
+        <label>Test</label>
+        <locationX>176</locationX>
+        <locationY>242</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <connector>
+            <targetReference>Test_Decision</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>Test_Date</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>Test_Date</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
     <apiVersion>57.0</apiVersion>
+    <decisions>
+        <name>Test_Decision</name>
+        <label>Test Decision</label>
+        <locationX>176</locationX>
+        <locationY>350</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Test_Decision_Outcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Test_Label</leftValueReference>
+                <operator>WasVisited</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Test Decision Outcome</label>
+        </rules>
+    </decisions>
     <interviewLabel>Copado Test {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Copado Test</label>
     <processMetadataValues>
@@ -22,31 +67,32 @@
         </value>
     </processMetadataValues>
     <processType>Flow</processType>
-    <recordLookups>
-        <name>Test_Retrieve_Records</name>
-        <label>Test Retrieve Records</label>
+    <screens>
+        <name>Test_Label</name>
+        <label>Test Label</label>
         <locationX>176</locationX>
-        <locationY>158</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>AccountSource</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Other</stringValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Account</object>
-        <sortField>AccountSource</sortField>
-        <sortOrder>Asc</sortOrder>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
+        <locationY>134</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Test</targetReference>
+        </connector>
+        <fields>
+            <name>Test_Date</name>
+            <dataType>Date</dataType>
+            <fieldText>Test Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
     <start>
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Test_Retrieve_Records</targetReference>
+            <targetReference>Test_Label</targetReference>
         </connector>
     </start>
     <status>Draft</status>
