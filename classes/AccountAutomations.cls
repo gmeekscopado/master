@@ -13,9 +13,9 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = 'Ocean Avenue, 123'; 
-        a.shippingstate = 'Texas';
-        a.shippingpostalcode ='76063';
+        a.shippingstreet = 'Fairview, 888'; 
+        a.shippingstate = 'Arizona';
+        a.shippingpostalcode ='12345';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
