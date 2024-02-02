@@ -176,7 +176,7 @@
         <complianceGroup>GDPR</complianceGroup>
         <description>License number as assigned by state agency.</description>
         <externalId>false</externalId>
-        <inlineHelpText>This field contains vendor license information.</inlineHelpText>
+        <inlineHelpText>This field contains vendor/business license information.</inlineHelpText>
         <label>License Number</label>
         <length>20</length>
         <required>false</required>
