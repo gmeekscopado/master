@@ -26,9 +26,9 @@ private class AccountAutomationsTest {
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultShippingAddress(acc);
-        System.assertEquals('Greenville Ave, 123', acc.ShippingStreet, 'Default ShippingStreet is Greenville Ave, 123');
-        System.assertEquals('Texas', acc.ShippingState, 'Default Shippingtate is Texas');
-        System.assertEquals('75206', acc.ShippingPostalCode, 'Default ShippingPostalCode is 75206');
+        System.assertEquals('Basauri, 6', acc.ShippingStreet, 'Default ShippingStreet is Basauri, 6');
+        System.assertEquals('Madrid', acc.ShippingState, 'Default Shippingtate is Madrid');
+        System.assertEquals('28023', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
     }
 
     @isTest static void testDefaultPhone(){

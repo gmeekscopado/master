@@ -9,6 +9,10 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>Picklist_Test__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Account_Ext_Id__c</field>
             </layoutItems>
             <layoutItems>
@@ -34,10 +38,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Report_Test__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Picklist_Test__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -160,6 +160,7 @@
     </layoutSections>
     <miniLayout>
         <fields>Account_Ext_Id__c</fields>
+        <fields>Picklist_Test__c</fields>
     </miniLayout>
     <quickActionList>
         <quickActionListItems>
