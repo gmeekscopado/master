@@ -2,7 +2,7 @@ public class AccountAutomations {
     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
         Else {
-            a.Description = 'Perfect account example';
+            a.Description = 'Terrible account example';
             return a;
         }
     }
