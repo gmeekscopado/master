@@ -8,13 +8,5 @@
         <plural>true</plural>
         <value>Parties</value>
     </caseValues>
-    <fields>
-        <label><!-- Party Number Field --></label>
-        <name>Party_Number_Field__c</name>
-    </fields>
-    <fields>
-        <label><!-- Test Text Field --></label>
-        <name>Test_Text_Field__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
