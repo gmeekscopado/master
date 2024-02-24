@@ -8,5 +8,29 @@
         <plural>true</plural>
         <value>Parties</value>
     </caseValues>
+    <fields>
+        <label><!-- Party Affiliation --></label>
+        <name>Party_Affiliation__c</name>
+        <picklistValues>
+            <masterLabel>Democrat</masterLabel>
+            <translation><!-- Democrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libertarian</masterLabel>
+            <translation><!-- Libertarian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republican</masterLabel>
+            <translation><!-- Republican --></translation>
+        </picklistValues>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
