@@ -10,7 +10,7 @@
                 <fields>
                     <name>Test_Date</name>
                 </fields>
-                <name>Test_Label</name>
+                <name>First_Step</name>
             </screens>
         </flows>
         <fullName>Copado_Test</fullName>

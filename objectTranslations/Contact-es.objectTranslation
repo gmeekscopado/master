@@ -16,7 +16,7 @@
         <name>Customer_Background__c</name>
     </fields>
     <fields>
-        <help><!-- When did you first talk with this customer? Make sure to check your notes! --></help>
+        <help><!-- When did you first talk with this customer? --></help>
         <label>primer contacto TEST 2</label>
         <name>First_Contact__c</name>
     </fields>

@@ -345,8 +345,10 @@
     </fields>
     <fields>
         <fullName>Blackcard_Member__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
         <defaultValue>false</defaultValue>
+        <description>This field is used for customers who have obtained Blackcard status. Treat with care!</description>
         <externalId>false</externalId>
         <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
         <label>Blackcard Member</label>
@@ -373,7 +375,7 @@
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>Customer background information. Keep updated to help maintaining customer relationships.</description>
+        <description>Customer background information.</description>
         <externalId>false</externalId>
         <inlineHelpText>Used for strategic marketing communication to prospects and existing customers.</inlineHelpText>
         <label>Customer Background</label>
@@ -406,9 +408,9 @@
         <fullName>First_Contact__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>Use for documenting the date of first contact.</description>
+        <description>Use to document the date of first contact.</description>
         <externalId>false</externalId>
-        <inlineHelpText>When did you first talk with this customer? Make sure to check your notes!</inlineHelpText>
+        <inlineHelpText>When did you first talk with this customer?</inlineHelpText>
         <label>First Contact</label>
         <required>true</required>
         <securityClassification>Internal</securityClassification>

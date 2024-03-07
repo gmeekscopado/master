@@ -243,7 +243,7 @@
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>This is Account Number custom field change #19.</description>
+        <description>This is Account Number custom field change #22.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
@@ -433,6 +433,24 @@
                     <default>false</default>
                     <label>6</label>
                 </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>9</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -454,10 +472,10 @@
     <fields>
         <fullName>Routing_Number__c</fullName>
         <businessStatus>Hidden</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
+        <complianceGroup>PII;GDPR</complianceGroup>
         <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Double check to ensure correct banking information is filled in.</inlineHelpText>
+        <inlineHelpText>Use to identify the correct bank.</inlineHelpText>
         <label>Routing Number</label>
         <length>10</length>
         <required>true</required>
@@ -518,25 +536,14 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Test_1__c</fullName>
-        <description>This is a test field.</description>
+        <fullName>Test_Number_Field__c</fullName>
         <externalId>false</externalId>
-        <label>Test 1</label>
-        <length>255</length>
-        <required>false</required>
+        <label>Test Number Field</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Test_2__c</fullName>
-        <description>Making another change.</description>
-        <externalId>false</externalId>
-        <label>Test 2</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
@@ -554,16 +561,6 @@
     <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>test__c</fullName>
-        <externalId>false</externalId>
-        <label>test</label>
-        <length>123</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>

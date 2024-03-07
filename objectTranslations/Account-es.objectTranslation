@@ -82,7 +82,7 @@
         <name>Report_Test__c</name>
     </fields>
     <fields>
-        <help><!-- Double check to ensure correct banking information is filled in. --></help>
+        <help><!-- Use to identify the correct bank. --></help>
         <label>número de ruta</label>
         <name>Routing_Number__c</name>
     </fields>
@@ -107,16 +107,8 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Test 1 --></label>
-        <name>Test_1__c</name>
-    </fields>
-    <fields>
-        <label><!-- Test 2 --></label>
-        <name>Test_2__c</name>
-    </fields>
-    <fields>
-        <label><!-- test --></label>
-        <name>test__c</name>
+        <label><!-- Test Number Field --></label>
+        <name>Test_Number_Field__c</name>
     </fields>
     <webLinks>
         <label><!-- AltavistaNews --></label>

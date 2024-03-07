@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Object for procuring licenses.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,19 +155,28 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>License_Effective_Date__c</fullName>
+        <description>List the date at which the license requested needs to be active by.</description>
+        <externalId>false</externalId>
+        <label>License Effective Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>License_Number__c</fullName>
         <businessStatus>Active</businessStatus>
-        <caseSensitive>false</caseSensitive>
         <complianceGroup>GDPR</complianceGroup>
         <description>License number as assigned by state agency.</description>
         <externalId>false</externalId>
-        <inlineHelpText>This field contains vendor/business license information. Ensure that license follows this format to avoid error: ABC1234.</inlineHelpText>
+        <inlineHelpText>This field contains vendor/business license information.</inlineHelpText>
         <label>License Number</label>
-        <length>20</length>
+        <precision>9</precision>
         <required>false</required>
+        <scale>0</scale>
         <securityClassification>Public</securityClassification>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
+        <type>Number</type>
         <unique>true</unique>
     </fields>
     <label>License</label>
