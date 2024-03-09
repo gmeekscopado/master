@@ -35,7 +35,7 @@
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Third_Step_Outcome</name>
-            <conditionLogic>and</conditionLogic>
+            <conditionLogic>or</conditionLogic>
             <conditions>
                 <leftValueReference>First_Step</leftValueReference>
                 <operator>WasVisited</operator>
@@ -85,6 +85,16 @@
             <fieldType>InputField</fieldType>
             <isRequired>false</isRequired>
         </fields>
+        <fields>
+            <name>Creation_Date</name>
+            <dataType>Date</dataType>
+            <defaultValue>
+                <elementReference>Test_Date</elementReference>
+            </defaultValue>
+            <fieldText>Creation Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
@@ -95,5 +105,5 @@
             <targetReference>First_Step</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
