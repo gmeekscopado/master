@@ -8,12 +8,9 @@
         <flows>
             <screens>
                 <fields>
-                    <name>Creation_Date</name>
-                </fields>
-                <fields>
                     <name>Test_Date</name>
                 </fields>
-                <name>First_Step</name>
+                <name>Test_Label</name>
             </screens>
         </flows>
         <fullName>Copado_Test</fullName>
