@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Object for procuring licenses.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -156,17 +157,17 @@
     <fields>
         <fullName>License_Number__c</fullName>
         <businessStatus>Active</businessStatus>
-        <caseSensitive>false</caseSensitive>
         <complianceGroup>GDPR</complianceGroup>
         <description>License number as assigned by state agency.</description>
         <externalId>false</externalId>
         <inlineHelpText>This field contains vendor/business license information.</inlineHelpText>
         <label>License Number</label>
-        <length>20</length>
+        <precision>9</precision>
         <required>false</required>
+        <scale>0</scale>
         <securityClassification>Public</securityClassification>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
+        <type>Number</type>
         <unique>true</unique>
     </fields>
     <label>License</label>

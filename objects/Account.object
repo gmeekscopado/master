@@ -253,7 +253,7 @@
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
-        <description>This is Account Number custom field change #20.</description>
+        <description>This is Account Number custom field change #22.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
@@ -367,9 +367,9 @@
         <externalId>false</externalId>
         <inlineHelpText>Use this address when mailing address is PO box.</inlineHelpText>
         <label>Marketing Address</label>
-        <length>255</length>
+        <length>225</length>
         <required>false</required>
-        <securityClassification>Internal</securityClassification>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>true</unique>
@@ -481,15 +481,14 @@
     </fields>
     <fields>
         <fullName>Routing_Number__c</fullName>
-        <businessStatus>Hidden</businessStatus>
+        <businessStatus>Active</businessStatus>
         <complianceGroup>PII;GDPR</complianceGroup>
         <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Use to identify the correct bank.</inlineHelpText>
         <label>Routing Number</label>
         <length>10</length>
         <required>true</required>
-        <securityClassification>Internal</securityClassification>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>

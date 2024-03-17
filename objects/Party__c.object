@@ -143,7 +143,7 @@
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>InDevelopment</deploymentStatus>
-    <description>Object for planning parties.</description>
+    <description>Object to related to political party affiliation</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -155,29 +155,44 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Party_Number_Field__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>What party number is this for the year?</description>
+        <fullName>Party_Affiliation__c</fullName>
         <externalId>false</externalId>
-        <label>Party Number Field</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Test_Text_Field__c</fullName>
-        <externalId>false</externalId>
-        <label>Test Text Field</label>
-        <length>56</length>
+        <label>Party Affiliation</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Democrat</fullName>
+                    <default>false</default>
+                    <label>Democrat</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Libertarian</fullName>
+                    <default>false</default>
+                    <label>Libertarian</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Republican</fullName>
+                    <default>false</default>
+                    <label>Republican</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <label>Party</label>
     <nameField>
