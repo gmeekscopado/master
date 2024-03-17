@@ -481,14 +481,15 @@
     </fields>
     <fields>
         <fullName>Routing_Number__c</fullName>
-        <businessStatus>Active</businessStatus>
+        <businessStatus>Hidden</businessStatus>
         <complianceGroup>PII;GDPR</complianceGroup>
         <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Use to identify the correct bank.</inlineHelpText>
         <label>Routing Number</label>
         <length>10</length>
         <required>true</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
