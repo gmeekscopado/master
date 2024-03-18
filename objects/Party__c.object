@@ -165,6 +165,46 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Party_Affiliation__c</fullName>
+        <externalId>false</externalId>
+        <label>Party Affiliation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Democrat</fullName>
+                    <default>false</default>
+                    <label>Democrat</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Libertarian</fullName>
+                    <default>false</default>
+                    <label>Libertarian</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Republican</fullName>
+                    <default>false</default>
+                    <label>Republican</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Party_Number_Field__c</fullName>
         <complianceGroup>GDPR</complianceGroup>
         <description>What party number is this for the year?</description>

@@ -82,6 +82,11 @@
     </applicationVisibilities>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Party__c.Party_Affiliation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.VIP__c</field>
         <readable>false</readable>
@@ -3122,6 +3127,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Party__c-Party Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4022,4 +4030,5 @@
         <apexClass>AccountAutomationsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <fullName>MarketingProfile</fullName>
 </Profile>
