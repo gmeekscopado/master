@@ -2,7 +2,7 @@ public class AccountAutomations {
     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
         Else {
-            a.Description = 'Default description';
+            a.Description = 'Terrible account example';
             return a;
         }
     }
@@ -19,11 +19,11 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='688456789';
+        a.Phone='1238675309';
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.copa.do'; 
+        a.website = 'www.copado.com'; 
         return a;
     }
 }

@@ -2121,9 +2121,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Party__c.Party_Affiliation__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -4087,5 +4087,4 @@
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
-    <fullName>MarketingProfile</fullName>
 </Profile>
