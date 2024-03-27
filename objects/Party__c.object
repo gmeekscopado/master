@@ -156,16 +156,19 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Party_Affiliation__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Party Affiliation</label>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
-                <sorted>true</sorted>
+                <sorted>false</sorted>
                 <value>
                     <fullName>Democrat</fullName>
                     <default>false</default>
