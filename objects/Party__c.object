@@ -156,6 +156,8 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Party_Affiliation__c</fullName>
+        <complianceGroup>PII</complianceGroup>
+        <description>This field can be used to ensure targeted political campaign material is sent to the appropriate people.</description>
         <externalId>false</externalId>
         <label>Party Affiliation</label>
         <required>false</required>
