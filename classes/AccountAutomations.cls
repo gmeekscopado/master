@@ -2,14 +2,14 @@ public class AccountAutomations {
     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
         Else {
-            a.Description = 'Terrible account example';
+            a.Description = 'Default description';
             return a;
         }
     }
     public static Account setDefaultBillingAddress(Account a){
-        a.billingstreet = 'Fairview, 888'; 
-        a.billingstate = 'Arizona'; 
-        a.billingpostalcode ='12345'; 
+        a.billingstreet = 'Basauri, 6'; 
+        a.billingstate = 'Madrid'; 
+        a.billingpostalcode ='28023'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
@@ -23,7 +23,7 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.copado.com'; 
+        a.website = 'www.copado.org'; 
         return a;
     }
 }

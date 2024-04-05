@@ -367,9 +367,9 @@
         <externalId>false</externalId>
         <inlineHelpText>Use this address when mailing address is PO box.</inlineHelpText>
         <label>Marketing Address</label>
-        <length>225</length>
+        <length>255</length>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>true</unique>
