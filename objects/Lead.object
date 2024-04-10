@@ -379,7 +379,6 @@
     </fields>
     <fields>
         <fullName>Website</fullName>
-        <description>This is an example description.</description>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <searchLayouts>

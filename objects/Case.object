@@ -222,14 +222,26 @@
     </fields>
     <fields>
         <fullName>Case_Creation_Date__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
         <description>Insert the date the case was created.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Help text example.</inlineHelpText>
         <label>Case Creation Date</label>
         <length>50</length>
         <required>false</required>
         <securityClassification>Public</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Test_Field__c</fullName>
+        <description>Test description</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter information here if required.</inlineHelpText>
+        <label>Case Test Field</label>
+        <length>50</length>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -246,7 +258,6 @@
     </fields>
     <fields>
         <fullName>ContactEmail</fullName>
-        <inlineHelpText>Please use business email address.</inlineHelpText>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>

@@ -27,10 +27,6 @@
                 <behavior>Edit</behavior>
                 <field>CampaignId</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Brand_Tier__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

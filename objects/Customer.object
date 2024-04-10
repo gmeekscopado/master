@@ -131,7 +131,6 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>CustomerStatusType</fullName>
-        <complianceGroup>GDPR</complianceGroup>
     </fields>
     <fields>
         <fullName>Name</fullName>

@@ -155,7 +155,6 @@
     </fields>
     <fields>
         <fullName>Website</fullName>
-        <description>This is a test for standard field deployments.</description>
     </fields>
     <searchLayouts>
         <customTabListAdditionalFields>CompanyName</customTabListAdditionalFields>
