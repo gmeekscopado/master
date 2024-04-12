@@ -1277,6 +1277,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contract.Contract_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contract.CustomerSignedDate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2118,6 +2123,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Party__c.Party_Affiliation__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Party__c.Party_Number_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Party__c.Test_Text_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3004,6 +3019,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Forms__c-Form Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Health_Portal__c-Health Portal Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>License__c-License Layout</layout>

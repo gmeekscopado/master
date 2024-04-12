@@ -8,18 +8,18 @@ public class AccountAutomations {
     }
     public static Account setDefaultBillingAddress(Account a){
         a.billingstreet = 'Fairview, 888'; 
-        a.billingstate = 'Arizona'; 
+        a.billingstate = 'Florida'; 
         a.billingpostalcode ='12345'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
         a.shippingstreet = 'Fairview, 888'; 
-        a.shippingstate = 'Arizona';
+        a.shippingstate = 'Florida';
         a.shippingpostalcode ='12345';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='688456789';
+        a.Phone='9992223421';
         return a;
     }
     public static Account setDefaultURL(Account a) {
