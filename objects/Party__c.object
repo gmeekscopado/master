@@ -156,9 +156,13 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Party_Affiliation__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
+        <description>This field is used to document the affiliation one has to their desired political party.</description>
         <externalId>false</externalId>
         <label>Party Affiliation</label>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
