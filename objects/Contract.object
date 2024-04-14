@@ -202,14 +202,6 @@
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
-        <fullName>Contract_ID__c</fullName>
-        <displayFormat>{YYYY}{MM}-{0000}</displayFormat>
-        <externalId>false</externalId>
-        <label>Contract ID</label>
-        <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
         <fullName>CustomerSignedDate</fullName>
         <trackHistory>true</trackHistory>
     </fields>

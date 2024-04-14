@@ -9,6 +9,10 @@
         <value>Licenses</value>
     </caseValues>
     <fields>
+        <label><!-- License Effective Date --></label>
+        <name>License_Effective_Date__c</name>
+    </fields>
+    <fields>
         <help><!-- This field contains vendor/business license information. --></help>
         <label><!-- License Number --></label>
         <name>License_Number__c</name>

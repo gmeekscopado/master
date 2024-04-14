@@ -111,9 +111,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.Account_Number__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1277,11 +1277,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contract.Contract_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Contract.CustomerSignedDate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1583,6 +1578,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Forms__c.Form_Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Forms__c.Form_Request__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
