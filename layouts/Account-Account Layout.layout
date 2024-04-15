@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>DataDotComAccountInsights</excludeButtons>
-    <excludeButtons>DataDotComClean</excludeButtons>
-    <excludeButtons>DataDotComCompanyHierarchy</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -10,6 +7,10 @@
         <editHeading>true</editHeading>
         <label>Account Information</label>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Account_Ext_Id__c</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>OwnerId</field>
@@ -21,10 +22,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ParentId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>AccountNumber</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -49,10 +46,6 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Test_Number_Field__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Account_Ext_Id__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
@@ -165,6 +158,9 @@
         </layoutColumns>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>Account_Ext_Id__c</fields>
+    </miniLayout>
     <quickActionList>
         <quickActionListItems>
             <quickActionName>FeedItem.TextPost</quickActionName>
