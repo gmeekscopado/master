@@ -260,7 +260,6 @@
         <required>false</required>
         <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -492,7 +491,6 @@
         <required>true</required>
         <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
