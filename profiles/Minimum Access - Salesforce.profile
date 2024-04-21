@@ -3040,6 +3040,9 @@
         <layout>ProcessException-Process Exception Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Project__c-Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>UserAlt-User Profile Layout</layout>
     </layoutAssignments>
     <objectPermissions>

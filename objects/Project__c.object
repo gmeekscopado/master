@@ -142,8 +142,7 @@
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <deploymentStatus>InDevelopment</deploymentStatus>
-    <description>Object for planning parties.</description>
+    <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -153,80 +152,30 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>Party_Affiliation__c</fullName>
+        <fullName>Account__c</fullName>
         <externalId>false</externalId>
-        <label>Party Affiliation</label>
-        <required>false</required>
+        <inlineHelpText>Select the account that this project is for.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Projects</relationshipLabel>
+        <relationshipName>Projects</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Democrat</fullName>
-                    <default>false</default>
-                    <label>Democrat</label>
-                </value>
-                <value>
-                    <fullName>Green</fullName>
-                    <default>false</default>
-                    <label>Green</label>
-                </value>
-                <value>
-                    <fullName>Libertarian</fullName>
-                    <default>false</default>
-                    <label>Libertarian</label>
-                </value>
-                <value>
-                    <fullName>None</fullName>
-                    <default>false</default>
-                    <label>None</label>
-                </value>
-                <value>
-                    <fullName>Republican</fullName>
-                    <default>false</default>
-                    <label>Republican</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <fields>
-        <fullName>Party_Number_Field__c</fullName>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>What party number is this for the year?</description>
-        <externalId>false</externalId>
-        <label>Party Number Field</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Test_Text_Field__c</fullName>
-        <externalId>false</externalId>
-        <label>Test Text Field</label>
-        <length>56</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>Party</label>
+    <label>Project</label>
     <nameField>
-        <label>Party Name</label>
+        <label>Project Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Parties</pluralLabel>
+    <pluralLabel>Projects</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
