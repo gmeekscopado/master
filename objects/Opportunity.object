@@ -145,6 +145,17 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>First_Demo__c</fullName>
+        <description>Date of first demo</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Input the date of the first technical demo for this opportunity.</inlineHelpText>
+        <label>First Demo</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Brand_Tier__c</fullName>
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
@@ -152,13 +163,12 @@
         <externalId>false</externalId>
         <inlineHelpText>Tier 1 is industry leader, Tier 2 is established, Tier 3 is startup.</inlineHelpText>
         <label>Brand Tier</label>
-        <required>false</required>
+        <required>true</required>
         <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
