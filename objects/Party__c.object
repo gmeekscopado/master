@@ -154,16 +154,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Party</label>
-    <nameField>
-        <label>Party Name</label>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Parties</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>Party_Affiliation__c</fullName>
         <businessStatus>Active</businessStatus>
@@ -208,4 +198,14 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <label>Party</label>
+    <nameField>
+        <label>Party Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Parties</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>
