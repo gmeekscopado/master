@@ -145,17 +145,6 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>First_Demo__c</fullName>
-        <description>Date of first demo</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Input the date of the first technical demo for this opportunity.</inlineHelpText>
-        <label>First Demo</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -225,6 +214,17 @@
     <fields>
         <fullName>ExpectedRevenue</fullName>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>First_Demo__c</fullName>
+        <description>Date of first demo</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Input the date of the first technical demo for this opportunity.</inlineHelpText>
+        <label>First Demo</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>IqScore</fullName>
