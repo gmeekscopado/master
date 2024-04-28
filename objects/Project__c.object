@@ -168,31 +168,6 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <fields>
-        <fullName>Project_Manager__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Project Manger</label>
-        <lookupFilter>
-            <active>false</active>
-            <booleanFilter>1</booleanFilter>
-            <errorMessage>There are no active users that match your search criteria.</errorMessage>
-            <filterItems>
-                <field>User.IsActive</field>
-                <operation>equals</operation>
-                <value>True</value>
-            </filterItems>
-            <infoMessage>Please select an active user as the Project Manager for this project.</infoMessage>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>User</referenceTo>
-        <relationshipName>Projects</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
     <label>Project</label>
     <nameField>
         <label>Project Name</label>

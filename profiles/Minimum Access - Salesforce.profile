@@ -3006,6 +3006,9 @@
         <layout>Forms__c-Form Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Health_Portal__c-Health Portal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>License__c-License Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3016,6 +3019,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ProcessException-Process Exception Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project__c-Project Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserAlt-User Profile Layout</layout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Health Portal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Health Portals</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date of Birth --></label>
+        <name>Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Name --></label>
+        <name>Patient_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Health Portal Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

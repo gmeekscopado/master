@@ -14,10 +14,5 @@
         <name>Account__c</name>
         <relationshipLabel><!-- Projects --></relationshipLabel>
     </fields>
-    <fields>
-        <label><!-- Project Manger --></label>
-        <name>Project_Manager__c</name>
-        <relationshipLabel><!-- Projects --></relationshipLabel>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
