@@ -101,6 +101,11 @@
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Bicycle__c.Purchase_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
         <readable>false</readable>
@@ -3010,6 +3015,9 @@
         <flow>Copado_Test</flow>
     </flowAccesses>
     <layoutAssignments>
+        <layout>Bicycle__c-Bicycle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4081,4 +4089,5 @@
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
+    <fullName>SolutionManager</fullName>
 </Profile>
