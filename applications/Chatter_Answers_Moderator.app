@@ -179,7 +179,11 @@
     </preferences>
     <tabs>standard-Case</tabs>
     <tabs>standard-Knowledge</tabs>
+    <tabs>Bicycle__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Bicycle__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Case</tab>
         </mappings>

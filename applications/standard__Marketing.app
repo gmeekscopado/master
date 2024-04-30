@@ -12,4 +12,5 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Chatter</tabs>
+    <tabs>Bicycle__c</tabs>
 </CustomApplication>

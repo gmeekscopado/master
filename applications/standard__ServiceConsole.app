@@ -182,7 +182,11 @@
     <tabs>standard-Lead</tabs>
     <tabs>standard-Knowledge</tabs>
     <tabs>standard-Document</tabs>
+    <tabs>Bicycle__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Bicycle__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

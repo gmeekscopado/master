@@ -14,4 +14,5 @@
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
     <tabs>standard-Product2</tabs>
+    <tabs>Bicycle__c</tabs>
 </CustomApplication>
