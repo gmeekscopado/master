@@ -82,6 +82,11 @@
     </applicationVisibilities>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Product_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Party__c.Party_Affiliation__c</field>
         <readable>true</readable>
@@ -4030,5 +4035,4 @@
         <apexClass>AccountAutomationsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <fullName>MarketingProfile</fullName>
 </Profile>
