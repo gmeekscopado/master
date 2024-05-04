@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bicycle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bicycles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Purchase Date --></label>
+        <name>Purchase_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tires --></label>
+        <name>Tires__c</name>
+        <picklistValues>
+            <masterLabel>All-terrain</masterLabel>
+            <translation><!-- All-terrain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain</masterLabel>
+            <translation><!-- Mountain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road</masterLabel>
+            <translation><!-- Road --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snow</masterLabel>
+            <translation><!-- Snow --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

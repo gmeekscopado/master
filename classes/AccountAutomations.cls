@@ -8,22 +8,22 @@ public class AccountAutomations {
     }
     public static Account setDefaultBillingAddress(Account a){
         a.billingstreet = 'Fairview, 888'; 
-        a.billingstate = 'Arizona'; 
+        a.billingstate = 'Florida'; 
         a.billingpostalcode ='12345'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = 'Fairview, 888'; 
-        a.shippingstate = 'Arizona';
-        a.shippingpostalcode ='12345';
+        a.shippingstreet = 'Ocean Avenue, 123'; 
+        a.shippingstate = 'California';
+        a.shippingpostalcode ='84932';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='688456789';
+        a.Phone='2813308004';
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.copa.do'; 
+        a.website = 'www.essentials.com'; 
         return a;
     }
 }
