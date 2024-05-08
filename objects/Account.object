@@ -378,8 +378,8 @@
     </fields>
     <fields>
         <fullName>Routing_Number__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>PII;GDPR</complianceGroup>
+        <businessStatus>Hidden</businessStatus>
+        <complianceGroup>PII</complianceGroup>
         <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
         <externalId>true</externalId>
         <inlineHelpText>Double check to ensure correct banking information is filled in.</inlineHelpText>
@@ -388,7 +388,6 @@
         <required>true</required>
         <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
