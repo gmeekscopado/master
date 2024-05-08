@@ -153,6 +153,16 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Project</label>
+    <nameField>
+        <label>Project Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Projects</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Account__c</fullName>
         <externalId>false</externalId>
@@ -168,14 +178,4 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <label>Project</label>
-    <nameField>
-        <label>Project Name</label>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Projects</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
