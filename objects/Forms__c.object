@@ -154,6 +154,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>Form</label>
+    <nameField>
+        <label>Forms Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Forms</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Form_Category__c</fullName>
         <businessStatus>Active</businessStatus>
@@ -233,14 +242,6 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Form</label>
-    <nameField>
-        <label>Forms Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Forms</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>Form_Must_Have_Creator</fullName>
         <active>true</active>
@@ -248,5 +249,4 @@
         <errorDisplayField>OwnerId</errorDisplayField>
         <errorMessage>Please list the creator of this form.</errorMessage>
     </validationRules>
-    <visibility>Public</visibility>
 </CustomObject>
