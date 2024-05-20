@@ -2,7 +2,7 @@ public class AccountAutomations {
     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
         Else {
-            a.Description = 'Description field info';
+            a.Description = 'Default description';
             return a;
         }
     }
@@ -19,7 +19,7 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='2813308004';
+        a.Phone='9992223421';
         return a;
     }
     public static Account setDefaultURL(Account a) {
