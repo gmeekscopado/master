@@ -13,17 +13,17 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = 'Ocean Avenue, 123'; 
-        a.shippingstate = 'California';
-        a.shippingpostalcode ='84932';
+        a.shippingstreet = 'Fairview, 888'; 
+        a.shippingstate = 'Florida';
+        a.shippingpostalcode ='12345';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='2813308004';
+        a.Phone='688456789';
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.essentials.com'; 
+        a.website = 'www.copa.do'; 
         return a;
     }
 }
