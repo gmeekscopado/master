@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bicycle__c-Bicycle Layout</fullName>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
@@ -25,6 +26,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Budget__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Power__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

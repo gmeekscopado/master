@@ -107,6 +107,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Bicycle__c.Power__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Bicycle__c.Brand__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4843,4 +4848,5 @@
         <enabled>true</enabled>
         <name>ViewUserPII</name>
     </userPermissions>
+    <fullName>Admin</fullName>
 </Profile>
