@@ -372,6 +372,10 @@
         <type>Phone</type>
     </fields>
     <fields>
+        <fullName>ContactSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Customer_Background__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
