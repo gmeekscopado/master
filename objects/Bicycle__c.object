@@ -153,73 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Bicycle</label>
-    <nameField>
-        <label>Bicycle Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Bicycles</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    <fields>
-        <fullName>Power__c</fullName>
-        <externalId>false</externalId>
-        <label>Power</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Manual</fullName>
-                    <default>false</default>
-                    <label>Manual</label>
-                </value>
-                <value>
-                    <fullName>Electric</fullName>
-                    <default>false</default>
-                    <label>Electric</label>
-                </value>
-                <value>
-                    <fullName>Gas</fullName>
-                    <default>false</default>
-                    <label>Gas</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Type</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>BMX</fullName>
-                    <default>false</default>
-                    <label>BMX</label>
-                </value>
-                <value>
-                    <fullName>Mountain</fullName>
-                    <default>false</default>
-                    <label>Mountain</label>
-                </value>
-                <value>
-                    <fullName>Road</fullName>
-                    <default>false</default>
-                    <label>Road</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
     <fields>
         <fullName>Brand__c</fullName>
         <externalId>false</externalId>
@@ -285,12 +218,40 @@
         <type>Currency</type>
     </fields>
     <fields>
+        <fullName>Power__c</fullName>
+        <externalId>false</externalId>
+        <label>Power</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>false</default>
+                    <label>Manual</label>
+                </value>
+                <value>
+                    <fullName>Electric</fullName>
+                    <default>false</default>
+                    <label>Electric</label>
+                </value>
+                <value>
+                    <fullName>Gas</fullName>
+                    <default>false</default>
+                    <label>Gas</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Purchase_Date__c</fullName>
         <description>When was the bike purchased?</description>
         <externalId>false</externalId>
         <label>Purchase Date</label>
         <required>false</required>
-        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
@@ -303,7 +264,6 @@
         <label>Tires</label>
         <required>true</required>
         <securityClassification>Public</securityClassification>
-        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -333,4 +293,42 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BMX</fullName>
+                    <default>false</default>
+                    <label>BMX</label>
+                </value>
+                <value>
+                    <fullName>Mountain</fullName>
+                    <default>false</default>
+                    <label>Mountain</label>
+                </value>
+                <value>
+                    <fullName>Road</fullName>
+                    <default>false</default>
+                    <label>Road</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Bicycle</label>
+    <nameField>
+        <label>Bicycle Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Bicycles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>
