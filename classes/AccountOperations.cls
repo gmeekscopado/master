@@ -6,25 +6,22 @@ public class AccountOperations {
             return a;
         }
     }
-       //New methods introduced by Developer 1 working on the US-001
-    public static Account setDefaultBillingAddress(Account a){//DEV 1
-        a.billingstreet = 'Denver, 135'; 
-        a.billingstate = 'Colorado'; 
-        a.billingpostalcode ='98765'; 
+    public static Account setDefaultSite(Account a){
+        a.Site = 'Single location'; 
         return a;
     }
-    public static Account setDefaultShippingAddress(Account a){//DEV 1
-        a.shippingstreet = 'Denver, 135'; 
-        a.shippingstate = 'Colorado';
-        a.shippingpostalcode ='98765';
+    public static Account setDefaultShippingAddress(Account a){
+        a.shippingstreet = '111 W Illinois St'; 
+        a.shippingstate = 'Chicago';
+        a.shippingpostalcode ='60654';
         return a;
     }
-    public static Account setDefaultPhone(Account a) {//DEV 1 
-        a.Phone='4567894567'; //DEV1
+    public static Account setDefaultPhone(Account a) {
+        a.Phone='9999999';
         return a;
     }
-    public static Account setDefaultURL(Account a) { //DEV 1
-        a.website = 'www.essentials.com'; //Dev1
+    public static Account setDefaultURL(Account a) {
+        a.website = 'www.copado.com'; 
         return a;
     }
 }
