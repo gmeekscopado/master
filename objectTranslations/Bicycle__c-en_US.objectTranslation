@@ -49,6 +49,22 @@
         <name>Budget__c</name>
     </fields>
     <fields>
+        <label><!-- Power --></label>
+        <name>Power__c</name>
+        <picklistValues>
+            <masterLabel>Electric</masterLabel>
+            <translation><!-- Electric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Purchase Date --></label>
         <name>Purchase_Date__c</name>
     </fields>
