@@ -349,6 +349,7 @@
         <complianceGroup>PII;GDPR</complianceGroup>
         <defaultValue>false</defaultValue>
         <description>This field is used for customers who have obtained Blackcard status. Treat with care!</description>
+        <externalId>false</externalId>
         <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
         <label>Blackcard Member</label>
         <securityClassification>Confidential</securityClassification>
@@ -364,6 +365,7 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <description>Insert preferred client phone number here (mobile or landline).</description>
+        <externalId>false</externalId>
         <inlineHelpText>Use the following format: x + (xxx) xxx-xxxx</inlineHelpText>
         <label>Client Phone Number</label>
         <required>false</required>
