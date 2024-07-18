@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case-Portal Case Layout</fullName>
     <emailDefault>false</emailDefault>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
@@ -15,10 +16,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>AccountId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Case_Creation_Date__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
