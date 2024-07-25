@@ -252,13 +252,13 @@
     <fields>
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
+        <complianceGroup>PII</complianceGroup>
         <description>This is Account Number custom field change #20.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -363,18 +363,30 @@
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
+        <businessStatus>Active</businessStatus>
         <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
+                    <fullName>Highest</fullName>
+                    <default>false</default>
+                    <label>Highest</label>
+                </value>
+                <value>
                     <fullName>High</fullName>
                     <default>false</default>
                     <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
                 </value>
                 <value>
                     <fullName>Low</fullName>
@@ -382,12 +394,20 @@
                     <label>Low</label>
                 </value>
                 <value>
-                    <fullName>Medium</fullName>
+                    <fullName>Lowest</fullName>
                     <default>false</default>
-                    <label>Medium</label>
+                    <label>Lowest</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Since__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Since</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>Description</fullName>
