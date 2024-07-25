@@ -353,10 +353,10 @@
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
         <fullName>Client_Phone_Number__c</fullName>
+        <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <description>Insert preferred client phone number here (mobile or landline).</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Follow format: (xxx) xxx-xxxx</inlineHelpText>
+        <inlineHelpText>Use the following format: x + (xxx) xxx-xxxx</inlineHelpText>
         <label>Client Phone Number</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -365,13 +365,12 @@
     <fields>
         <fullName>Blackcard_Member__c</fullName>
         <businessStatus>Active</businessStatus>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>PII;GDPR</complianceGroup>
         <defaultValue>false</defaultValue>
         <description>This field is used for customers who have obtained Blackcard status. Treat with care!</description>
-        <externalId>false</externalId>
         <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
         <label>Blackcard Member</label>
-        <securityClassification>Internal</securityClassification>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
