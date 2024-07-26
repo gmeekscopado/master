@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Account-Account Layout</fullName>
     <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
@@ -9,6 +8,10 @@
         <editHeading>true</editHeading>
         <label>Account Information</label>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Customer_Since__c</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Account_Picklist__c</field>
@@ -52,10 +55,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AnnualRevenue</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Customer_Since__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -202,6 +201,7 @@
         <fields>Account_Picklist__c</fields>
         <fields>Test_Number_Field__c</fields>
         <fields>Picklist_Test__c</fields>
+        <fields>Customer_Since__c</fields>
     </miniLayout>
     <platformActionList>
         <actionListContext>Record</actionListContext>
