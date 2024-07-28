@@ -10,6 +10,10 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>Customer_Since__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Account_Picklist__c</field>
             </layoutItems>
             <layoutItems>
@@ -197,6 +201,7 @@
         <fields>Account_Picklist__c</fields>
         <fields>Test_Number_Field__c</fields>
         <fields>Picklist_Test__c</fields>
+        <fields>Customer_Since__c</fields>
     </miniLayout>
     <platformActionList>
         <actionListContext>Record</actionListContext>
