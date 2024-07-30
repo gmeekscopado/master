@@ -153,9 +153,17 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>Bicycle</label>
+    <nameField>
+        <label>Bicycle Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Bicycles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Brand__c</fullName>
-        <externalId>false</externalId>
         <label>Brand</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -209,7 +217,6 @@
     </fields>
     <fields>
         <fullName>Budget__c</fullName>
-        <externalId>false</externalId>
         <label>Budget</label>
         <precision>18</precision>
         <required>false</required>
@@ -219,7 +226,6 @@
     </fields>
     <fields>
         <fullName>Power__c</fullName>
-        <externalId>false</externalId>
         <label>Power</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -249,7 +255,6 @@
     <fields>
         <fullName>Purchase_Date__c</fullName>
         <description>When was the bike purchased?</description>
-        <externalId>false</externalId>
         <label>Purchase Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -260,7 +265,6 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <description>What type of tires does the bike have?</description>
-        <externalId>false</externalId>
         <label>Tires</label>
         <required>true</required>
         <securityClassification>Public</securityClassification>
@@ -295,7 +299,6 @@
     </fields>
     <fields>
         <fullName>Type__c</fullName>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -322,13 +325,4 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Bicycle</label>
-    <nameField>
-        <label>Bicycle Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Bicycles</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
