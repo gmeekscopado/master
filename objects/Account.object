@@ -229,13 +229,6 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Customer_Since__c</fullName>
-        <label>Customer Since</label>
-        <required>true</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -370,6 +363,7 @@
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
+        <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -394,6 +388,14 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Since__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Since</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>Description</fullName>
