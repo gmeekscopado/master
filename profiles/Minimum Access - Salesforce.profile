@@ -3141,9 +3141,6 @@
         <layout>Forms__c-Form Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Health_Portal__c-Health Portal Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>License__c-License Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
