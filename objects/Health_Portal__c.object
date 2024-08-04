@@ -171,6 +171,16 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Vaccines__c</fullName>
+        <description>Please enter the vaccines you&apos;ve received in the last 10 years.</description>
+        <externalId>false</externalId>
+        <label>Vaccines</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
     <label>Health Portal</label>
     <nameField>
         <label>Health Portal Name</label>

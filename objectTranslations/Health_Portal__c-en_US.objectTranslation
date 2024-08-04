@@ -16,6 +16,10 @@
         <label><!-- Patient Name --></label>
         <name>Patient_Name__c</name>
     </fields>
+    <fields>
+        <label><!-- Vaccines --></label>
+        <name>Vaccines__c</name>
+    </fields>
     <layouts>
         <layout>Health Portal Layout</layout>
         <sections>
