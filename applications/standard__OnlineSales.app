@@ -8,8 +8,5 @@
     <navType>Standard</navType>
     <tabs>standard-OnlineSalesHome</tabs>
     <tabs>Bicycle__c</tabs>
-    <tabs>standard-SalesforceContract</tabs>
-    <tabs>standard-SalesforceInvoice</tabs>
-    <tabs>standard-SalesforceProductCatalog</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
