@@ -143,27 +143,22 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Object used for accessing various form templates.</description>
+    <description>Object for housing form templates</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Form_Category__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>Input the appropriate form used.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Please use this field for internal data management.</inlineHelpText>
         <label>Form Category</label>
         <required>false</required>
-        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -193,6 +188,7 @@
                 <value>
                     <fullName>Billing</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Billing</label>
                 </value>
             </valueSetDefinition>

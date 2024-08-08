@@ -251,14 +251,11 @@
     </fields>
     <fields>
         <fullName>Account_Number__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>This is Account Number custom field change #20.</description>
+        <description>This is Account Number custom field change #4.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
-        <required>false</required>
-        <securityClassification>Internal</securityClassification>
+        <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -431,19 +428,14 @@
     </fields>
     <fields>
         <fullName>Marketing_Address__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <caseSensitive>false</caseSensitive>
-        <complianceGroup>PII</complianceGroup>
-        <description>Address for sending marketing material.</description>
+        <description>Use this address for sending marketing material.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Use this address when mailing address is PO box.</inlineHelpText>
         <label>Marketing Address</label>
         <length>255</length>
         <required>false</required>
-        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
-        <unique>true</unique>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -528,13 +520,11 @@
                 <value>
                     <fullName>7</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>7</label>
                 </value>
                 <value>
                     <fullName>8</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>8</label>
                 </value>
                 <value>
@@ -783,7 +773,7 @@
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <validationRules>
         <fullName>Account_Name_3_Characters</fullName>
         <active>true</active>
