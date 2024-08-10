@@ -9,16 +9,11 @@
         <value>Forms</value>
     </caseValues>
     <fields>
-        <help><!-- Please use this field for internal data management. --></help>
         <label><!-- Form Category --></label>
         <name>Form_Category__c</name>
         <picklistValues>
             <masterLabel>Application</masterLabel>
             <translation><!-- Application --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Billing</masterLabel>
-            <translation><!-- Billing --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Contract</masterLabel>

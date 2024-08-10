@@ -377,11 +377,14 @@
     </fields>
     <fields>
         <fullName>Customer_Background__c</fullName>
-        <description>Information on customer specific background information.</description>
+        <businessStatus>Hidden</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Customer background information.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Used for strategic marketing communication to prospects and existing customers.</inlineHelpText>
         <label>Customer Background</label>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>TextArea</type>
     </fields>
@@ -407,10 +410,11 @@
     </fields>
     <fields>
         <fullName>First_Contact__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
         <description>Use to document the date of first contact.</description>
         <externalId>false</externalId>
-        <inlineHelpText>If you&apos;re unsure when first contact was, review your call logs!</inlineHelpText>
+        <inlineHelpText>When did you first talk with this customer?</inlineHelpText>
         <label>First Contact</label>
         <required>true</required>
         <securityClassification>Internal</securityClassification>
@@ -468,6 +472,7 @@
     </fields>
     <fields>
         <fullName>Name_of_Customer__c</fullName>
+        <description>Enter name of customer here.</description>
         <externalId>false</externalId>
         <label>Name of Customer</label>
         <length>36</length>
@@ -493,11 +498,12 @@
         <fullName>Pager__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <complianceGroup>PII</complianceGroup>
-        <description>Obsolete contact method, use only if necessary.</description>
+        <description>Client pager number.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Obsolete contact method, do not use.</inlineHelpText>
         <label>Pager</label>
         <required>false</required>
-        <securityClassification>Restricted</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Phone</type>
     </fields>

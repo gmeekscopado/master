@@ -127,11 +127,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.Account_Number__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Account.Active__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1673,6 +1668,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Forms__c.Form_Request__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Health_Portal__c.Vaccines__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3223,6 +3223,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Health_Portal__c-Health Portal Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
