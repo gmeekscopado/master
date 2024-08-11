@@ -361,6 +361,7 @@
     <fields>
         <fullName>CustomerPriority__c</fullName>
         <businessStatus>Active</businessStatus>
+        <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
         <securityClassification>Internal</securityClassification>
@@ -477,6 +478,7 @@
     <fields>
         <fullName>Picklist_Test__c</fullName>
         <complianceGroup>GDPR</complianceGroup>
+        <externalId>false</externalId>
         <label>Picklist Test</label>
         <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
