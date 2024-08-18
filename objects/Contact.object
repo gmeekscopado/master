@@ -379,6 +379,7 @@
     <fields>
         <fullName>Customer_Background__c</fullName>
         <description>Information on customer specific background information.</description>
+        <externalId>false</externalId>
         <label>Customer Background</label>
         <required>false</required>
         <securityClassification>Confidential</securityClassification>
@@ -407,9 +408,9 @@
     </fields>
     <fields>
         <fullName>First_Contact__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
+        <complianceGroup>PII</complianceGroup>
         <description>Use to document the date of first contact.</description>
+        <externalId>false</externalId>
         <inlineHelpText>If you&apos;re unsure when first contact was, review your call logs!</inlineHelpText>
         <label>First Contact</label>
         <required>true</required>
@@ -493,8 +494,8 @@
         <fullName>Pager__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <complianceGroup>PII</complianceGroup>
-        <description>Client pager number.</description>
-        <inlineHelpText>Obsolete contact method, do not use.</inlineHelpText>
+        <description>Obsolete contact method, use only if necessary.</description>
+        <externalId>false</externalId>
         <label>Pager</label>
         <required>false</required>
         <securityClassification>Restricted</securityClassification>
