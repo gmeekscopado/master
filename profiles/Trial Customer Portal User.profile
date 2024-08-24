@@ -125,6 +125,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.Active__c</field>
         <readable>false</readable>
@@ -1686,6 +1691,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>House__c.Sample_Change__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Idea.Attachment</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3157,6 +3167,9 @@
         <layout>Bicycle__c-Bicycle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Broker__c-Broker Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3245,6 +3258,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Health_Portal__c-Health Portal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>House__c-House Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
