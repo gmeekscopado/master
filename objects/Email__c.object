@@ -159,6 +159,7 @@
         <fullName>Credit_Card__c</fullName>
         <complianceGroup>PII</complianceGroup>
         <description>Credit Card information</description>
+        <externalId>false</externalId>
         <label>Credit Card</label>
         <length>16</length>
         <maskChar>X</maskChar>

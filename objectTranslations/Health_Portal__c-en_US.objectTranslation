@@ -40,5 +40,12 @@
         <label><!-- Vaccines --></label>
         <name>Vaccines__c</name>
     </fields>
+    <layouts>
+        <layout>Health Portal Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
