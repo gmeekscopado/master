@@ -360,6 +360,7 @@
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
+        <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -761,12 +762,6 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>Account_Name_3_Characters</fullName>
-        <active>true</active>
-        <errorConditionFormula>LEN( Name )  &gt;= 3</errorConditionFormula>
-        <errorMessage>Account Name must contain at least 3 characters.</errorMessage>
-    </validationRules>
     <webLinks>
         <fullName>AltavistaNews</fullName>
         <availability>online</availability>
