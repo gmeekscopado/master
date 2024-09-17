@@ -157,15 +157,15 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Credit_Card__c</fullName>
+        <businessStatus>Active</businessStatus>
         <complianceGroup>PII</complianceGroup>
-        <description>Credit Card information</description>
-        <externalId>false</externalId>
+        <description>This field contains credit card information that can be used for future payment.</description>
         <label>Credit Card</label>
         <length>16</length>
-        <maskChar>X</maskChar>
+        <maskChar>asterisk</maskChar>
         <maskType>creditCard</maskType>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Restricted</securityClassification>
         <trackTrending>false</trackTrending>
         <type>EncryptedText</type>
     </fields>
