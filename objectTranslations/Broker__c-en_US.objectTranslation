@@ -9,4 +9,8 @@
         <value>Brokers</value>
     </caseValues>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The User phone number must include a 3 digit area code followed by the 7 digit phone number. --></errorMessage>
+        <name>Phone_Number_10_Numbers</name>
+    </validationRules>
 </CustomObjectTranslation>

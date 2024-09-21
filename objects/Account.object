@@ -251,11 +251,14 @@
     </fields>
     <fields>
         <fullName>Account_Number__c</fullName>
-        <description>This is Account Number custom field change #4.</description>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>This is Account Number custom field change #20.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
-        <required>true</required>
+        <required>false</required>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -416,14 +419,19 @@
     </fields>
     <fields>
         <fullName>Marketing_Address__c</fullName>
-        <description>Use this address for sending marketing material.</description>
+        <businessStatus>Active</businessStatus>
+        <caseSensitive>false</caseSensitive>
+        <complianceGroup>PII</complianceGroup>
+        <description>Address for sending marketing material.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Use this address when mailing address is PO box.</inlineHelpText>
         <label>Marketing Address</label>
         <length>255</length>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -508,11 +516,13 @@
                 <value>
                     <fullName>7</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>7</label>
                 </value>
                 <value>
                     <fullName>8</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>8</label>
                 </value>
                 <value>
