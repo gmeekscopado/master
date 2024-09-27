@@ -155,6 +155,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>Email</label>
+    <nameField>
+        <label>Email Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Emails</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Credit_Card__c</fullName>
         <businessStatus>Active</businessStatus>
@@ -218,13 +227,4 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Email</label>
-    <nameField>
-        <label>Email Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Emails</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>

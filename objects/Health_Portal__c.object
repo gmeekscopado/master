@@ -153,6 +153,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>Health Portal</label>
+    <nameField>
+        <label>Health Portal Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Health Portals</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>ABO_Blood_Type__c</fullName>
         <externalId>false</externalId>
@@ -218,13 +227,4 @@
         <type>LongTextArea</type>
         <visibleLines>5</visibleLines>
     </fields>
-    <label>Health Portal</label>
-    <nameField>
-        <label>Health Portal Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Health Portals</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
