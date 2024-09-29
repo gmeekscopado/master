@@ -153,15 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>License</label>
-    <nameField>
-        <label>License Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Licenses</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>License_Effective_Date__c</fullName>
         <description>List the date at which the license requested needs to be active by.</description>
@@ -187,6 +178,14 @@
         <type>Number</type>
         <unique>true</unique>
     </fields>
+    <label>License</label>
+    <nameField>
+        <label>License Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Licenses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>License_Holder</fullName>
         <active>true</active>
@@ -194,4 +193,5 @@
         <errorDisplayField>OwnerId</errorDisplayField>
         <errorMessage>No license holder detected. Please enter a license holder.</errorMessage>
     </validationRules>
+    <visibility>Public</visibility>
 </CustomObject>
