@@ -156,9 +156,13 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Form_Category__c</fullName>
-        <externalId>false</externalId>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Input the appropriate form used.</description>
+        <inlineHelpText>Please use this field for internal data management.</inlineHelpText>
         <label>Form Category</label>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -188,7 +192,6 @@
                 <value>
                     <fullName>Billing</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Billing</label>
                 </value>
             </valueSetDefinition>
