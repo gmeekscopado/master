@@ -167,7 +167,7 @@
     <fields>
         <fullName>Email_Service__c</fullName>
         <businessStatus>Active</businessStatus>
-        <externalId>false</externalId>
+        <description>Enter preferred email service.</description>
         <inlineHelpText>Picklist to denote which email provider the customer is using.</inlineHelpText>
         <label>Email Service</label>
         <required>false</required>
@@ -202,6 +202,11 @@
                     <fullName>Other</fullName>
                     <default>false</default>
                     <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Proton</fullName>
+                    <default>false</default>
+                    <label>Proton</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
