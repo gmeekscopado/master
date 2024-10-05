@@ -159,6 +159,7 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <description>Input the appropriate form used.</description>
+        <externalId>false</externalId>
         <inlineHelpText>Please use this field for internal data management.</inlineHelpText>
         <label>Form Category</label>
         <required>false</required>
