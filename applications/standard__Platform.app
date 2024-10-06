@@ -12,4 +12,5 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Retailer__c</tabs>
 </CustomApplication>
