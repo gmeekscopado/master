@@ -9,5 +9,5 @@
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
-    <userLicense>Salesforce</userLicense>
+    <userLicense>High Volume Customer Portal</userLicense>
 </Profile>

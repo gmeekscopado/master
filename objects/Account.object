@@ -229,6 +229,13 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Last_Opportunity_Date__c</fullName>
+        <label>Last Opportunity Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Account_Number__c</fullName>
         <description>This is Account Number custom field change #4.</description>
         <externalId>false</externalId>
