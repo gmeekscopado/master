@@ -2,9 +2,14 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Last_Opportunity_Date__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>Contact.Department__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Occupation__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <userLicense>Salesforce</userLicense>
 </Profile>
