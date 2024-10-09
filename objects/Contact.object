@@ -327,6 +327,79 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>Department__c</fullName>
+        <label>Department</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accounting</fullName>
+                    <default>false</default>
+                    <label>Accounting</label>
+                </value>
+                <value>
+                    <fullName>Customer Service</fullName>
+                    <default>false</default>
+                    <label>Customer Service</label>
+                </value>
+                <value>
+                    <fullName>Development</fullName>
+                    <default>false</default>
+                    <label>Development</label>
+                </value>
+                <value>
+                    <fullName>Engineering</fullName>
+                    <default>false</default>
+                    <label>Engineering</label>
+                </value>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                    <label>Finance</label>
+                </value>
+                <value>
+                    <fullName>Innovation</fullName>
+                    <default>false</default>
+                    <label>Innovation</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                    <label>Operations</label>
+                </value>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Support</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Occupation__c</fullName>
+        <externalId>false</externalId>
+        <label>Occupation</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
@@ -646,4 +719,13 @@
         <showsStatus>false</showsStatus>
         <url>http://weather.yahoo.com/search/weather2?p={!Contact_MailingPostalCode}</url>
     </webLinks>
+    <validationRules>
+        <fullName>Department_for_Occupation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    NOT(ISBLANK(Occupation__c)),
+    ISBLANK(TEXT(Department__c))
+)</errorConditionFormula>
+        <errorMessage>If an occupation is specified, please select which department the contact reports to.</errorMessage>
+    </validationRules>
 </CustomObject>
