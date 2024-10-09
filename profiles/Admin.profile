@@ -3,11 +3,16 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Last_Opportunity_Date__c</field>
+        <field>Contact.Department__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Occupation__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
+        <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
 </Profile>
