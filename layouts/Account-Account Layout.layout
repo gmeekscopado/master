@@ -43,6 +43,10 @@
                 <behavior>Edit</behavior>
                 <field>Last_Opportunity_Date__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Latest_Opportunity_Stage__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
