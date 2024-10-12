@@ -17,7 +17,6 @@
             <targetReference>Update_Account</targetReference>
         </connector>
     </assignments>
-    <environments>Default</environments>
     <interviewLabel>Update Account Last Opportunity Date {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Update Account Last Opportunity Date</label>
     <processMetadataValues>
