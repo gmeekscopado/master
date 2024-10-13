@@ -176,6 +176,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Last_Opportunity_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Latest_Opportunity_Stage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Marketing_Address__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -960,6 +970,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Department__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Description</field>
         <readable>true</readable>
@@ -1022,6 +1037,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Name_of_Customer__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Occupation__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
