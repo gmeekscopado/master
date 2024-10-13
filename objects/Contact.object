@@ -327,7 +327,74 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssistantName</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>AssistantPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Birthdate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Blackcard_Member__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
+        <defaultValue>false</defaultValue>
+        <description>This field is used for customers who have obtained Blackcard status.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
+        <label>Blackcard Member</label>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CanAllowPortalSelfReg</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Client_Phone_Number__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Insert preferred client phone number here (mobile or landline).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use the following format: x + (xxx) xxx-xxxx</inlineHelpText>
+        <label>Client Phone Number</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>ContactSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Customer_Background__c</fullName>
+        <businessStatus>Hidden</businessStatus>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Customer background information.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used for strategic marketing communication to prospects and existing customers.</inlineHelpText>
+        <label>Customer Background</label>
+        <required>false</required>
+        <securityClassification>Internal</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Department</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Department__c</fullName>
+        <externalId>false</externalId>
         <label>Department</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -388,81 +455,6 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>Occupation__c</fullName>
-        <externalId>false</externalId>
-        <label>Occupation</label>
-        <length>32</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>AccountId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>AssistantName</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>AssistantPhone</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Birthdate</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Blackcard_Member__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>PII;GDPR</complianceGroup>
-        <defaultValue>false</defaultValue>
-        <description>This field is used for customers who have obtained Blackcard status. Treat with care!</description>
-        <inlineHelpText>Blackcard status is a priority designation. This can designate the level of attention a customer will warrant.</inlineHelpText>
-        <label>Blackcard Member</label>
-        <securityClassification>Confidential</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>CanAllowPortalSelfReg</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Client_Phone_Number__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>Insert preferred client phone number here (mobile or landline).</description>
-        <inlineHelpText>Use the following format: x + (xxx) xxx-xxxx</inlineHelpText>
-        <label>Client Phone Number</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Phone</type>
-    </fields>
-    <fields>
-        <fullName>ContactSource</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Customer_Background__c</fullName>
-        <businessStatus>Hidden</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>Customer background information.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Used for strategic marketing communication to prospects and existing customers.</inlineHelpText>
-        <label>Customer Background</label>
-        <required>false</required>
-        <securityClassification>Internal</securityClassification>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>TextArea</type>
-    </fields>
-    <fields>
-        <fullName>Department</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -554,6 +546,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Occupation__c</fullName>
+        <externalId>false</externalId>
+        <label>Occupation</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>OtherAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -622,6 +624,15 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Department_for_Occupation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    NOT(ISBLANK(Occupation__c)),
+    ISBLANK(TEXT(Department__c))
+)</errorConditionFormula>
+        <errorMessage>If an occupation is specified, please select which department the contact reports to.</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>GoogleMaps</fullName>
         <availability>online</availability>
@@ -717,13 +728,4 @@
         <showsStatus>false</showsStatus>
         <url>http://weather.yahoo.com/search/weather2?p={!Contact_MailingPostalCode}</url>
     </webLinks>
-    <validationRules>
-        <fullName>Department_for_Occupation</fullName>
-        <active>true</active>
-        <errorConditionFormula>AND(
-    NOT(ISBLANK(Occupation__c)),
-    ISBLANK(TEXT(Department__c))
-)</errorConditionFormula>
-        <errorMessage>If an occupation is specified, please select which department the contact reports to.</errorMessage>
-    </validationRules>
 </CustomObject>
