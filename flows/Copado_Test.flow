@@ -24,7 +24,9 @@
                 <elementReference>Test_Date</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
     <decisions>
@@ -46,6 +48,7 @@
             <label>Third Step Outcome</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>Copado Test {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Copado Test</label>
     <processMetadataValues>
@@ -83,6 +86,7 @@
             <dataType>Date</dataType>
             <fieldText>Test Date</fieldText>
             <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>false</isRequired>
         </fields>
         <showFooter>true</showFooter>
@@ -95,5 +99,5 @@
             <targetReference>First_Step</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
 </Flow>
