@@ -8,7 +8,6 @@
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-FlowRecord</tabs>
-    <tabs>Retailer__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>FlowsApp_UtilityBar</utilityBar>
 </CustomApplication>

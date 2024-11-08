@@ -179,11 +179,7 @@
     </preferences>
     <tabs>standard-Case</tabs>
     <tabs>standard-Knowledge</tabs>
-    <tabs>Retailer__c</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>Retailer__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Case</tab>
         </mappings>

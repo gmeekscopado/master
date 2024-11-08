@@ -198,6 +198,31 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Party_Number_Field__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>What party number is this for the year?</description>
+        <externalId>false</externalId>
+        <label>Party Number Field</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Test_Text_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Text Field</label>
+        <length>56</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>Party</label>
     <nameField>
         <label>Party Name</label>

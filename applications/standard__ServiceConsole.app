@@ -182,11 +182,7 @@
     <tabs>standard-Lead</tabs>
     <tabs>standard-Knowledge</tabs>
     <tabs>standard-Document</tabs>
-    <tabs>Retailer__c</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>Retailer__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

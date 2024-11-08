@@ -26,10 +26,6 @@
                 <behavior>Edit</behavior>
                 <field>Budget__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Power__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

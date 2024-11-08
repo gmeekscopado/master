@@ -114,9 +114,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
-        <content>TrialCustomerPortalHomePage</content>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Visualforce</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>

@@ -165,19 +165,14 @@
     </fields>
     <fields>
         <fullName>License_Number__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
         <description>License number as assigned by state agency.</description>
         <externalId>false</externalId>
-        <inlineHelpText>This field contains vendor/business license information.</inlineHelpText>
         <label>License Number</label>
-        <precision>9</precision>
+        <length>20</length>
         <required>false</required>
-        <scale>0</scale>
-        <securityClassification>Public</securityClassification>
         <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>true</unique>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <label>License</label>
     <nameField>

@@ -426,65 +426,6 @@
         <type>Date</type>
     </fields>
     <fields>
-        <fullName>Latest_Opportunity_Stage__c</fullName>
-        <externalId>false</externalId>
-        <label>Latest Opportunity Stage</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Marketing Qualification</fullName>
-                    <default>false</default>
-                    <label>Marketing Qualification</label>
-                </value>
-                <value>
-                    <fullName>Discovery</fullName>
-                    <default>false</default>
-                    <label>Discovery</label>
-                </value>
-                <value>
-                    <fullName>Solution Alignment</fullName>
-                    <default>false</default>
-                    <label>Solution Alignment</label>
-                </value>
-                <value>
-                    <fullName>Solution Validation</fullName>
-                    <default>false</default>
-                    <label>Solution Validation</label>
-                </value>
-                <value>
-                    <fullName>Formal Proposal</fullName>
-                    <default>false</default>
-                    <label>Formal Proposal</label>
-                </value>
-                <value>
-                    <fullName>Negotiation</fullName>
-                    <default>false</default>
-                    <label>Negotiation</label>
-                </value>
-                <value>
-                    <fullName>Signed Contract Recieved</fullName>
-                    <default>false</default>
-                    <label>Signed Contract Recieved</label>
-                </value>
-                <value>
-                    <fullName>Deal Desk Review</fullName>
-                    <default>false</default>
-                    <label>Deal Desk Review</label>
-                </value>
-                <value>
-                    <fullName>Closed Lost</fullName>
-                    <default>false</default>
-                    <label>Closed Lost</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Marketing_Address__c</fullName>
         <businessStatus>Active</businessStatus>
         <caseSensitive>false</caseSensitive>
@@ -839,12 +780,6 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>Account_Name_3_Characters</fullName>
-        <active>true</active>
-        <errorConditionFormula>LEN( Name )  &gt;= 3</errorConditionFormula>
-        <errorMessage>Account Name must contain at least 3 characters.</errorMessage>
-    </validationRules>
     <webLinks>
         <fullName>AltavistaNews</fullName>
         <availability>online</availability>

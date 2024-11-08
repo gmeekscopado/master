@@ -104,9 +104,5 @@
             <translation><!-- Road --></translation>
         </picklistValues>
     </fields>
-    <sharingReasons>
-        <label><!-- Bicycle Access --></label>
-        <name>Bicycle_Access</name>
-    </sharingReasons>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

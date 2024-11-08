@@ -14,5 +14,4 @@
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
     <tabs>standard-Product2</tabs>
-    <tabs>Retailer__c</tabs>
 </CustomApplication>

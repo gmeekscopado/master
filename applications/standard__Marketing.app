@@ -12,5 +12,4 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Chatter</tabs>
-    <tabs>Retailer__c</tabs>
 </CustomApplication>

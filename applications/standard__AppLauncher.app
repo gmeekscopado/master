@@ -5,5 +5,4 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-AppLauncher</tabs>
-    <tabs>Retailer__c</tabs>
 </CustomApplication>
