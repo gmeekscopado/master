@@ -96,14 +96,6 @@
         <apexClass>AccountOperationsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>TrialCustomerPortalHomePageController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>superSort</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -879,6 +871,36 @@
         <editable>false</editable>
         <field>Charity__c.Mission_Statement__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Client_Engagement__c.Account_Manager__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Client_Engagement__c.End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Client_Engagement__c.Engagement_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Client_Engagement__c.Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Client_Engagement__c.Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Client_Engagement__c.Status__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1712,11 +1734,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>House__c.Sample_Change__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Idea.Attachment</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2333,11 +2350,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Product2.StockKeepingUnit</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Retailer__c.Retailer_Specialty__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3228,6 +3240,9 @@
         <layout>Charity__c-Charity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Client_Engagement__c-Client Engagement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CommunityMemberLayout-Community Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3291,7 +3306,7 @@
         <layout>Global-Global Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>House__c-House Layout</layout>
+        <layout>Health_Portal__c-Health Portal Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
@@ -3347,9 +3362,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Retailer__c-Retailer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
@@ -3514,6 +3526,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Charity__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Client_Engagement__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -3738,15 +3759,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>House__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>Idea</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -3909,15 +3921,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Retailer__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>Scorecard</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -4037,10 +4040,6 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>ChatterAnswersRegistration</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>TrialCustomerPortalHomePage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -4564,6 +4563,22 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ExternalClientAppAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExternalClientAppDeveloper</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExternalClientAppViewer</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FreezeUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>GiveRecognitionBadge</name>
     </userPermissions>
     <userPermissions>
@@ -4648,6 +4663,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageCustomDomains</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageCustomPermissions</name>
     </userPermissions>
     <userPermissions>
@@ -4665,6 +4684,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageDataIntegrations</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageDevSandboxes</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -4829,6 +4852,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ModifyMetadata</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MonitorLoginHistory</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

@@ -838,13 +838,7 @@
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
-    <validationRules>
-        <fullName>Account_Name_3_Characters</fullName>
-        <active>true</active>
-        <errorConditionFormula>LEN( Name )  &gt;= 3</errorConditionFormula>
-        <errorMessage>Account Name must contain at least 3 characters.</errorMessage>
-    </validationRules>
+    <sharingModel>ReadWrite</sharingModel>
     <webLinks>
         <fullName>AltavistaNews</fullName>
         <availability>online</availability>

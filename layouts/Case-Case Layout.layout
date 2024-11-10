@@ -24,10 +24,6 @@
                 <behavior>Readonly</behavior>
                 <field>AccountId</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Case_Creation_Date__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

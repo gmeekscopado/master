@@ -8,11 +8,15 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>License_Effective_Date__c</field>
+                <field>Name</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>License_Number__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Name</field>
+                <field>License_Effective_Date__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -51,9 +55,6 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <miniLayout>
-        <fields>License_Effective_Date__c</fields>
-    </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>

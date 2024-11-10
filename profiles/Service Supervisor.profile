@@ -96,14 +96,6 @@
         <apexClass>AccountOperationsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>TrialCustomerPortalHomePageController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>superSort</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -882,6 +874,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Client_Engagement__c.Account_Manager__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Client_Engagement__c.End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Client_Engagement__c.Engagement_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Client_Engagement__c.Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Client_Engagement__c.Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Client_Engagement__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>CommSubscription.CommunicationSubscriptionCode</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1383,7 +1405,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contract.Contract_ID__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1708,11 +1730,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Health_Portal__c.Vaccines__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>House__c.Sample_Change__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2334,11 +2351,6 @@
         <editable>true</editable>
         <field>Product2.StockKeepingUnit</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Retailer__c.Retailer_Specialty__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3228,6 +3240,9 @@
         <layout>Charity__c-Charity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Client_Engagement__c-Client Engagement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CommunityMemberLayout-Community Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3291,7 +3306,7 @@
         <layout>Global-Global Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>House__c-House Layout</layout>
+        <layout>Health_Portal__c-Health Portal Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
@@ -3347,9 +3362,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Retailer__c-Retailer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
@@ -3830,10 +3842,6 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>ChatterAnswersRegistration</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>TrialCustomerPortalHomePage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>

@@ -95,5 +95,5 @@
             <targetReference>First_Step</targetReference>
         </connector>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
 </Flow>

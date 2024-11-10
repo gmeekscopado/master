@@ -13,17 +13,17 @@
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
-        <default>false</default>
-        <visible>false</visible>
+        <default>true</default>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Chatter</application>
-        <default>true</default>
-        <visible>true</visible>
+        <default>false</default>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Community</application>
@@ -33,7 +33,7 @@
     <applicationVisibilities>
         <application>standard__FlowsApp</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningBolt</application>
@@ -43,7 +43,7 @@
     <applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Marketing</application>
@@ -53,7 +53,7 @@
     <applicationVisibilities>
         <application>standard__OnlineSales</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Platform</application>
@@ -96,7 +96,7 @@
         <apexClass>AccountOperationsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <custom>false</custom>
+    <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
@@ -773,9 +773,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.IsVisibleInSelfService</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -793,7 +793,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.ParentId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3411,6 +3411,15 @@
     <layoutAssignments>
         <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Location</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>ChatterAnswersAgentView</apexPage>
         <enabled>false</enabled>
@@ -3487,19 +3496,19 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationFormConsent</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationFormDataUse</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationFormText</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-BusinessBrand</tab>
@@ -3515,7 +3524,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CollaborationGroup</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CommSubscription</tab>
@@ -3543,7 +3552,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ContactPointTypeConsent</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ContactRequest</tab>
@@ -3563,15 +3572,15 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DataUseLegalBasis</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DataUsePurpose</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DuplicateRecordSet</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-EngagementChannelType</tab>
@@ -3580,6 +3589,10 @@
     <tabVisibilities>
         <tab>standard-Entitlement</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Event</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-FlowOrchestrationInstance</tab>
@@ -3591,7 +3604,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Idea</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Image</tab>
@@ -3607,11 +3620,11 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Location</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-LocationTrustMeasure</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Macro</tab>
@@ -3674,6 +3687,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Task</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3681,7 +3698,7 @@
         <tab>standard-WorkOrder</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    <userLicense>Chatter Free</userLicense>
+    <userLicense>Identity</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
@@ -3700,7 +3717,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>BypassMFAForUiLogins</name>
+        <name>ChatterEditOwnPost</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -3720,6 +3737,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ContentWorkspaces</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>CreateTopics</name>
     </userPermissions>
     <userPermissions>
@@ -3736,15 +3757,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>IdentityEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>LightningExperienceUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ModerateChatter</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PasswordNeverExpires</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -3757,6 +3774,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ShowCompanyNameAsUserBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseWebLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

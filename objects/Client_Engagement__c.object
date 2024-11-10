@@ -143,40 +143,52 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Credit_Card__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>PII</complianceGroup>
-        <description>This field contains credit card information that can be used for future payment.</description>
+        <fullName>Account_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>Credit Card</label>
-        <length>16</length>
-        <maskChar>asterisk</maskChar>
-        <maskType>creditCard</maskType>
+        <label>Account Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Client_Engagements</relationshipName>
         <required>false</required>
-        <securityClassification>Restricted</securityClassification>
         <trackTrending>false</trackTrending>
-        <type>EncryptedText</type>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Email_Service__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <description>Enter preferred email service.</description>
+        <fullName>Client__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
         <externalId>false</externalId>
-        <inlineHelpText>Picklist to denote which email provider the customer is using.</inlineHelpText>
-        <label>Email Service</label>
+        <label>Client</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Client Engagements</relationshipLabel>
+        <relationshipName>Client_Engagements</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
         <required>false</required>
-        <securityClassification>Internal</securityClassification>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Engagement_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Engagement Type</label>
+        <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -184,44 +196,82 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>AOL</fullName>
+                    <fullName>Outsourced IT</fullName>
                     <default>false</default>
-                    <label>AOL</label>
+                    <label>Outsourced IT</label>
                 </value>
                 <value>
-                    <fullName>Gmail</fullName>
+                    <fullName>Co-Managed IT</fullName>
                     <default>false</default>
-                    <label>Gmail</label>
+                    <label>Co-Managed IT</label>
                 </value>
                 <value>
-                    <fullName>Hotmail</fullName>
+                    <fullName>Cybersecurity Consultancy</fullName>
                     <default>false</default>
-                    <label>Hotmail</label>
-                </value>
-                <value>
-                    <fullName>Yahoo</fullName>
-                    <default>false</default>
-                    <label>Yahoo</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-                <value>
-                    <fullName>Proton</fullName>
-                    <default>false</default>
-                    <label>Proton</label>
+                    <label>Cybersecurity Consultancy</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Email</label>
+    <fields>
+        <fullName>Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Planning</fullName>
+                    <default>false</default>
+                    <label>Planning</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Client Engagement</label>
     <nameField>
-        <label>Email Name</label>
+        <label>Client Engagement Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Emails</pluralLabel>
+    <pluralLabel>Client Engagements</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
