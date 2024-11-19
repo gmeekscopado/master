@@ -14,7 +14,7 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>Get_Related_Account.null__NotFound</assignToReference>
+            <assignToReference>Get_Related_Account.Latest_Opportunity_Stage__c</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>$Record.StageName</elementReference>
@@ -46,6 +46,7 @@
             <label>Outcome 1 of Decision 1</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>Update Account Last Opportunity Date {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Update Account Last Opportunity Date</label>
     <processMetadataValues>
@@ -88,7 +89,7 @@
         <object>Account</object>
         <queriedFields>Id</queriedFields>
         <queriedFields>Last_Opportunity_Date__c</queriedFields>
-        <queriedFields>null__NotFound</queriedFields>
+        <queriedFields>Latest_Opportunity_Stage__c</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
@@ -103,9 +104,9 @@
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>null__NotFound</field>
+            <field>Latest_Opportunity_Stage__c</field>
             <value>
-                <elementReference>Get_Related_Account.null__NotFound</elementReference>
+                <elementReference>Get_Related_Account.Latest_Opportunity_Stage__c</elementReference>
             </value>
         </inputAssignments>
         <object>Account</object>
@@ -120,5 +121,5 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>InvalidDraft</status>
+    <status>Draft</status>
 </Flow>
