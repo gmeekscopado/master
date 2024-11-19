@@ -46,6 +46,7 @@
             <label>Outcome 1 of Decision 1</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>Update Account Last Opportunity Date {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Update Account Last Opportunity Date</label>
     <processMetadataValues>
