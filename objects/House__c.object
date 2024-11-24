@@ -154,6 +154,17 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Sample_Change__c</fullName>
+        <description>This is a sample field change - 20</description>
+        <externalId>false</externalId>
+        <label>Sample Change</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
     <label>House</label>
     <nameField>
         <label>House Name</label>
@@ -163,14 +174,4 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
-    <fields>
-        <fullName>Sample_Change__c</fullName>
-        <description>This is a sample field change - 20</description>
-        <label>Sample Change</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Percent</type>
-    </fields>
 </CustomObject>

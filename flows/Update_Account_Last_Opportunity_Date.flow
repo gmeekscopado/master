@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Update_Account_Last_Opportunity_Date</fullName>
     <apiVersion>62.0</apiVersion>
     <assignments>
         <name>Set_New_Last_Opportunity_Date</name>
@@ -11,32 +10,14 @@
             <assignToReference>Get_Related_Account.Last_Opportunity_Date__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <apexValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <booleanValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
                 <elementReference>$Record.CreatedDate</elementReference>
-                <formulaDataType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <formulaExpression xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <numberValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReferenceType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <sobjectValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <transform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>Get_Related_Account.Latest_Opportunity_Stage__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <apexValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <booleanValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
                 <elementReference>$Record.StageName</elementReference>
-                <formulaDataType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <formulaExpression xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <numberValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReferenceType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <sobjectValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <transform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
             </value>
         </assignmentItems>
         <connector>
@@ -59,67 +40,30 @@
                 <leftValueReference>$Record.CreatedDate</leftValueReference>
                 <operator>LessThan</operator>
                 <rightValue>
-                    <apexValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                    <booleanValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
                     <elementReference>Get_Related_Account.Last_Opportunity_Date__c</elementReference>
-                    <formulaDataType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                    <formulaExpression xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                    <numberValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                    <setupReference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                    <setupReferenceType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                    <sobjectValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                    <transform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
                 </rightValue>
             </conditions>
             <label>Outcome 1 of Decision 1</label>
         </rules>
     </decisions>
-    <environments>Default</environments>
     <interviewLabel>Update Account Last Opportunity Date {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Update Account Last Opportunity Date</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
-            <apexValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <booleanValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <formulaDataType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <formulaExpression xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <numberValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <setupReference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <setupReferenceType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <sobjectValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
             <stringValue>LightningFlowBuilder</stringValue>
-            <transform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
         </value>
     </processMetadataValues>
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <apexValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <booleanValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <formulaDataType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <formulaExpression xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <numberValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <setupReference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <setupReferenceType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <sobjectValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
             <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
-            <transform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
         </value>
     </processMetadataValues>
     <processMetadataValues>
         <name>OriginBuilderType</name>
         <value>
-            <apexValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <booleanValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <formulaDataType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <formulaExpression xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <numberValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <setupReference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <setupReferenceType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-            <sobjectValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
             <stringValue>LightningFlowBuilder</stringValue>
-            <transform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
@@ -137,16 +81,7 @@
             <field>Id</field>
             <operator>EqualTo</operator>
             <value>
-                <apexValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <booleanValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
                 <elementReference>$Record.AccountId</elementReference>
-                <formulaDataType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <formulaExpression xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <numberValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReferenceType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <sobjectValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <transform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -164,31 +99,13 @@
         <inputAssignments>
             <field>Last_Opportunity_Date__c</field>
             <value>
-                <apexValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <booleanValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
                 <elementReference>Get_Related_Account.Last_Opportunity_Date__c</elementReference>
-                <formulaDataType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <formulaExpression xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <numberValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReferenceType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <sobjectValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <transform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
             </value>
         </inputAssignments>
         <inputAssignments>
             <field>Latest_Opportunity_Stage__c</field>
             <value>
-                <apexValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <booleanValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
                 <elementReference>Get_Related_Account.Latest_Opportunity_Stage__c</elementReference>
-                <formulaDataType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <formulaExpression xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <numberValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <setupReferenceType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <sobjectValue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <transform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
             </value>
         </inputAssignments>
         <object>Account</object>
@@ -204,5 +121,4 @@
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Draft</status>
-    <triggerOrder xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 </Flow>
