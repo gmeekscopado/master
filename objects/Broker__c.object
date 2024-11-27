@@ -161,11 +161,11 @@
     <pluralLabel>Brokers</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <validationRules>
         <fullName>Phone_Number_10_Numbers</fullName>
         <active>true</active>
         <errorConditionFormula>LEN($User.Phone)  = 10</errorConditionFormula>
         <errorMessage>The User phone number must include a 3 digit area code followed by the 7 digit phone number.</errorMessage>
     </validationRules>
-    <visibility>Public</visibility>
 </CustomObject>
