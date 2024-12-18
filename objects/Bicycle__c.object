@@ -341,4 +341,8 @@
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
+    <sharingReasons>
+        <fullName>Bicycle_Access__c</fullName>
+        <label>Bicycle Access</label>
+    </sharingReasons>
 </CustomObject>

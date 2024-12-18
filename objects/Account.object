@@ -246,7 +246,7 @@
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <fields>
         <fullName>Latest_Opportunity_Stage__c</fullName>
         <label>Latest Opportunity Stage</label>
