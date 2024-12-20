@@ -3,6 +3,21 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Curriculum__c.Lesson_Plan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Curriculum__c.Standardized_Testing_Aligned__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.VIP__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Account_Ext_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -37,10 +52,25 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Client_Engagement__c-Client Engagement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Curriculum__c-Curriculum Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Curriculum__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
 </Profile>

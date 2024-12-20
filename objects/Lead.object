@@ -338,11 +338,13 @@
     </fields>
     <fields>
         <fullName>VIP__c</fullName>
-        <description>This is description change #83.</description>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
         <externalId>false</externalId>
         <label>VIP</label>
         <length>255</length>
         <required>false</required>
+        <securityClassification>Public</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
