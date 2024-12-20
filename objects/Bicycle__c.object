@@ -218,6 +218,8 @@
     </fields>
     <fields>
         <fullName>Budget__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <description>Enter the current budget for bicycle purchase.</description>
         <label>Budget</label>
         <precision>18</precision>
         <required>false</required>
