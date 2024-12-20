@@ -166,6 +166,7 @@
     <fields>
         <fullName>Standardized_Testing_Aligned__c</fullName>
         <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
         <label>Standardized Testing Aligned?</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
