@@ -111,5 +111,9 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    <sharingReasons>
+        <label><!-- Bicycle Access --></label>
+        <name>Bicycle_Access</name>
+    </sharingReasons>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
