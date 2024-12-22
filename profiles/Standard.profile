@@ -1523,6 +1523,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Curriculum__c.Lesson_Plan__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Curriculum__c.Standardized_Testing_Aligned__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>true</readable>
@@ -3237,6 +3247,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContractLineItem-Contract Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Curriculum__c-Curriculum Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Customer-Customer Layout</layout>

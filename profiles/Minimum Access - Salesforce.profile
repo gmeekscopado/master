@@ -1524,6 +1524,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Curriculum__c.Lesson_Plan__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Curriculum__c.Standardized_Testing_Aligned__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3177,6 +3187,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContactPointPhone-Contact Point Phone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Curriculum__c-Curriculum Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Email__c-Email Layout</layout>
