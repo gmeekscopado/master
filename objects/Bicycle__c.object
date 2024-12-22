@@ -153,15 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Bicycle</label>
-    <nameField>
-        <label>Bicycle Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Bicycles</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>Brand__c</fullName>
         <externalId>false</externalId>
@@ -220,6 +211,7 @@
         <fullName>Budget__c</fullName>
         <businessStatus>Active</businessStatus>
         <description>Enter the current budget for bicycle purchase.</description>
+        <externalId>false</externalId>
         <label>Budget</label>
         <precision>18</precision>
         <required>false</required>
@@ -347,4 +339,13 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <label>Bicycle</label>
+    <nameField>
+        <label>Bicycle Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Bicycles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>
