@@ -72,25 +72,34 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Duration</fullName>
+        <fullName>Comments</fullName>
     </fields>
     <fields>
-        <fullName>OrchestrationDeveloperName</fullName>
+        <fullName>DoesSendApprovalEmail</fullName>
     </fields>
     <fields>
-        <fullName>OrchestrationLabel</fullName>
+        <fullName>FlowOrchestrationInstanceId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>RelatedRecordId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RelatedRecordObjectName</fullName>
+    </fields>
+    <fields>
         <fullName>Status</fullName>
     </fields>
     <fields>
-        <fullName>TriggeringRecord</fullName>
+        <fullName>SubmittedById</fullName>
+        <type>Lookup</type>
     </fields>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
