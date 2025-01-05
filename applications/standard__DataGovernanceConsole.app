@@ -4,11 +4,9 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>FlowsApp</label>
+    <label>Policy Center</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-FlowRecord</tabs>
-    <tabs>standard-Monitor</tabs>
+    <tabs>standard-DataMgmtPolicy</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>FlowsApp_UtilityBar</utilityBar>
 </CustomApplication>
