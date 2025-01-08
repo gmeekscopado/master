@@ -153,6 +153,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>Bicycle</label>
+    <nameField>
+        <label>Bicycle Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Bicycles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Brand__c</fullName>
         <externalId>false</externalId>
@@ -219,7 +228,6 @@
     </fields>
     <fields>
         <fullName>Power__c</fullName>
-        <externalId>false</externalId>
         <label>Power</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -260,7 +268,6 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <description>What type of tires does the bike have?</description>
-        <externalId>false</externalId>
         <label>Tires</label>
         <required>true</required>
         <securityClassification>Public</securityClassification>
@@ -322,13 +329,4 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Bicycle</label>
-    <nameField>
-        <label>Bicycle Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Bicycles</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
