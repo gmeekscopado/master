@@ -211,6 +211,7 @@
         <fullName>Budget__c</fullName>
         <businessStatus>Active</businessStatus>
         <description>Enter the current budget for bicycle purchase.</description>
+        <externalId>false</externalId>
         <label>Budget</label>
         <precision>18</precision>
         <required>false</required>
