@@ -884,6 +884,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.EngineeringReqNumber__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.EntitlementId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -939,6 +944,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.PotentialLiability__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Priority</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -949,7 +959,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Reason</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SLAViolation__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1080,6 +1100,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>CommSubscriptionTiming.PreferredTimeZone</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Company_Profile__c.BBB_Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Company_Profile__c.Company_History__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Company_Profile__c.Warranty_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Company_Profile__c.Year_Founded__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3356,6 +3396,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Client_Engagement__c-Client Engagement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Company_Profile__c-Company Profile Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Curriculum__c-Curriculum Layout</layout>
