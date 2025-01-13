@@ -183,6 +183,8 @@
     </fields>
     <fields>
         <fullName>Brand__c</fullName>
+        <description>What is the bicycle brand?</description>
+        <inlineHelpText>Insert bicycle brand here.</inlineHelpText>
         <label>Brand</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -236,6 +238,8 @@
     </fields>
     <fields>
         <fullName>Budget__c</fullName>
+        <description>What is the customer&apos;s budget?</description>
+        <inlineHelpText>Insert budget here.</inlineHelpText>
         <label>Budget</label>
         <precision>18</precision>
         <required>false</required>
@@ -289,6 +293,7 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <description>What type of tires does the bike have?</description>
+        <inlineHelpText>Insert tire type here.</inlineHelpText>
         <label>Tires</label>
         <required>true</required>
         <securityClassification>Public</securityClassification>
