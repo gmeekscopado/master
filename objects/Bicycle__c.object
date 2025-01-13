@@ -166,7 +166,6 @@
         <fullName>Brand__c</fullName>
         <label>Brand</label>
         <required>false</required>
-        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -253,14 +252,16 @@
                     <label>Gas</label>
                 </value>
                 <value>
-                    <fullName>Natural Gas</fullName>
-                    <default>false</default>
-                    <label>Natural Gas</label>
-                </value>
-                <value>
                     <fullName>Battery</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Battery</label>
+                </value>
+                <value>
+                    <fullName>Natural Gas</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Natural Gas</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -330,6 +331,7 @@
                 <value>
                     <fullName>Water</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Water</label>
                 </value>
             </valueSetDefinition>
