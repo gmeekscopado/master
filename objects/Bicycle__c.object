@@ -154,6 +154,35 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Seat_Style__c</fullName>
+        <description>What style of seat does the bike have?</description>
+        <label>Seat Style</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cruiser</fullName>
+                    <default>false</default>
+                    <label>Cruiser</label>
+                </value>
+                <value>
+                    <fullName>Racing</fullName>
+                    <default>false</default>
+                    <label>Racing</label>
+                </value>
+                <value>
+                    <fullName>Sport</fullName>
+                    <default>false</default>
+                    <label>Sport</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Brand__c</fullName>
         <label>Brand</label>
         <required>false</required>
@@ -208,8 +237,8 @@
     </fields>
     <fields>
         <fullName>Budget__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <description>Enter the current budget for bicycle purchase.</description>
+        <description>What is the customer&apos;s budget?</description>
+        <inlineHelpText>Insert budget here.</inlineHelpText>
         <label>Budget</label>
         <precision>18</precision>
         <required>false</required>
@@ -270,6 +299,7 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <description>What type of tires does the bike have?</description>
+        <inlineHelpText>Insert tire type here.</inlineHelpText>
         <label>Tires</label>
         <required>true</required>
         <securityClassification>Public</securityClassification>
@@ -302,7 +332,6 @@
                 <value>
                     <fullName>Water</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Water</label>
                 </value>
             </valueSetDefinition>
