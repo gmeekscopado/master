@@ -154,6 +154,34 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Seat_Style__c</fullName>
+        <label>Seat Style</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cruiser</fullName>
+                    <default>false</default>
+                    <label>Cruiser</label>
+                </value>
+                <value>
+                    <fullName>Racing</fullName>
+                    <default>false</default>
+                    <label>Racing</label>
+                </value>
+                <value>
+                    <fullName>Sport</fullName>
+                    <default>false</default>
+                    <label>Sport</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Brand__c</fullName>
         <label>Brand</label>
         <required>false</required>
@@ -240,6 +268,11 @@
                     <default>false</default>
                     <label>Gas</label>
                 </value>
+                <value>
+                    <fullName>Hybrid</fullName>
+                    <default>false</default>
+                    <label>Hybrid</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -284,6 +317,11 @@
                     <fullName>Snow</fullName>
                     <default>false</default>
                     <label>Snow</label>
+                </value>
+                <value>
+                    <fullName>Water</fullName>
+                    <default>false</default>
+                    <label>Water</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
