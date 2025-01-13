@@ -209,9 +209,6 @@
     </fields>
     <fields>
         <fullName>Budget__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <description>Enter the current budget for bicycle purchase.</description>
-        <externalId>false</externalId>
         <label>Budget</label>
         <precision>18</precision>
         <required>false</required>
@@ -221,7 +218,6 @@
     </fields>
     <fields>
         <fullName>Power__c</fullName>
-        <externalId>false</externalId>
         <label>Power</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -245,18 +241,6 @@
                     <default>false</default>
                     <label>Gas</label>
                 </value>
-                <value>
-                    <fullName>Battery</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Battery</label>
-                </value>
-                <value>
-                    <fullName>Natural Gas</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Natural Gas</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -274,7 +258,6 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <description>What type of tires does the bike have?</description>
-        <externalId>false</externalId>
         <label>Tires</label>
         <required>true</required>
         <securityClassification>Public</securityClassification>
@@ -303,12 +286,6 @@
                     <fullName>Snow</fullName>
                     <default>false</default>
                     <label>Snow</label>
-                </value>
-                <value>
-                    <fullName>Water</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Water</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
