@@ -155,6 +155,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Seat_Style__c</fullName>
+        <description>What style of seat does the bike have?</description>
         <label>Seat Style</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
