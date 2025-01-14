@@ -52,10 +52,6 @@
         <label><!-- Power --></label>
         <name>Power__c</name>
         <picklistValues>
-            <masterLabel>Battery</masterLabel>
-            <translation><!-- Battery --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Electric</masterLabel>
             <translation><!-- Electric --></translation>
         </picklistValues>
@@ -66,10 +62,6 @@
         <picklistValues>
             <masterLabel>Manual</masterLabel>
             <translation><!-- Manual --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Natural Gas</masterLabel>
-            <translation><!-- Natural Gas --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -95,10 +87,6 @@
             <masterLabel>Snow</masterLabel>
             <translation><!-- Snow --></translation>
         </picklistValues>
-        <picklistValues>
-            <masterLabel>Water</masterLabel>
-            <translation><!-- Water --></translation>
-        </picklistValues>
     </fields>
     <fields>
         <label><!-- Type --></label>
@@ -116,13 +104,6 @@
             <translation><!-- Road --></translation>
         </picklistValues>
     </fields>
-    <layouts>
-        <layout>Bicycle Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <sharingReasons>
         <label><!-- Bicycle Access --></label>
         <name>Bicycle_Access</name>
