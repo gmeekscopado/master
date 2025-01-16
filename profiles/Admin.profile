@@ -3,6 +3,21 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Patient_Profile__c.Date_of_Birth__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Patient_Profile__c.Pre_Existing_Conditions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Patient_Profile__c.Primary_Care_Provider__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>License__c.License_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -57,6 +72,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Patient_Profile__c-Patient Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -75,6 +93,15 @@
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Patient_Profile__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

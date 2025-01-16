@@ -3,6 +3,21 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Patient_Profile__c.Date_of_Birth__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Patient_Profile__c.Pre_Existing_Conditions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Patient_Profile__c.Primary_Care_Provider__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Account_Ext_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -36,6 +51,9 @@
         <field>Contact.Occupation__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Patient_Profile__c-Patient Profile Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
