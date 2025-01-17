@@ -143,52 +143,20 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>BBB_Rating__c</fullName>
-        <description>Insert the company&apos;s rating here.</description>
+        <fullName>Lesson_Plan__c</fullName>
         <externalId>false</externalId>
-        <label>BBB Rating</label>
-        <length>10</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Company_History__c</fullName>
-        <description>Tell us a little about the company.</description>
-        <externalId>false</externalId>
-        <label>Company History</label>
-        <length>32768</length>
-        <trackTrending>false</trackTrending>
-        <type>Html</type>
-        <visibleLines>25</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Company_Industry__c</fullName>
-        <externalId>false</externalId>
-        <label>Company Industry</label>
-        <length>55</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Warranty_Description__c</fullName>
-        <description>What type of coverage is needed?</description>
-        <externalId>false</externalId>
-        <label>Warranty Description</label>
+        <label>Lesson Plan</label>
         <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -196,23 +164,19 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Year_Founded__c</fullName>
-        <description>When was the company founded?</description>
+        <fullName>Standardized_Testing_Aligned__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Year Founded</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
+        <label>Standardized Testing Aligned?</label>
         <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
+        <type>Checkbox</type>
     </fields>
-    <label>Company Profile</label>
+    <label>Curriculum</label>
     <nameField>
-        <label>Company Profile Name</label>
+        <label>Curriculum Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Company Profiles</pluralLabel>
+    <pluralLabel>Curricula</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

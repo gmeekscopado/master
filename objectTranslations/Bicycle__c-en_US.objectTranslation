@@ -45,6 +45,7 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- Insert budget here. --></help>
         <label><!-- Budget --></label>
         <name>Budget__c</name>
     </fields>
@@ -60,15 +61,37 @@
             <translation><!-- Gas --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Hybrid</masterLabel>
+            <translation><!-- Hybrid --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Manual</masterLabel>
             <translation><!-- Manual --></translation>
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- Insert purchase date here. --></help>
         <label><!-- Purchase Date --></label>
         <name>Purchase_Date__c</name>
     </fields>
     <fields>
+        <label><!-- Seat Style --></label>
+        <name>Seat_Style__c</name>
+        <picklistValues>
+            <masterLabel>Cruiser</masterLabel>
+            <translation><!-- Cruiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Racing</masterLabel>
+            <translation><!-- Racing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sport</masterLabel>
+            <translation><!-- Sport --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Insert tire type here. --></help>
         <label><!-- Tires --></label>
         <name>Tires__c</name>
         <picklistValues>
@@ -87,6 +110,10 @@
             <masterLabel>Snow</masterLabel>
             <translation><!-- Snow --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Water</masterLabel>
+            <translation><!-- Water --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Type --></label>
@@ -104,6 +131,13 @@
             <translation><!-- Road --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Bicycle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <sharingReasons>
         <label><!-- Bicycle Access --></label>
         <name>Bicycle_Access</name>

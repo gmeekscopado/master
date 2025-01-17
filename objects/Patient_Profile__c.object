@@ -148,71 +148,64 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>true</enableReports>
+    <enableReports>false</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>BBB_Rating__c</fullName>
-        <description>Insert the company&apos;s rating here.</description>
+        <fullName>Date_of_Birth__c</fullName>
         <externalId>false</externalId>
-        <label>BBB Rating</label>
-        <length>10</length>
+        <label>Date of Birth</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Pre_Existing_Conditions__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre-Existing Conditions</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Condition 1</fullName>
+                    <default>false</default>
+                    <label>Condition 1</label>
+                </value>
+                <value>
+                    <fullName>Condition 2</fullName>
+                    <default>false</default>
+                    <label>Condition 2</label>
+                </value>
+                <value>
+                    <fullName>Condition 3</fullName>
+                    <default>false</default>
+                    <label>Condition 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Care_Provider__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Care Provider</label>
+        <length>50</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>Company_History__c</fullName>
-        <description>Tell us a little about the company.</description>
-        <externalId>false</externalId>
-        <label>Company History</label>
-        <length>32768</length>
-        <trackTrending>false</trackTrending>
-        <type>Html</type>
-        <visibleLines>25</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Company_Industry__c</fullName>
-        <externalId>false</externalId>
-        <label>Company Industry</label>
-        <length>55</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Warranty_Description__c</fullName>
-        <description>What type of coverage is needed?</description>
-        <externalId>false</externalId>
-        <label>Warranty Description</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Year_Founded__c</fullName>
-        <description>When was the company founded?</description>
-        <externalId>false</externalId>
-        <label>Year Founded</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <label>Company Profile</label>
+    <label>Patient Profile</label>
     <nameField>
-        <label>Company Profile Name</label>
+        <label>Patient Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Company Profiles</pluralLabel>
+    <pluralLabel>Patient Profiles</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
