@@ -514,6 +514,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Bicycle__c.Seat_Style__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Bicycle__c.Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -920,6 +925,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Company_Profile__c.Company_History__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Company_Profile__c.Company_Industry__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
