@@ -111,6 +111,10 @@
         <apexClass>AccountOperationsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TestDataFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -654,6 +658,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Bicycle__c.Seat_Style__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Bicycle__c.Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1110,6 +1119,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Company_Profile__c.Company_History__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Company_Profile__c.Company_Industry__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3411,6 +3425,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>House__c-House Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Patient_Profile__c-Patient Profile Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Project__c-Project Layout</layout>

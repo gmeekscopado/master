@@ -17,6 +17,10 @@
         <name>Company_History__c</name>
     </fields>
     <fields>
+        <label><!-- Company Industry --></label>
+        <name>Company_Industry__c</name>
+    </fields>
+    <fields>
         <label><!-- Warranty Description --></label>
         <name>Warranty_Description__c</name>
     </fields>
