@@ -155,7 +155,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Brand__c</fullName>
+        <description>What is the bicycle brand?</description>
         <externalId>false</externalId>
+        <inlineHelpText>Insert bicycle brand here.</inlineHelpText>
         <label>Brand</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -209,7 +211,9 @@
     </fields>
     <fields>
         <fullName>Budget__c</fullName>
+        <description>What is the customer&apos;s budget?</description>
         <externalId>false</externalId>
+        <inlineHelpText>Insert budget here.</inlineHelpText>
         <label>Budget</label>
         <precision>18</precision>
         <required>false</required>
@@ -219,6 +223,7 @@
     </fields>
     <fields>
         <fullName>Power__c</fullName>
+        <description>What is the bicycle owner&apos;s name?</description>
         <externalId>false</externalId>
         <label>Power</label>
         <required>false</required>
@@ -243,6 +248,11 @@
                     <default>false</default>
                     <label>Gas</label>
                 </value>
+                <value>
+                    <fullName>Hybrid</fullName>
+                    <default>false</default>
+                    <label>Hybrid</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -250,10 +260,41 @@
         <fullName>Purchase_Date__c</fullName>
         <description>When was the bike purchased?</description>
         <externalId>false</externalId>
+        <inlineHelpText>Insert purchase date here.</inlineHelpText>
         <label>Purchase Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Seat_Style__c</fullName>
+        <description>What style of seat does the bike have?</description>
+        <externalId>false</externalId>
+        <label>Seat Style</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cruiser</fullName>
+                    <default>false</default>
+                    <label>Cruiser</label>
+                </value>
+                <value>
+                    <fullName>Racing</fullName>
+                    <default>false</default>
+                    <label>Racing</label>
+                </value>
+                <value>
+                    <fullName>Sport</fullName>
+                    <default>false</default>
+                    <label>Sport</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Tires__c</fullName>
@@ -261,6 +302,7 @@
         <complianceGroup>GDPR</complianceGroup>
         <description>What type of tires does the bike have?</description>
         <externalId>false</externalId>
+        <inlineHelpText>Insert tire type here.</inlineHelpText>
         <label>Tires</label>
         <required>true</required>
         <securityClassification>Public</securityClassification>
@@ -290,11 +332,17 @@
                     <default>false</default>
                     <label>Snow</label>
                 </value>
+                <value>
+                    <fullName>Water</fullName>
+                    <default>false</default>
+                    <label>Water</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>Type__c</fullName>
+        <description>What type of bicycle is this? What is the intended use?</description>
         <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>

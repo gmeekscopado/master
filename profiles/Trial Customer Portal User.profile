@@ -653,6 +653,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Bicycle__c.Seat_Style__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Bicycle__c.Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
