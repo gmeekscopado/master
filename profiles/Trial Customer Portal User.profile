@@ -2579,6 +2579,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Security_Alert__c.Date_Encountered__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Security_Alert__c.Threat_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Security_Alert__c.Threat_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Seller.ActiveFromDate</field>
         <readable>true</readable>
@@ -3604,6 +3619,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Security_Alert__c-Security Alert Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Seller-Seller Layout</layout>
