@@ -259,6 +259,7 @@
     </fields>
     <fields>
         <fullName>Power__c</fullName>
+        <description>What is the bicycle owner&apos;s name?</description>
         <label>Power</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -286,18 +287,6 @@
                     <fullName>Hybrid</fullName>
                     <default>false</default>
                     <label>Hybrid</label>
-                </value>
-                <value>
-                    <fullName>Battery</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Battery</label>
-                </value>
-                <value>
-                    <fullName>Natural Gas</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Natural Gas</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
