@@ -447,14 +447,13 @@
     </fields>
     <fields>
         <fullName>VIP__c</fullName>
-        <businessStatus>Hidden</businessStatus>
-        <complianceGroup>PCI;COPPA</complianceGroup>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII</complianceGroup>
         <externalId>false</externalId>
-        <inlineHelpText>Important client information can be entered here for internal use.</inlineHelpText>
         <label>VIP</label>
         <length>255</length>
         <required>false</required>
-        <securityClassification>Internal</securityClassification>
+        <securityClassification>Public</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>

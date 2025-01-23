@@ -143,21 +143,41 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Brand__c</fullName>
-        <description>What is the bicycle brand?</description>
-        <inlineHelpText>Insert bicycle brand here.</inlineHelpText>
-        <label>Brand</label>
+        <fullName>Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Client__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>Client</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Client Engagements</relationshipLabel>
+        <relationshipName>Client_Engagements</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -166,121 +186,55 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Haro</fullName>
+                    <fullName>Planning</fullName>
                     <default>false</default>
-                    <label>Haro</label>
+                    <label>Planning</label>
                 </value>
                 <value>
-                    <fullName>Mongoose</fullName>
+                    <fullName>In Progress</fullName>
                     <default>false</default>
-                    <label>Mongoose</label>
+                    <label>In Progress</label>
                 </value>
                 <value>
-                    <fullName>Trek</fullName>
+                    <fullName>On Hold</fullName>
                     <default>false</default>
-                    <label>Trek</label>
+                    <label>On Hold</label>
                 </value>
                 <value>
-                    <fullName>Specialized</fullName>
+                    <fullName>Completed</fullName>
                     <default>false</default>
-                    <label>Specialized</label>
-                </value>
-                <value>
-                    <fullName>Scott</fullName>
-                    <default>false</default>
-                    <label>Scott</label>
-                </value>
-                <value>
-                    <fullName>Giant</fullName>
-                    <default>false</default>
-                    <label>Giant</label>
-                </value>
-                <value>
-                    <fullName>Santa Cruz</fullName>
-                    <default>false</default>
-                    <label>Santa Cruz</label>
-                </value>
-                <value>
-                    <fullName>Merida</fullName>
-                    <default>false</default>
-                    <label>Merida</label>
+                    <label>Completed</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
-        <fullName>Budget__c</fullName>
-        <description>What is the customer&apos;s budget?</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Insert budget here.</inlineHelpText>
-        <label>Budget</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Power__c</fullName>
-        <description>What is the bicycle owner&apos;s name?</description>
-        <label>Power</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Manual</fullName>
-                    <default>false</default>
-                    <label>Manual</label>
-                </value>
-                <value>
-                    <fullName>Electric</fullName>
-                    <default>false</default>
-                    <label>Electric</label>
-                </value>
-                <value>
-                    <fullName>Gas</fullName>
-                    <default>false</default>
-                    <label>Gas</label>
-                </value>
-                <value>
-                    <fullName>Hybrid</fullName>
-                    <default>false</default>
-                    <label>Hybrid</label>
-                </value>
-                <value>
-                    <fullName>Battery</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Battery</label>
-                </value>
-                <value>
-                    <fullName>Natural Gas</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Natural Gas</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Purchase_Date__c</fullName>
-        <description>When was the bike purchased?</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Insert purchase date here.</inlineHelpText>
-        <label>Purchase Date</label>
+        <fullName>End_Date__c</fullName>
+        <label>End Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
     <fields>
-        <fullName>Seat_Style__c</fullName>
-        <description>What style of seat does the bike have?</description>
-        <externalId>false</externalId>
-        <label>Seat Style</label>
+        <fullName>Start_Date__c</fullName>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Account Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Client_Engagements</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Engagement_Type__c</fullName>
+        <label>Engagement Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -289,103 +243,29 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Cruiser</fullName>
+                    <fullName>Outsourced IT</fullName>
                     <default>false</default>
-                    <label>Cruiser</label>
+                    <label>Outsourced IT</label>
                 </value>
                 <value>
-                    <fullName>Racing</fullName>
+                    <fullName>Co-Managed IT</fullName>
                     <default>false</default>
-                    <label>Racing</label>
+                    <label>Co-Managed IT</label>
                 </value>
                 <value>
-                    <fullName>Sport</fullName>
+                    <fullName>Cybersecurity Consultancy</fullName>
                     <default>false</default>
-                    <label>Sport</label>
+                    <label>Cybersecurity Consultancy</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <fields>
-        <fullName>Tires__c</fullName>
-        <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
-        <description>What type of tires does the bike have?</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Insert tire type here.</inlineHelpText>
-        <label>Tires</label>
-        <required>true</required>
-        <securityClassification>Public</securityClassification>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>All-terrain</fullName>
-                    <default>false</default>
-                    <label>All-terrain</label>
-                </value>
-                <value>
-                    <fullName>Mountain</fullName>
-                    <default>false</default>
-                    <label>Mountain</label>
-                </value>
-                <value>
-                    <fullName>Road</fullName>
-                    <default>false</default>
-                    <label>Road</label>
-                </value>
-                <value>
-                    <fullName>Snow</fullName>
-                    <default>false</default>
-                    <label>Snow</label>
-                </value>
-                <value>
-                    <fullName>Water</fullName>
-                    <default>false</default>
-                    <label>Water</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Type__c</fullName>
-        <description>What type of bicycle is this? What is the intended use?</description>
-        <externalId>false</externalId>
-        <label>Type</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>BMX</fullName>
-                    <default>false</default>
-                    <label>BMX</label>
-                </value>
-                <value>
-                    <fullName>Mountain</fullName>
-                    <default>false</default>
-                    <label>Mountain</label>
-                </value>
-                <value>
-                    <fullName>Road</fullName>
-                    <default>false</default>
-                    <label>Road</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <label>Bicycle</label>
+    <label>Client Engagement</label>
     <nameField>
-        <label>Bicycle Name</label>
+        <label>Client Engagement Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Bicycles</pluralLabel>
+    <pluralLabel>Client Engagements</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
