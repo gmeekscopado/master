@@ -156,6 +156,7 @@
     <fields>
         <fullName>Brand__c</fullName>
         <description>What is the bicycle brand?</description>
+        <externalId>false</externalId>
         <inlineHelpText>Insert bicycle brand here.</inlineHelpText>
         <label>Brand</label>
         <required>false</required>
@@ -223,6 +224,7 @@
     <fields>
         <fullName>Power__c</fullName>
         <description>What is the bicycle owner&apos;s name?</description>
+        <externalId>false</externalId>
         <label>Power</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
