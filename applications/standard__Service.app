@@ -15,5 +15,4 @@
     <tabs>standard-Solution</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Bicycle__c</tabs>
 </CustomApplication>

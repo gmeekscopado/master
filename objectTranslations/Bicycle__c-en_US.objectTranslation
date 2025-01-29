@@ -9,6 +9,7 @@
         <value>Bicycles</value>
     </caseValues>
     <fields>
+        <help><!-- Insert bicycle brand here. --></help>
         <label><!-- Brand --></label>
         <name>Brand__c</name>
         <picklistValues>

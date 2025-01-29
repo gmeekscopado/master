@@ -5,5 +5,4 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-AppLauncher</tabs>
-    <tabs>Bicycle__c</tabs>
 </CustomApplication>
