@@ -244,7 +244,7 @@
         <externalId>true</externalId>
         <label>Account Ext Id</label>
         <length>18</length>
-        <required>false</required>
+        <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>true</unique>
@@ -252,13 +252,13 @@
     <fields>
         <fullName>Account_Number__c</fullName>
         <businessStatus>Active</businessStatus>
-        <complianceGroup>GDPR</complianceGroup>
+        <complianceGroup>PII</complianceGroup>
         <description>This is Account Number custom field change #20.</description>
         <externalId>false</externalId>
         <label>Account Number</label>
         <length>255</length>
         <required>false</required>
-        <securityClassification>Confidential</securityClassification>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -363,18 +363,30 @@
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
+        <businessStatus>Active</businessStatus>
         <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
+        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
+                    <fullName>Highest</fullName>
+                    <default>false</default>
+                    <label>Highest</label>
+                </value>
+                <value>
                     <fullName>High</fullName>
                     <default>false</default>
                     <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
                 </value>
                 <value>
                     <fullName>Low</fullName>
@@ -382,9 +394,9 @@
                     <label>Low</label>
                 </value>
                 <value>
-                    <fullName>Medium</fullName>
+                    <fullName>Lowest</fullName>
                     <default>false</default>
-                    <label>Medium</label>
+                    <label>Lowest</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -619,13 +631,13 @@
     <fields>
         <fullName>Routing_Number__c</fullName>
         <businessStatus>Hidden</businessStatus>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>PII;GDPR</complianceGroup>
         <description>Bank routing number is used for ensuring the correct bank is referenced.</description>
-        <externalId>true</externalId>
-        <inlineHelpText>Double check to ensure correct banking information is filled in.</inlineHelpText>
+        <externalId>false</externalId>
+        <inlineHelpText>Use to identify the correct bank.</inlineHelpText>
         <label>Routing Number</label>
         <length>10</length>
-        <required>false</required>
+        <required>true</required>
         <securityClassification>Internal</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
@@ -697,6 +709,40 @@
     <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Solar_System_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Solar System Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fully Operational</fullName>
+                    <default>false</default>
+                    <label>Fully Operational</label>
+                </value>
+                <value>
+                    <fullName>Needs Maintenance</fullName>
+                    <default>false</default>
+                    <label>Needs Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Under Review</fullName>
+                    <default>false</default>
+                    <label>Under Review</label>
+                </value>
+                <value>
+                    <fullName>Offline</fullName>
+                    <default>false</default>
+                    <label>Offline</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Status__c</fullName>

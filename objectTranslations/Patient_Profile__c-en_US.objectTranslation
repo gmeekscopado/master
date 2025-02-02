@@ -8,5 +8,29 @@
         <plural>true</plural>
         <value>Patient Profiles</value>
     </caseValues>
+    <fields>
+        <label><!-- Date of Birth --></label>
+        <name>Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-Existing Conditions --></label>
+        <name>Pre_Existing_Conditions__c</name>
+        <picklistValues>
+            <masterLabel>Condition 1</masterLabel>
+            <translation><!-- Condition 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condition 2</masterLabel>
+            <translation><!-- Condition 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condition 3</masterLabel>
+            <translation><!-- Condition 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Care Provider --></label>
+        <name>Primary_Care_Provider__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

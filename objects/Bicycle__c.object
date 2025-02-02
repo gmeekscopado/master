@@ -206,11 +206,17 @@
                     <default>false</default>
                     <label>Merida</label>
                 </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>Budget__c</fullName>
+        <businessStatus>Active</businessStatus>
         <description>What is the customer&apos;s budget?</description>
         <externalId>false</externalId>
         <inlineHelpText>Insert budget here.</inlineHelpText>
@@ -252,6 +258,11 @@
                     <fullName>Hybrid</fullName>
                     <default>false</default>
                     <label>Hybrid</label>
+                </value>
+                <value>
+                    <fullName>Solar</fullName>
+                    <default>false</default>
+                    <label>Solar</label>
                 </value>
                 <value>
                     <fullName>Battery</fullName>

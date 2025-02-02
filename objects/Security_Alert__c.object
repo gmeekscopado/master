@@ -143,28 +143,38 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Date_of_Birth__c</fullName>
+        <fullName>Date_Encountered__c</fullName>
         <externalId>false</externalId>
-        <label>Date of Birth</label>
+        <label>Date Encountered</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
     <fields>
-        <fullName>Pre_Existing_Conditions__c</fullName>
+        <fullName>Threat_Description__c</fullName>
         <externalId>false</externalId>
-        <label>Pre-Existing Conditions</label>
+        <label>Threat Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Threat_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Threat Level</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -173,39 +183,29 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Condition 1</fullName>
+                    <fullName>Low</fullName>
                     <default>false</default>
-                    <label>Condition 1</label>
+                    <label>Low</label>
                 </value>
                 <value>
-                    <fullName>Condition 2</fullName>
+                    <fullName>Medium</fullName>
                     <default>false</default>
-                    <label>Condition 2</label>
+                    <label>Medium</label>
                 </value>
                 <value>
-                    <fullName>Condition 3</fullName>
+                    <fullName>High</fullName>
                     <default>false</default>
-                    <label>Condition 3</label>
+                    <label>High</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <fields>
-        <fullName>Primary_Care_Provider__c</fullName>
-        <externalId>false</externalId>
-        <label>Primary Care Provider</label>
-        <length>50</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>Patient Profile</label>
+    <label>Security Alert</label>
     <nameField>
-        <label>Patient Name</label>
+        <label>Security Alert Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Patient Profiles</pluralLabel>
+    <pluralLabel>Security Alerts</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
