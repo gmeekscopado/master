@@ -156,7 +156,6 @@
     <fields>
         <fullName>Brand__c</fullName>
         <description>What is the bicycle brand?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Insert bicycle brand here.</inlineHelpText>
         <label>Brand</label>
         <required>false</required>
@@ -206,19 +205,12 @@
                     <default>false</default>
                     <label>Merida</label>
                 </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>Budget__c</fullName>
-        <businessStatus>Active</businessStatus>
         <description>What is the customer&apos;s budget?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Insert budget here.</inlineHelpText>
         <label>Budget</label>
         <precision>18</precision>
@@ -230,7 +222,6 @@
     <fields>
         <fullName>Power__c</fullName>
         <description>What is the bicycle owner&apos;s name?</description>
-        <externalId>false</externalId>
         <label>Power</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -258,23 +249,6 @@
                     <fullName>Hybrid</fullName>
                     <default>false</default>
                     <label>Hybrid</label>
-                </value>
-                <value>
-                    <fullName>Solar</fullName>
-                    <default>false</default>
-                    <label>Solar</label>
-                </value>
-                <value>
-                    <fullName>Battery</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Battery</label>
-                </value>
-                <value>
-                    <fullName>Natural Gas</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Natural Gas</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
