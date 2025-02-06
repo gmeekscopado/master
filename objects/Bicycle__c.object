@@ -256,7 +256,6 @@
     <fields>
         <fullName>Purchase_Date__c</fullName>
         <description>When was the bike purchased?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Insert purchase date here.</inlineHelpText>
         <label>Purchase Date</label>
         <required>false</required>
@@ -298,7 +297,6 @@
         <businessStatus>Active</businessStatus>
         <complianceGroup>GDPR</complianceGroup>
         <description>What type of tires does the bike have?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Insert tire type here.</inlineHelpText>
         <label>Tires</label>
         <required>true</required>
