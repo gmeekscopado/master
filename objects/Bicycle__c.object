@@ -389,6 +389,7 @@
     <fields>
         <fullName>Purchase_Date__c</fullName>
         <description>When was the bike purchased?</description>
+        <inlineHelpText>Insert purchase date here.</inlineHelpText>
         <label>Purchase Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
