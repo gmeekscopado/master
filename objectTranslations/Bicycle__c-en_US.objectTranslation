@@ -29,6 +29,10 @@
             <translation><!-- Mongoose --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Santa Cruz</masterLabel>
             <translation><!-- Santa Cruz --></translation>
         </picklistValues>
@@ -68,6 +72,10 @@
         <picklistValues>
             <masterLabel>Manual</masterLabel>
             <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solar</masterLabel>
+            <translation><!-- Solar --></translation>
         </picklistValues>
     </fields>
     <fields>

@@ -4,11 +4,13 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>FlowsApp</label>
-    <navType>Standard</navType>
-    <tabs>standard-home</tabs>
-    <tabs>standard-FlowRecord</tabs>
-    <tabs>standard-Monitor</tabs>
+    <label>Approvals</label>
+    <navType>Console</navType>
+    <tabs>standard-ApprovalsHome</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>FlowsApp_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>standard-ApprovalsHome</tab>
+        </mappings>
+    </workspaceConfig>
 </CustomApplication>
