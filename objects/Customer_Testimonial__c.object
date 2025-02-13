@@ -2,7 +2,6 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <fullName>Customer_Name__c</fullName>
-        <description>Insert customer name here using the form LAST, FIRST.</description>
         <externalId>false</externalId>
         <label>Customer Name</label>
         <length>50</length>
@@ -87,6 +86,7 @@
                 <value>
                     <fullName>Foundation</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Foundation</label>
                 </value>
             </valueSetDefinition>
